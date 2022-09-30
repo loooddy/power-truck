@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+#wrap.type_main {position: relative;}
+#wrap.type_main #header .header_wrap {position: absolute; top: 0; left: 0; z-index: 10; width: 100%;}
+a:hover,
+a:focus {text-decoration: none;}
+.area_visual_content {position: relative;} /* 200824 edit */
+.area_visual_content.type_roll {overflow:hidden;} /* 200824 add */
+.area_visual_content .box_visual_wrap {display: -webkit-box; display: box; position: relative; width: 100%; height: 84vw;}
+.area_visual_content .box_visual_content {display:-webkit-box;display:box;-webkit-box-orient:vertical;box-orient:vertical;-webkit-box-pack:start;box-pack:start;position:relative;width:100%;height:84vw;padding:9.333vw 5.333vw 0;background-color:#3f719e;color:#fff;}/* 20200901 modify */ /* 201012 modify */
+/* .area_visual_content .box_visual_content {-webkit-transition: background-color .25s linear; transition: background-color .25s linear;} */ /* 20200902 delete */
+.area_visual_content .box_visual_content.on {position: relative; left: auto;}
+/* 20200902 modify */
+.area_visual_content .box_visual_content.type_1 {background-color: #0c2b5e;}
+.area_visual_content .box_visual_content.type_2 {background-color: #3f719e;}
+.area_visual_content .box_visual_content.type_3 {background-color: #5793c7;}
+.area_visual_content .box_visual_content.type_4 {background-color: #3f719e;}/* 20200901 add */
+/* //20200902 modify */
+.area_visual_content .txt_tit {font-family: 'HyundaiSansTextKRBold'; font-size: 7.733vw; line-height: 1.32em;}
+.area_visual_content .txt {font-size: 4.267vw; line-height: 1.43em;}
+.area_visual_content .txt_tit + .txt {margin-top: 5.6vw;}
+.area_visual_content .txt + .txt_tit {margin-top: 2.213vw;}
+.area_visual_content .list_main_txt {position: relative; margin-top: .533vw;}
+.area_visual_content .list_main_txt li {margin-top: 4.267vw; font-size: 3.733vw; line-height: 1.5em; color: rgba(255,255,255,.8);}
+.area_visual_content .list_main_txt li a {display: block; text-decoration: none;}
+.area_visual_content .list_main_txt li .txt_tit {display: block; margin-bottom: .8vw; font-family: 'HyundaiSansTextKRBold'; font-size: 3.733vw; line-height: 1.5em; color: #fff;}
+.area_visual_content .btn_link {margin-top: 6.667vw;}
+.area_visual_content .btn_link .type_arrow {display: inline-block; position: relative; z-index: 100; border: none; background-color: transparent; font-size: 4.267vw; line-height: 8vw; color: #fff;}
+.area_visual_content .btn_link .type_arrow:after {display: inline-block; position: relative; transform: translateY(-20%) rotate(45deg); width: 1.867vw; height: 1.867vw; margin-left: 1.333vw; border-style: solid; border-width: 2px 2px 0 0; border-color: #fff; vertical-align: middle; content: '';}
+.area_visual_content .list_indicator {position: absolute; top: 58.333vw; left: 0; z-index: 1; width: 100%; padding-right: 5.333vw; font-size: 0; text-align: right;}
+.area_visual_content .list_indicator li {display: inline-block; overflow: hidden; position: relative; width: 1.867vw; height: 0; margin-left: 1.867vw; padding-top: 1.867vw; text-indent: -9999em;}
+.area_visual_content .list_indicator li:before {display: block; position: absolute; top: 0.267vw; left: 0.267vw; width: 1.333vw; height: 1.333vw; border-radius: 100%; background-color: rgba(255,255,255,.4); content: '';}
+.area_visual_content .list_indicator li:before {-webkit-transition: all .2s ease-out; transition: all .2s ease-out;}
+.area_visual_content .list_indicator li.on:before {top: 0; left: 0; width: 100%; height: 100%; background-color: #fff;}
+
+.box_icon_link [data-has=type_hid_list] {display: none;}
+.box_icon_link.on .list_icon_link {display: none;}
+.list_icon_link {position: relative; z-index: 10; width: calc(100% - 5.333vw); margin: -10.067vw 2.667vw 0; padding: 2.667vw 5.867vw 6.667vw; box-shadow: 0 1.067vw 2.133vw rgba(0,0,0,.08); background-color: #fff;}
+.type_login .list_icon_link {z-index: 1; width: 100%; margin: 20vw 0 0; box-shadow: none;}/* 200828 edit */
+.list_icon_link:after {display:block; clear:both; visibility:hidden; height:0; content:'';}
+.list_icon_link > li {float: left; margin-top: 4.533vw;}
+.list_icon_link.size_3 > li {width: 33.333%;}
+.list_icon_link.size_3 > li:nth-child(3n + 1) {clear: both;}
+.list_icon_link > li > * {display: block; width: 100%; font-size: 3.733vw; line-height: 1.5em; color: #222; text-align: center; white-space: nowrap;}
+.list_icon_link > li > *:before {display: block; width: 11.2vw; height: 11.2vw; margin: 0 auto 2.933vw; background: url(https://www-trucknbus.hyundai.com/kr/images/re_main/icon_favorite.png) no-repeat; background-size: 145.6vw 22.4vw; content: '';}
+
+.list_icon_link > li.type_my_car > *:before {background-position: 0 0;}
+.list_icon_link > li.type_self_check > *:before {background-position: -11.2vw 0;}
+.list_icon_link > li.type_warranty > *:before {background-position: -22.400vw 0;}
+.list_icon_link > li.type_repaire_history > *:before {background-position: -33.600vw 0;}
+.list_icon_link > li.type_blue_hands > *:before {background-position: -44.800vw 0;}
+.list_icon_link > li.type_repair_reserve > *:before {background-position: -56.000vw 0;}
+.list_icon_link > li.type_emergency > *:before {background-position: -67.200vw 0;}
+.list_icon_link > li.type_estimate > *:before {background-position: -78.400vw 0;}
+.list_icon_link > li.type_network > *:before {background-position: -89.600vw 0;}
+.list_icon_link > li.type_special > *:before {background-position: -100.800vw 0;}
+.list_icon_link > li.type_operation > *:before {background-position: -112.000vw 0;}
+.list_icon_link > li.type_counsel > *:before {background-position: -123.200vw 0;}
+.list_icon_link > li.type_menu_setting > *:before {background-position: -134.400vw 0;}
+
+.area_main_event {overflow: hidden; margin: 4.267vw 2.667vw 6.4vw;}
+.list_main_event {display: -webkit-box; display: box;}
+.list_main_event > li {display:-webkit-box; display:box; -webkit-box-orient:vertical; box-orient:vertical; -webkit-box-pack:center; box-pack:center;}
+.box_main_event a {display: block;}
+.box_main_event img {width: 100%;}
+.area_main_event .list_indicator {height: 1.6vw; margin-top: 3.2vw; font-size: 0; line-height: 1.6vw; text-align: center;}
+.area_main_event .list_indicator li {display: inline-block; overflow: hidden; width: 1.6vw; height: 0; margin-left: 1.867vw; padding-top: 1.6vw; border-radius: 1.6vw; background-color: #ccc; text-indent: -9999em; content: '';}
+.area_main_event .list_indicator li:first-child {margin-left: 0;}
+.area_main_event .list_indicator li.on {background-color: #666;}
+.box_icon_link.on {margin-top: -16vw;}
+.list_img_link {margin-top: 1.067vw;}
+.list_img_link > li {margin-top: 1.067vw;}
+.list_img_link > li > a,
+.box_icon_link [data-has=type_hid_list] {display: -webkit-flex; display: flex; align-items: center; position: relative; height: 26.667vw; padding: 0 5.333vw; background-repeat: no-repeat; background-position: 50% 50%; background-size: cover; font-family: 'HyundaiSansTextKRBold'; font-size: 5.867vw; color: #fff;}
+.box_icon_link [data-has=type_hid_list] {display: none;}
+.box_icon_link.on [data-has=type_hid_list] {display: -webkit-flex; display: flex; border-top: 1.067vw solid #fff; background-color: #002c5f;;}
+.list_img_link > li.type_service > a {background-image: url(https://www-trucknbus.hyundai.com/kr/images/re_main/bg_link_service.png);}
+.list_img_link > li.type_use > a {background-image: url(https://www-trucknbus.hyundai.com/kr/images/re_main/bg_link_use.png);}
+.list_img_link > li.type_my_booking > a {background-image: url(https://www-trucknbus.hyundai.com/kr/images/re_main/bg_link_booking.png);}
+.box_icon_link [data-has=type_hid_list]:after,
+.list_img_link > li > a:after {display: block; position: absolute; top: 50%; right: 5.333vw; transform: translateY(-50%); width: 5.333vw; height: 2.667vw; background: url(https://www-trucknbus.hyundai.com/kr/images/re_main/icon_arrow_1.png) no-repeat; background-size: contain; content: '';}
+.list_img_link > li > a:after {-webkit-transition: all .2s ease-out; transition: all .2s ease-out;}
+.list_img_link > li.on > a:after {-webkit-transform: translateY(-50%) rotate(180deg); transform: translateY(-50%) rotate(180deg);}
+.list_img_link > li > .box_wrap {display: none;}
+.list_img_link .list_branch_info.type_2 {margin: 0;}
+.list_img_link .list_branch_info.type_2 > li {margin-top: 6.4vw; background-color: transparent;}
+.list_img_link .list_branch_info.type_2 > li .btn_view_detail {display: block; overflow: hidden; position: absolute; top: 0; left: 0; z-index: 1; width: 100%; height: 100%;}
+.list_img_link .list_branch_info.type_2 > li .btn_view_detail button {display: block; overflow: hidden; width: 100%; height: 0; padding-top: 100%; border: none; background-color: transparent; text-indent: -9999em;}
+.list_img_link .list_branch_info.type_2 > li:first-child {margin-top: 0; padding-bottom: 0;}
+.list_img_link .list_branch_info.type_2 > li:last-child {padding-bottom: 6.4vw;}
+.list_img_link .list_branch_info.type_2 > li:before {display: block; position: absolute; top: 0; left: 5.333vw; width: calc(100% - 10.667vw); height: 1px; background-color: #ddd; content: '';}
+.list_img_link .list_branch_info.type_2 > li:first-child:before {display: none;}
+.list_branch_info .txt_no_alert {height: 57.867vw;}
+.list_img_link .location_now {display: -webkit-flex; display: flex; align-items: center; position: relative; height: 13.867vw; padding: 0 5.333vw; background-color: #f4f4f4; font-size: 3.733vw; line-height: 1.5em;}
+.list_img_link .location_now a {display: block; position: absolute; top: 50%; right: 5.333vw; transform: translateY(-50%); width: 7.467vw; height: 7.467vw; border-radius: 100%; box-shadow: 0 1px 2px rgba(0,0,0,.1); background-image: none; background-color: #fff; }
+.list_img_link .location_now a:before {display: block; position: absolute; top: 50%; left: 50%; width: 4.8vw; height: 4.8vw; transform: translate3d(-50%, -50%, 0); background: url(https://www-trucknbus.hyundai.com/kr/images/common/icon_location.png) no-repeat; background-size: contain; content: '';}
+.area_main_guide {margin-top: 10.133vw;}
+.area_main_guide .h2_tit {margin-left: 5.333vw;}
+.box_main_guide {overflow-y: hidden; overflow-y: scroll; margin-top: 4.8vw;}
+.list_main_guide {display:-webkit-box; display:box;}
+.list_main_guide > li {display:-webkit-box; display:box; -webkit-box-orient:vertical; box-orient:vertical; -webkit-box-pack:center; box-pack:center; width: 42.667vw; height: 53.333vw; margin-left: 2.133vw;}
+.list_main_guide > li > a {display: block; position: relative; height: 53.333vw; padding: 8vw 6.333vw 0; color: #fff;}
+.list_main_guide > li > a:before {display: block; width: 8.533vw; height: 8.533vw; background-repeat: no-repeat; background-size: contain; content: '';}
+.list_main_guide > li > a .txt_tit {margin-top: 9.333vw; font-family: 'HyundaiSansTextKRBold'; font-size: 4.8vw;}
+.list_main_guide > li > a .txt {margin-top: 2.933vw; font-size: 4.267vw; line-height: 1.375em; color: rgba(255,255,255,.8);}
+.list_main_guide > li.type_technology > a {background-color: #35719e;}
+.list_main_guide > li.type_manual > a {background-color: #002c5f;}
+.list_main_guide > li.type_consumable > a {background-color: #4c93c8;}
+.list_main_guide > li.type_part_price > a {background-color: #164985;}
+.list_main_guide > li.type_technology > a:before {background-image: url(https://www-trucknbus.hyundai.com/kr/images/re_main/icon_technology.png);}
+.list_main_guide > li.type_manual > a:before {background-image: url(https://www-trucknbus.hyundai.com/kr/images/re_main/icon_manual.png);}
+.list_main_guide > li.type_consumable > a:before {background-image: url(https://www-trucknbus.hyundai.com/kr/images/re_main/icon_consumable.png);}
+.list_main_guide > li.type_part_price > a:before {background-image: url(https://www-trucknbus.hyundai.com/kr/images/re_main/icon_part_price.png);}
+.list_text_link {margin-top: 10.667vw; border-bottom: 1px solid #ddd;}
+.list_text_link:after {display:block; clear:both; visibility:hidden; height:0; content:'';}
+.list_text_link > li {float: left; width: 50%;}
+.list_text_link > li:nth-child(odd) {clear: both;}
+.list_text_link > li > a {display: -webkit-flex; display: flex; align-items: center; position: relative; width: 100%; height: 15.222vw; padding: 0 5.333vw; border-top: 1px solid #ddd; font-family: 'HyundaiSansTextKRBold'; font-size: 3.733vw; color: #666;}
+.list_text_link > li > a:after {display: block; position: absolute; top: 50%; right: 5.333vw; transform: translateY(-50%) rotate(45deg); width: 1.666vw; height: 1.666vw; border-style: solid; border-width: 2px 2px 0 0; border-color: #999; vertical-align: middle; content: '';}
+.list_text_link > li:nth-child(even) > a {border-left: 1px solid #ddd;}
+
+/*.area_visual_content {overflow: hidden;}*/
+.area_visual_content .box_my_content {position: relative; height: 84vw; background-color: #35719e; color: #fff;}
+.area_visual_content .box_my_content .box_wrap {display:-webkit-box; display:box; -webkit-box-orient:vertical; box-orient:vertical; -webkit-box-pack:start; box-pack:start; padding: 9.333vw 5.333vw 0;}
+.area_visual_content .box_my_content .box_no_data {display: -webkit-flex; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 49.067vw; line-height: 1.5em;}
+.area_visual_content .box_my_content .box_no_data .txt_1 {font-family: 'HyundaiSansTextKRBold'; font-size: 4.85vw; color: rgba(255,255,255,.8); line-height: 1.5em;}
+.area_visual_content .box_my_content .box_no_data .txt_2 {margin-top: 2.133vw; font-size: 3.733vw; color: rgba(255,255,255,.8); line-height: 1.5em;}
+.area_visual_content .box_my_content .box_no_data .btn_link {margin-top: 6.4vw;}
+.area_visual_content .box_my_content .box_no_data .btn_link a {display: inline-block; width: 37.333vw; height: 10.667vw; border: none; background-color: #fff; font-family: 'HyundaiSansTextKRBold'; font-size: 3.733vw; color: #35719e; line-height: 10.667vw; text-align: center;}
+.area_visual_content .box_my_content .img_car {display: block; position: absolute; left: 50.133vw; top: 25.6vw; width: 49.6vw; height: 40vw;overflow:hidden;}/* 200828 edit */
+.area_visual_content .box_my_content .img_car img {position: absolute; top: 0; left: 0; height: 100%;}
+.area_visual_content .list_my_info {display: -webkit-flex; display: flex; position: absolute; bottom: -20vw; left: 2.667vw; z-index: 10; width: calc(100% - 5.333vw);height: 36vw; padding: 2.667vw 0; background-color: #fff; box-shadow: 0 1.067vw 2.133vw rgba(0,0,0,.08);}/* 200828 edit */
+.area_visual_content .list_my_info:before {display: block; position: absolute; top: 0; left: 50%; width: 1px; height: 100%; background-color: #e9e9e9; content: '';}
+.area_visual_content .list_my_info > li {position: relative; width: 50%; flex: 50%; height: 100%; padding: 0 3.2vw;}
+.area_visual_content .list_my_info > li a {display: block; position: relative; width: 100%; height: 100%;}
+.area_visual_content .list_my_info > li .txt_tit {margin-bottom: 2.133vw; font-family: 'HyundaiSansTextKRBold'; font-size: 4.8vw; color: #333;}
+.area_visual_content .list_my_info > li .txt_1 {font-size: 3.2vw; color: #666; line-height: 1.5em;}
+.area_visual_content .list_my_info > li .txt_2 {font-size: 3.2vw; color: #999; line-height: 1.5em;}
+.area_visual_content .list_my_info > li .txt_1 + .txt_2 {margin-top: .267vw;}
+.area_visual_content .list_my_info > li .txt_3 {position: absolute; bottom: 0; right: 3.2vw; font-size: 3.733vw; color: #666;}
+.area_visual_content .list_my_info > li .txt_3 span {font-family: 'HyundaiSansTextKRBold'; font-size: 6.933vw; color: #35718e;}
+
+.list_map_info.type_2 > li {position: relative;}
+.list_map_info.type_2 > li .txt {display: block; width: 65%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+li.type_service .list_map_info.type_2 > li .txt {width: 100%;}
+.list_map_info.type_2 > li .txt_date {position: absolute; top: 0; right: 0; width: 31%; text-align: right;}
+
+.list_setting {margin-top: 2.267vw; margin-bottom: 2.667vw;}
+.list_setting:after {display:block; clear:both; visibility:hidden; height:0; content:'';}
+.list_setting > li {overflow: hidden; float: left; position: relative; width: calc((100% - 4.267vw) / 3); height: 0; padding-top: calc((100% - 4.267vw) / 3); margin-left: 2.133vw; margin-top: 2.133vw;}
+
+.list_setting > li input[type=checkbox] {position: absolute; width: 1px; height: 1px; padding: 0; border: 0; overflow: hidden; margin-left: -1px; left: -20px; clip: rect(1px 1px 0 0);}
+.list_setting > li input[type=checkbox] + span {display: -webkit-flex; display: flex; flex-direction: column; align-items: center; justify-content: center; position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 1px solid #d0d0d0; background-color: transparent; font-size: 3.2vw; color: #222; text-align: center;}
+.list_setting > li input[type=checkbox] + span:before {display: block; width: 9.6vw; height: 9.6vw; margin-bottom: .8vw; background: url(https://www-trucknbus.hyundai.com/kr/images/re_main/icon_favorite.png) no-repeat; background-size: 124.8vw 19.2vw; content: '';}
+.list_setting > li input[type=checkbox]:checked + span {-webkit-transition: all .2s ease-out; transition: all .2s ease-out;}
+.list_setting > li input[type=checkbox]:checked + span {border-width: 2px; border-color: #35719e; font-family: 'HyundaiSansTextKRBold'; color: #35719e;}
+.list_setting > li input[type=checkbox]:checked + span .txt_idx {display: block; position: absolute; top: 0; right: 0; width: 5.333vw; background-color: #35719e; font-size: 3.733vw; line-height: 5.333vw; color: #fff; text-align: center;}
+
+.list_setting > li.type_my_car input[type=checkbox] + span:before {background-position: 0 0;}
+.list_setting > li.type_self_check input[type=checkbox] + span:before {background-position: -9.600vw 0;}
+.list_setting > li.type_warranty input[type=checkbox] + span:before {background-position: -19.200vw 0;}
+.list_setting > li.type_repaire_history input[type=checkbox] + span:before {background-position: -28.800vw 0;}
+.list_setting > li.type_blue_hands input[type=checkbox] + span:before {background-position: -38.400vw 0;}
+.list_setting > li.type_repair_reserve input[type=checkbox] + span:before {background-position: -48.000vw 0;}
+.list_setting > li.type_emergency input[type=checkbox] + span:before {background-position: -57.600vw 0;}
+.list_setting > li.type_estimate input[type=checkbox] + span:before {background-position: -67.200vw 0;}
+.list_setting > li.type_network input[type=checkbox] + span:before {background-position: -76.800vw 0;}
+.list_setting > li.type_special input[type=checkbox] + span:before {background-position: -86.400vw 0;}
+.list_setting > li.type_operation input[type=checkbox] + span:before {background-position: -96.000vw 0;}
+.list_setting > li.type_counsel input[type=checkbox] + span:before {background-position: -105.600vw 0;}
+.list_setting > li.type_menu_setting input[type=checkbox] + span:before {background-position: -115.200vw 0;}
+
+.list_setting > li.type_my_car input[type=checkbox]:checked + span:before {background-position: 0 -9.6vw;}
+.list_setting > li.type_self_check input[type=checkbox]:checked + span:before {background-position: -9.600vw -9.6vw;}
+.list_setting > li.type_warranty input[type=checkbox]:checked + span:before {background-position: -19.200vw -9.6vw;}
+.list_setting > li.type_repaire_history input[type=checkbox]:checked + span:before {background-position: -28.800vw -9.6vw;}
+.list_setting > li.type_blue_hands input[type=checkbox]:checked + span:before {background-position: -38.400vw -9.6vw;}
+.list_setting > li.type_repair_reserve input[type=checkbox]:checked + span:before {background-position: -48.000vw -9.6vw;}
+.list_setting > li.type_emergency input[type=checkbox]:checked + span:before {background-position: -57.600vw -9.6vw;}
+.list_setting > li.type_estimate input[type=checkbox]:checked + span:before {background-position: -67.200vw -9.6vw;}
+.list_setting > li.type_network input[type=checkbox]:checked + span:before {background-position: -76.800vw -9.6vw;}
+.list_setting > li.type_special input[type=checkbox]:checked + span:before {background-position: -86.400vw -9.6vw;}
+.list_setting > li.type_operation input[type=checkbox]:checked + span:before {background-position: -96.000vw -9.6vw;}
+.list_setting > li.type_counsel input[type=checkbox]:checked + span:before {background-position: -105.600vw -9.6vw;}
+.list_setting > li.type_menu_setting input[type=checkbox]:checked + span:before {background-position: -115.200vw -9.6vw;}
+
+.list_setting > li:nth-child(3n + 1) {margin-left: 0;}
+.layer_menu_setting.layer_alert .h2_tit.type_2 {margin-bottom: 0;}
+
+/* 210813 add */
+.area_main_point {margin:7.2vw 2.667vw;}
+.area_main_point .box_main_point {position:relative;height:32.26vw;padding:5.86vw;background:#f8f8f8;}
+.area_main_point .blue_point .tit {margin-bottom:5.6vw;font-size:6.4vw;font-family:'HyundaiSansHeadKRMedium';}
+.area_main_point .blue_point .point {display:block;}
+.area_main_point .blue_point .num {font-size:9.6vw;font-weight:normal;font-family: 'HyundaiSansTextKRRegular';}
+.area_main_point .blue_point .num em {padding-right:2.66vw;}
+.area_main_point .blue_point .barcode {display:inline-block;position:absolute;right:5.33vw;bottom:5.33vw;width:21.06vw;height:8vw;}
+.area_main_point .blue_point .barcode img {width:100%;height:100%}
+/* //210813 add */

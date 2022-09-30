@@ -1,0 +1,1518 @@
+@charset "utf-8";
+/************************************************************************
+* filename : brand.css
+* description : Brand css
+************************************************************************/
+/* Modern Premium */
+.modern_premium {}
+.modern_premium .cont_row:first-child .contModule.cont_h2 {}
+.modern_premium .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.modern_premium .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:72px;}
+.modern_premium .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+.modern_premium .contModule.cont_h2.manifesto_cont {background-color:#F1F8FB;}
+.modern_premium .contModule.cont_h2.manifesto_cont .txt_wrap:first-child .align_cont {padding:120px 50px 0 50px;}/*191029 add*/
+.modern_premium .contModule.cont_h2.manifesto_cont .txt_wrap .align_cont {padding:80px 50px 0 50px;}/*191029 add*/
+.modern_premium .contModule.cont_h2.manifesto_cont .txt_wrap {position:static;}
+.modern_premium .contModule.cont_h2.manifesto_cont .txt_wrap .align_cont.center * {max-width:890px; margin:0 auto;}
+
+/* CV Design Philosophy, CV Design Philosophy - Bus Identity, CV Design Philosophy - Truck Identity 공통 */
+.cvdesign_wrap {overflow:hidden;}
+.cvdesign_wrap .cont_row:first-child .contModule.cont_h2 {}
+.cvdesign_wrap .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.cvdesign_wrap .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:72px;}
+.cvdesign_wrap .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+.cvdesign_wrap .contModule.pd_120 .txt_wrap .align_cont {padding:120px 205px;}
+.cvdesign_wrap .contModule.cont_h2 .txt_wrap .align_cont * {max-width:760px;}
+.cvdesign_wrap .contModule .txt_wrap .txt_bold {font-family:'HyundaiSansHeadKRBold';}
+.cvdesign_wrap .contModule .txt_wrap span {padding-top:5px; display:inline-block;}
+.cvdesign_wrap .contModule .txt_wrap .txt_opi {opacity: 0.7;}
+.cvdesign_wrap .contModule .txt_wrap .txt_blue {color:#35719E;}
+
+/* CV Design Philosophy */
+.cv_identity .cont_row .designPhilosophy h3 {color:#35729F; line-height:50px; letter-spacing:16px;}
+.cv_identity .cont_row .cvMotion {position:relative; background:url('/kr/images/brand/cv-motion-bg.jpg') no-repeat bottom center; background-size:cover;}
+.cv_identity .cont_row .cvMotion:before {content:''; display:block; padding-top:41.7%;}
+.cv_identity .cont_row .designPhilosophy .contModule.cont_h3tit .txt_wrap .align_cont {width:auto; padding:160px 0;}
+
+.cv_identity .cont_row .cvMotion .motion_wrap {position:absolute; top:0; right:0; bottom:0; left:0; color:#fff;}
+.cv_identity .cont_row .cvMotion .motion_wrap .inner {display:table; width:100%; height:100%;}
+.cv_identity .cont_row .cvMotion .motion_wrap .align_cont {display:table-cell; vertical-align:middle;}
+/* 처음 모션 */
+.cv_identity .cont_row .cvMotion #motion_txt .align_cont p {width:46.3541%; margin:0 auto; color:#fff; font-size:36px; font-family:'HyundaiSansHeadKRBold'; line-height:44px;}
+
+/* ?��번째 모션 */
+.cv_identity .cont_row .cvMotion #motionTxt_move .inner {display:block; width:84.47916666667%; margin:0 auto; -ms-transition:all 0.5s ease; -o-transition:all 0.5s ease; -moz-transition:all 0.5s ease; -webkit-transition:all 0.5s ease; transition:all 0.5s ease;}
+.cv_identity .cont_row .cvMotion #motionTxt_move .inner:after {content:''; display:table; clear:both;}
+.cv_identity .cont_row .cvMotion #motionTxt_move .align_cont {display:block; float:left; position:relative; width:33.3333%; height:100%; text-align:center; -ms-transition:all 0.5s ease; -o-transition:all 0.5s ease; -moz-transition:all 0.5s ease; -webkit-transition:all 0.5s ease; transition:all 0.5s ease;}
+.cv_identity .cont_row .cvMotion #motionTxt_move .align_cont .title {position:absolute; top:50%; left:50%; font-size:64px; font-family:'HyundaiSansHeadKRBold'; line-height:74px; -ms-transform:translate(-50%, -50%); -o-transform:translate(-50%, -50%); -moz-transform:translate(-50%, -50%); -webkit-transform:translate(-50%, -50%); transform:translate(-50%, -50%);}
+.cv_identity .cont_row .cvMotion #motionTxt_move .align_cont .txt_move {position:absolute; font-size:24px; line-height:32px; opacity:0.7; white-space:nowrap;}
+.cv_identity .cont_row .cvMotion #motionTxt_move .title:before {background:url('/kr/images/brand/icon_design_philosophy.png') no-repeat 0 0;}
+
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi01 {top:36.75%; left:0%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi02 {top:29.125%; left:42%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi03 {top:35%; right:5%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi04 {bottom:31%; left:21%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi05 {bottom:37%; left:48%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi06 {bottom:25%; left:62%;}
+
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi01 {top:34%; left:11%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi02 {top:25%; left:42%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi03 {top:34%; left:57%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi04 {bottom:31%; left:10%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi05 {bottom:21%; left:48%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi06 {bottom:37%; left:65%;}
+
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi01 {top:20%; left:10%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi02 {top:25%; left:42%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi03 {top:34%; left:11%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi04 {bottom:36%; left:10%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi05 {bottom:28%; left:48%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi06 {bottom:37%; left:65%;}
+
+.cv_identity .cont_row .cvMotion #motionTxt_last {}
+.cv_identity .cont_row .cvMotion #motionTxt_last .inner {max-width:1200px; margin:0 auto;}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont {padding:0 30px;}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont .title {position:relative; width:360px; height:360px; border-radius:100%; font-size:32px; font-family:'HyundaiSansHeadKRBold'; line-height:44px; text-align:center;}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont .title:before {content:''; position:absolute; top:0; left:0; width:100%; height:100%; border: 2px solid transparent; border-radius:100%; -ms-transition:border-top-color 0.15s linear, border-right-color 0.15s linear 0.10s, border-bottom-color 0.15s linear 0.20s; -o-transition:border-top-color 0.15s linear, border-right-color 0.15s linear 0.10s, border-bottom-color 0.15s linear 0.20s; -moz-transition:border-top-color 0.15s linear, border-right-color 0.15s linear 0.10s, border-bottom-color 0.15s linear 0.20s; -webkit-transition:border-top-color 0.15s linear, border-right-color 0.15s linear 0.10s, border-bottom-color 0.15s linear 0.20s; transition:border-top-color 0.15s linear, border-right-color 0.15s linear 0.10s, border-bottom-color 0.15s linear 0.20s;}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont .title:after {content:''; position:absolute; top:0; left:0; width:100%; height:100%; border:0 solid transparent; border-radius:100%; -ms-transition:transform 0.4s linear 0s, border-left-width 0s linear 0.35s; -o-transition:transform 0.4s linear 0s, border-left-width 0s linear 0.35s; -moz-transition:transform 0.4s linear 0s, border-left-width 0s linear 0.35s; -webkit-transition:transform 0.4s linear 0s, border-left-width 0s linear 0.35s; transition:transform 0.4s linear 0s, border-left-width 0s linear 0.35s;}
+
+.cv_identity .cont_row .cvMotion #motionTxt_last.on .align_cont .title:before {border-top-color:rgba(255, 255, 255, 0.7); border-right-color:rgba(255, 255, 255, 0.7); border-bottom-color:rgba(255, 255, 255, 0.7);}
+.cv_identity .cont_row .cvMotion #motionTxt_last.on .align_cont .title:after {border-top:2px solid rgba(255, 255, 255, 0.7); border-left-width:2px; border-right-width:2px; -ms-transform:rotate(270deg); -o-transform:rotate(270deg); -moz-transform:rotate(270deg); -webkit-transform:rotate(270deg); transform:rotate(270deg);}
+
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont .title span {display:block; padding-top:70px;}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont .title span:before {content:''; display:block; width:160px; height:160px; margin:0 auto 16px auto;}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont .title span:before {background:url('/kr/images/brand/icon_design_philosophy.png') no-repeat 0 0;}
+.cv_identity .cont_row .cvMotion #motionTxt_last #practicality_last .title span:before {background-position:0 0}
+.cv_identity .cont_row .cvMotion #motionTxt_last #originality_last .title span:before {background-position:-160px 0}
+.cv_identity .cont_row .cvMotion #motionTxt_last #reliability_last .title span:before {background-position:-320px 0}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont .txt_move {opacity:0;}
+
+/* 모션 전문 제공 */
+.motion_txt{position:relative;width:100%;margin-top:-60px;color:#fff;text-align:center;z-index:10;}
+.motion_txt dt{display:table;width:100%;height:60px;opacity:0.6;background-color:#000;font-family:'HyundaiSansHeadKRBold';}
+.motion_txt dt a{display:table-cell;vertical-align:middle;text-decoration:none;opacity:1;}
+.motion_txt dd{padding:32px 40px 40px;background-color:#000;font-family:'HyundaiSansTextKRRegular';}
+.motion_txt i.ico.more{width:40px;height:26px;}
+.motion_txt i.ico.more:after{left:10px;background-position:-543px -118px;}
+.motion_txt.open i.ico.more:after{transform: rotate(180deg);margin-left:-3px;}/*190927 modify*/
+
+.motion_txt.dark{color:#000;}
+.motion_txt.dark dt{opacity:0.6;background-color:#fff;}
+.motion_txt.dark dd{background-color:#fff;}
+.motion_txt.dark i.ico.more:after{left:10px;background-position:-543px -80px;}
+
+/* CV Design Philosophy - Bus Identity */
+.cv_bus {}
+.cv_bus .cont_row {padding-top:1px;}
+.cv_bus .cont_row:first-child {padding-top:0;}
+.cv_bus .cont_row.mt80 {padding-top:0;}
+.cv_bus .motion_wrap {}
+/*.cv_bus .motion_wrap .img_wrap {position:relative; padding-top:41.666666666666667%; background:url('/kr/images/brand/bg_elec-city.jpg') no-repeat; background-size:cover;}*/
+.cv_bus .motion_wrap .img_wrap {position:relative;}
+.cv_bus .motion_wrap .img_wrap .align_cont {position:absolute; top:120px; right:120px; width:37.5%;}
+.cv_bus .motion_wrap .img_wrap .align_cont img {max-width:100%; width:auto;}
+.cv_bus .motion_wrap .img_wrap .align_cont .sequence_wrap {position:absolute; top:0; left:0; width:100%; height:100%;}
+.cv_bus .motion_wrap .img_wrap .align_cont .sequence_wrap img {position:absolute; bottom:0; left:0; width:200%;}
+.cv_bus .motion_wrap .txt_wrap .align_cont {position:absolute; top:0; left:0;}
+
+.cv_bus .philosophy_motion {position:relative;}
+
+.cv_bus .motionWrap {position:relative;}
+.cv_bus .motionWrap img {max-width:100%;}
+.cv_bus #motion_TxtLine {}
+.cv_bus #motion_TxtLine #motionTxt {position:absolute; top:0; left:0; width:100%; height:100%; text-align:center;}
+.cv_bus #motion_TxtLine #motionTxt .inner {display:table; width:100%; height:100%;}
+.cv_bus #motion_TxtLine #motionTxt .align_cont {display:table-cell; vertical-align:middle;}
+/*.cv_bus #motion_TxtLine #motionTxt .align_cont .h2_tit {color:#34B4E0; font-size:80px; line-height:80px;}*/
+.cv_bus #motion_TxtLine #motionTxt .align_cont .h2_tit {color:#002C5F; font-size:80px; line-height:80px;} /* 180717_웹접근성 수정 */
+
+.cv_bus #motion_TxtLine #motionTxt_line {position:absolute; top:0; left:0; width:100%; height:100%; text-align:center;}
+.cv_bus #motion_TxtLine #motionTxt_line .inner {display:table; position:relative; width:100%; height:100%;}
+.cv_bus #motion_TxtLine #motionTxt_line .align_cont {display:table-cell; position:relative; vertical-align:middle; z-index:10;}
+/*.cv_bus #motion_TxtLine #motionTxt_line .align_cont .h2_tit {color:#34B4E0; font-size:80px; font-family:'HyundaiSansTextKRRegular'; line-height:80px;}*/
+.cv_bus #motion_TxtLine #motionTxt_line .align_cont .h2_tit {color:#002C5F; font-size:80px; font-family:'HyundaiSansTextKRRegular'; line-height:80px;} /* 180717_웹접근성 수정 */
+.cv_bus #motion_TxtLine #motionTxt_line .align_cont .h2_tit span {display:block; padding-bottom:16px; color:#000; font-size:24px; line-height:32px;}
+.cv_bus #motion_TxtLine #motionTxt_line .align_cont .h2_tit strong {font-family:'HyundaiSansHeadKRBold'; font-weight:normal;}
+.cv_bus #motion_TxtLine #motionTxt_line .line_wrap {position:absolute; top:0; left:0; width:100%; height:100%; text-align:center; z-index:5;}
+.cv_bus #motion_TxtLine #motionTxt_line .line_wrap .inner {position:static;}
+.cv_bus #motion_TxtLine #motionTxt_line .line_wrap .inner p:nth-child(2) {margin:-100px 0 -20px 0;}
+.cv_bus #motion_car {position:absolute; top:0; left:0; width:100%; height:100%;}
+.cv_bus #motion_car .txt_wrap {position:absolute; top:0; right:13.125%; left:13.125%; height:100%; z-index:10;}
+.cv_bus #motion_car .txt_wrap .inner {display:table; position:relative; float:left; width:50%; height:100%;}
+.cv_bus #motion_car .txt_wrap .inner:nth-child(2) {float:right; text-align:right;}
+.cv_bus #motion_car .txt_wrap .align_cont {display:table-cell; vertical-align:middle;}
+/*.cv_bus #motion_car .txt_wrap .align_cont .h1_tit {color:#34B4E0; font-size:42px; font-family:'HyundaiSansHeadKRBold'; line-height:46px;}*/
+.cv_bus #motion_car .txt_wrap .align_cont .h1_tit {color:#002C5F; font-size:42px; font-family:'HyundaiSansHeadKRBold'; line-height:46px;} /* 180717_웹접근성 수정 */
+.cv_bus #motion_car .img_wrap {position:relative;}
+.cv_bus #motion_car .img_wrap .align_cont {position:absolute; bottom:50%; left:25.7291%; width:38.6458%; height:auto; transform:translate(0, 50%);}
+.cv_bus #motion_car .img_wrap .align_cont .sequence_wrap {position:absolute; bottom:0; right:0; width:73.5849%; height:100%;}
+.cv_bus #motion_car .img_wrap .align_cont .sequence_wrap img {position:absolute; bottom:0; right:0; width:200%; visibility:hidden;}
+.cv_bus #motion_car .img_wrap p img {width:100%;}
+
+/* CV Design Philosophy - Truck Identity */
+.cv_truck {}
+.cv_truck .motion_wrap {}
+/*.cv_truck .motion_wrap .img_wrap {position:relative; padding-top:41.666666666666667%; background:url('/kr/images/brand/bg_elec-city.jpg') no-repeat; background-size:cover;}*/
+.cv_truck .motion_wrap .img_wrap {position:relative;}
+.cv_truck .motion_wrap .img_wrap .align_cont {position:absolute; top:120px; right:120px; width:33.85416666667%;}
+.cv_truck .motion_wrap .img_wrap .align_cont img {max-width:100%; width:auto;}
+.cv_truck .motion_wrap .img_wrap .align_cont .sequence_wrap {position:absolute; top:0; left:0; width:100%; height:100%;}
+.cv_truck .motion_wrap .img_wrap .align_cont .sequence_wrap img {position:absolute; bottom:0; left:0; width:200%;}
+.cv_truck .motion_wrap .txt_wrap .align_cont {position:absolute; top:0; left:0;}
+
+.cv_truck .motionWrap {position:relative;}
+.cv_truck .motionWrap img {max-width:100%;}
+.cv_truck #motion_TxtLine {}
+.cv_truck #motion_TxtLine #motionTxt {position:absolute; top:0; left:0; width:100%; height:100%; text-align:center;}
+.cv_truck #motion_TxtLine #motionTxt .inner {display:table; width:100%; height:100%;}
+.cv_truck #motion_TxtLine #motionTxt .align_cont {display:table-cell; vertical-align:middle;}
+.cv_truck #motion_TxtLine #motionTxt .align_cont .h2_tit {color:#34B4E0; font-size:80px; line-height:80px;}
+
+.cv_truck #motion_TxtLine #motionTxt_line {position:absolute; top:0; left:0; width:100%; height:100%; text-align:center;}
+.cv_truck #motion_TxtLine #motionTxt_line .inner {display:table; position:relative; width:100%; height:100%;}
+.cv_truck #motion_TxtLine #motionTxt_line .align_cont {display:table-cell; position:relative; vertical-align:middle; z-index:10;}
+.cv_truck #motion_TxtLine #motionTxt_line .align_cont .h2_tit {color:#34B4E0; font-size:80px; font-family:'HyundaiSansTextKRRegular'; line-height:80px;}
+.cv_truck #motion_TxtLine #motionTxt_line .align_cont .h2_tit span {display:block; padding-bottom:16px; color:#000; font-size:24px; line-height:32px;}
+.cv_truck #motion_TxtLine #motionTxt_line .align_cont .h2_tit strong {font-family:'HyundaiSansHeadKRBold'; font-weight:normal;}
+.cv_truck #motion_TxtLine #motionTxt_line .line_wrap {position:absolute; top:0; left:0; width:100%; height:100%; text-align:center; z-index:5;}
+.cv_truck #motion_TxtLine #motionTxt_line .line_wrap .inner {position:static;}
+.cv_truck #motion_TxtLine #motionTxt_line .line_wrap .inner p:nth-child(2) {margin:-100px 0 -20px 0;}
+.cv_truck #motion_car {position:relative;}
+.cv_truck #motion_car .txt_wrap {position:absolute; top:0; right:12.9166%; left:12.9166%; height:100%; z-index:10;}
+.cv_truck #motion_car .txt_wrap .inner {display:table; position:relative; float:left; width:50%; height:100%;}
+.cv_truck #motion_car .txt_wrap .inner:nth-child(2) {float:right; text-align:right;}
+.cv_truck #motion_car .txt_wrap .align_cont {display:table-cell; vertical-align:middle;}
+.cv_truck #motion_car .txt_wrap .align_cont .h1_tit {color:#000; font-size:42px; font-family:'HyundaiSansHeadKRBold'; line-height:46px;}
+.cv_truck #motion_car .img_wrap {position:relative;}
+.cv_truck #motion_car .img_wrap .align_cont {position:absolute; bottom:50%; left:30.4687%; width:33.1770%; height:auto; transform:translate(0, 50%);}
+.cv_truck #motion_car .img_wrap .align_cont .sequence_wrap {position:absolute; bottom:0; right:0; width:84.1444%; height:100%;}
+.cv_truck #motion_car .img_wrap .align_cont .sequence_wrap img {position:absolute; bottom:0; right:0; width:200%; visibility:hidden;}
+.cv_truck #motion_car .img_wrap p img {width:100%;}
+
+/* Design Process */
+.design_process {}
+.design_process .cont_row:first-child .contModule.cont_h2 {}
+.design_process .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.design_process .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:72px;}
+.design_process .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+.design_process .contModule.cont_h2.manifesto_cont .txt_wrap {position:static;}
+.design_process .contModule.cont_h2.manifesto_cont .txt_wrap .align_cont.center * {max-width:890px; margin:0 auto;}
+.design_process .contModule.cont_h2.manifesto_cont .txt_wrap .align_cont {padding-bottom:24px;}
+
+/* Future Technology */
+.future_tech {}
+.future_tech .cont_row:first-child .contModule.cont_h2 {}
+.future_tech .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.future_tech .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:72px;}
+.future_tech .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+.future_tech .contModule.cont_h2 .img_wrap .align_cont.movie {position:relative; padding-top:31.25%;}
+.future_tech .contModule.cont_h2 .img_wrap .align_cont.movie iframe {position:absolute; top:0; right:0; bottom:0; left:0; z-index:10;}
+.future_tech .contModule.cont_h2 .img_wrap .align_cont.movie img {display:none;}
+.future_tech .contModule.cont_h2 .movie_wrap .align_cont {padding: 0 50px 0 50px;}
+.future_tech .movie_cont {margin-top:40px;}
+/*.future_tech i.ico.video:after {background-position:-696px -40px;}*/
+
+/* Performance & Safety Technology */
+.perform_safety {}
+.perform_safety .cont_row:first-child .contModule.cont_h2 {}
+.perform_safety .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.perform_safety .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:72px;}
+.perform_safety .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+.perform_safety .contModule.h4titb1 .img_wrap {position:relative;}
+
+.perform_safety .contModule.h4tita3 .img_wrap .inner p {display:none; position:relative; overflow:hidden;}
+.perform_safety .contModule.h4tita3 .img_wrap .inner p:nth-child(1){
+display:block;
+}
+.perform_safety .contModule.h4tita3 .ui_carousel_initialized .inner p {
+display:block;
+}
+.perform_safety .contModule.h4tita3 .img_wrap .inner {position:relative;}
+.perform_safety .contModule.h4tita3 .btn_arrow {position:absolute; top:50%; width:40px; height:80px; margin-top:-40px;}
+.perform_safety .contModule.h4tita3 .btn_arrow.prev {left:0;}
+.perform_safety .contModule.h4tita3 .btn_arrow.next {right:0;}
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_prev .ico,
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_next .ico {width:40px; height:80px;}
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_prev .ico:after,
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_next .ico:after {top:0; width:40px; height:80px; margin:0;}
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_prev .ico:after {background-position:0 0;}
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_next .ico:after {background-position:-40px 0;}
+
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_prev:hover .ico:after,
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_prev:focus .ico:after {background-position:0 -80px;}
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_next:hover .ico:after,
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_next:focus .ico:after {background-position:-40px -80px;}
+
+.perform_safety .contModule.h4tita3 .indicate {position:absolute; right:0; bottom:0; left:0; height:4px; -ms-transition:height 0.5s ease; -o-transition:height 0.5s ease; -moz-transition:height 0.5s ease; -webkit-transition:height 0.5s ease; transition:height 0.5s ease;}
+.perform_safety .contModule.h4tita3 .indicate ul {height:100%; font-size:0; line-height:0;}
+.perform_safety .contModule.h4tita3 .indicate li {display:inline-block; width:100%; height:100%;}
+.perform_safety .contModule.h4tita3 .indicate li .indi {display:block; margin-left:1px; height:100%; background-color:rgba(0, 0, 0, 0.5);}
+.perform_safety .contModule.h4tita3 .indicate li .indi span {display:block; height:100%; background-color:#35719E;}
+.perform_safety .contModule.h4tita3 .indicate li:first-child .indi {margin-left:0;}
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(2),
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(2) ~ li {
+width:50%;
+}
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(3),
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(3) ~ li {
+width:33.33333333%;
+}
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(4),
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(4) ~ li {
+width:25%;
+}
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(5),
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(5) ~ li {
+width:20%;
+}
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(6),
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(6) ~ li {
+width:16.66666666%;
+}
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(7),
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(7) ~ li {
+width:14.28571428%;
+}
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(8),
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(8) ~ li {
+width:12.5%;
+}
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(9),
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(9) ~ li {
+width:11.11111111%;
+}
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(10),
+.perform_safety .contModule.h4tita3 .indicate li:nth-child(1):nth-last-child(10) ~ li {
+width:10%;
+}
+.perform_safety .contModule.h4tita3:hover .indicate,
+.perform_safety .contModule.h4tita3.hover .indicate {height:20px;}
+
+/* R&D Story */
+.rnd_story .cont_row:first-child .contModule.cont_h2 {}
+.rnd_story .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.rnd_story .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:72px;}
+.rnd_story .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+/*.rnd_story .contModule.h4titf1 .img_wrap .movie_cont .ico.video:after {background-position:-517px -600px;}
+.rnd_story .contModule.h4titf1 .img_wrap .movie_cont .ico.video:hover:after,
+.rnd_story .contModule.h4titf1 .img_wrap .movie_cont .ico.video:focus:after {background-position:-437px -600px;}*/
+
+/* Eco-Friendly Research Technology */
+.ecoTech_wrap {}
+.ecoTech_wrap .cont_row:first-child .contModule.cont_h2 {}
+.ecoTech_wrap .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.ecoTech_wrap .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:72px;}
+.ecoTech_wrap .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+.ecoTech_wrap .contModule.cont_h2.eco_md .txt_wrap .align_cont.center * {max-width:890px; margin:0 auto;}
+.ecoTech_wrap .contModule.cont_h3tit .txt_wrap .align_cont{width:100%;}
+.ecoTech_wrap .eco_tech .eco_bg .module {padding:80px 0}
+.ecoTech_wrap .eco_tech > .eco_bg {background:url('/kr/images/brand/future-vision-of-hyundai-commercial-vehicle.jpg') no-repeat top; background-size:cover;}
+.ecoTech_wrap .eco_tech .tab_eco {padding-bottom:80px; width:1200px; margin:0 auto; text-align:center;}
+.ecoTech_wrap .eco_tech .tab_eco .tab {font-size:0; line-height:0; overflow:hidden;}
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list {display:inline-block; padding:0 20px;}
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list:first-child {padding-left:0;}
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list:last-child {padding-right:0;}
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list a i.eco_ico {display:block; width:180px; height:180px; margin:0 auto;}
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list a i.ico1 {background:url('/kr/images/brand/electronic-vehicle-off.png') no-repeat center; background-size:cover;}
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.ico1,
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list a:focus i.ico1 {background:url('/kr/images/brand/electronic-vehicle-on.png') no-repeat center; background-size:cover;}
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list a i.ico2 {background:url('/kr/images/brand/compressed-natural-gas-hybrid-off.png') no-repeat center; background-size:cover;}
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.ico2,
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list a:focus i.ico2 {background:url('/kr/images/brand/compressed-natural-gas-hybrid-on.png') no-repeat center; background-size:cover;}
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list a i.ico3 {background:url('/kr/images/brand/fuel-cell-electric-vehicle-off.png') no-repeat center; background-size:cover;}
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.ico3,
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list a:focus i.ico3 {background:url('/kr/images/brand/fuel-cell-electric-vehicle-on.png') no-repeat center; background-size:cover;}
+.ecoTech_wrap .eco_tech .tab_eco .tab_link {display:block; width:373px; height:373px; padding-top:58px; background-color:#fff; border:none; border-radius:186.5px;}
+.ecoTech_wrap .eco_tech .tab_eco .tab_link .txt1 {display:block; padding-top:15px; font-size:32px; line-height:1; font-family:'HyundaiSansTextKRbold';}
+.ecoTech_wrap .eco_tech .tab_eco .tab_link .txt2 {display:block; padding-top:15px; font-size:16px; font-family:'HyundaiSansTextKRRegular'; line-height:1;}
+.ecoTech_wrap .eco_tech .tab_eco .tab_link:hover,#content .cont_row .tab_eco .tab_link:focus,
+.ecoTech_wrap .eco_tech .tab_eco .tab_list.on .tab_link {background-color:#35719E; text-decoration:none; color:#fff;}
+
+.ecoTech_wrap #ev_cont .txt_wrap,
+.ecoTech_wrap #cng_cont .txt_wrap,
+.ecoTech_wrap #fcev_cont .txt_wrap {position:static;}
+.ecoTech_wrap #ev_cont .txt_wrap .align_cont,
+.ecoTech_wrap #cng_cont .txt_wrap .align_cont,
+.ecoTech_wrap #fcev_cont .txt_wrap .align_cont {padding-bottom:24px;}
+.ecoTech_wrap #cng_cont {background-color:#E3EEF7;}
+.ecoTech_wrap #fcev_cont {background-color:#F4EFEF;}
+
+/* R&D Center and Design Center */
+.rnd_center {}
+.rnd_center .cont_row:first-child .contModule.cont_h2 {}
+.rnd_center .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.rnd_center .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:72px;}
+.rnd_center .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+.rnd_center .contModule.cont_h2 .img_wrap .align_cont.movie {position:relative; padding-top:31.25%;}
+.rnd_center .contModule.cont_h2 .img_wrap .align_cont.movie iframe {position:absolute; top:0; right:0; bottom:0; left:0; z-index:10;}
+.rnd_center .contModule.cont_h2 .img_wrap .align_cont.movie img {display:none;}
+.rnd_center .contModule.cont_h2 .movie_wrap .align_cont {padding-top:0;}
+.rnd_center .movie_cont {margin-top:40px;}
+.rnd_center i.ico.video:after {}
+.rnd_center .hmcCv_center {padding:80px 0;}
+.rnd_center .hmcCv_center .module {max-width:1200px; margin:0 auto;}
+.rnd_center .hmcCv_center .header {max-width:890px; margin:0 auto; text-align:center;}
+.rnd_center .hmcCv_center .header .h3_tit {max-width:628px; margin:0 auto;}
+.rnd_center .hmcCv_center .header .txt {padding-top:28px;}
+.rnd_center .hmcCv_center .header .txt.first {padding-top:8px;}
+.rnd_center .hmcCv_center .list_wrap {padding-top:80px;}
+.rnd_center .hmcCv_center .list_wrap .list {font-size:0; line-height:0; text-align:center;}
+.rnd_center .hmcCv_center .list_wrap .item {display:inline-block; width:20%;}
+.rnd_center .hmcCv_center .list_wrap .item .img_wrap img {max-width:100%;}
+.rnd_center .hmcCv_center .list_wrap .item .txt_wrap {padding-top:24px; font-size:24px; font-family:'HyundaiSansTextKRBold'; line-height:28px;}
+
+/* Jeonju Plants */
+.jeonju_plants {}
+.jeonju_plants .cont_row:first-child .contModule.cont_h2 {}
+.jeonju_plants .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.jeonju_plants .contModule.cont_h3tit .txt_wrap .align_cont{width:100%;}
+.jeonju_plants .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:72px;}
+.jeonju_plants .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+.jeonju_plants .contModule.cont_h2 .txt_wrap .align_cont * {}
+.jeonju_plants .contModule.cont_h2 .img_wrap .align_cont.movie {position:relative; padding-top:31.25%;}
+.jeonju_plants .contModule.cont_h2 .img_wrap .align_cont.movie iframe {position:absolute; top:0; right:0; bottom:0; left:0; z-index:10;}
+.jeonju_plants .contModule.cont_h2 .img_wrap .align_cont.movie img {display:none;}
+.jeonju_plants .contModule.cont_h2 .movie_wrap .align_cont {padding: 0 50px 0 50px; text-align: center; color:#fff;}
+.jeonju_plants .movie_cont {margin-top:40px; text-align: center;}
+/*.jeonju_plants i.ico.video:after {background-position:-517px -600px;}
+.jeonju_plants i.ico.video:hover:after,
+.jeonju_plants i.ico.video:focus:after {background-position:-437px -600px;}*/
+
+/*.jeonju_plants .jeonju_factory_wrap {width:1200px; margin:0 auto;}*/
+.jeonju_plants .jeonju_factory li:first-child {margin-left:0;}
+.jeonju_plants .jeonju_factory li:last-child {padding:47px 0 48px;}
+.jeonju_plants .jeonju_factory li:last-child span{color:#fff; font-size:16px;}
+.jeonju_plants .jeonju_factory li {float:left; width: 31.1%; background:#35719E; text-align:center; margin-left:40px; padding: 62px 0 61px 0;}
+.jeonju_plants .jeonju_factory .sub_tit {color:#fff; font-family:'HyundaiSansTextKRRegular'; }
+.jeonju_plants .jeonju_factory .txt {color:#fff; font-size:64px; line-height: 74px; font-family:'HyundaiSansTextKRbold';}
+
+.jeonju_plants .countries{ margin-top:79px; }
+.jeonju_plants .countries .img_wrap{width: inherit;}
+.jeonju_plants .countries .txt_wrap {color:#35719E; padding:0; right: inherit;}
+.jeonju_plants .countries .txt_wrap .inner .align_cont{padding:0;}
+.jeonju_plants .countries .txt_wrap .tit{color:#666; margin-bottom:8px; font-family:'HyundaiSansTextKRRegular';}
+.jeonju_plants .countries .txt_wrap .num{font-size:64px; line-height: 74px; font-family:'HyundaiSansTextKRbold';}
+.jeonju_plants .countries .txt_wrap .txt{font-size: 42px; line-height: 46px; padding-top:0; font-family:'HyundaiSansTextKRbold';}
+
+.jeonju_plants .models{ margin-top:79px; }
+.jeonju_plants .models .txt_wrap {color:#35719E; padding:0; right: inherit;}
+.jeonju_plants .models .txt_wrap .inner .align_cont{padding:0;}
+.jeonju_plants .models .txt_wrap .tit{color:#666; margin-bottom:8px; font-family:'HyundaiSansTextKRRegular';}
+.jeonju_plants .models .txt_wrap .num{font-size:64px; line-height: 74px; font-family:'HyundaiSansTextKRbold';}
+.jeonju_plants .models .txt_wrap .txt{font-size: 42px; line-height: 46px; padding-top:0; font-family:'HyundaiSansTextKRbold';}
+.jeonju_plants .models .img_wrap{width: inherit; text-align: center;}
+.jeonju_plants .models .img_wrap .models_list li{float:left; margin-left:40px; color:#000;}
+.jeonju_plants .models .img_wrap .models_list li dl{margin-top:10px;}
+.jeonju_plants .models .img_wrap .models_list .item dt{font-size:36px; line-height:44px; font-family:'HyundaiSansTextKRbold';}
+.jeonju_plants .models .img_wrap .models_list .item dd{line-height:28px; font-family:'HyundaiSansTextKRRegular';}
+.jeonju_plants .graph_wrap {margin-top:80px;}
+.jeonju_plants .cont_row .graph_wrap {margin:80px 0 120px 0;}
+.jeonju_plants .graph_wrap .graph_wrap_li li{float:left; margin-left:40px;}
+.jeonju_plants .graph_wrap .graph_wrap_li li:first-child{margin-left:0;}
+.jeonju_plants .process_guide.md{width:1200px; margin:0 auto;}
+.jeonju_plants .process_guide .thumb_boardlist .board_list .txt_wrap dt {font-family: 'HyundaiSansHeadKRBold'; padding-top: 0;}
+.jeonju_plants .process_guide_wrap{background:#f8f8f8;}
+.jeonju_plants .network_info {position:relative; margin-top:16px; background-color:#F6F3F2; margin-bottom:120px;}
+.jeonju_plants .network_info:first-child {margin-top:0;}
+.jeonju_plants .network_info:after {content:''; display:table; clear:both;}
+.jeonju_plants .network_info .txt_wrap {float:left; width:35.42%; z-index:5;}
+.jeonju_plants .network_info .txt_wrap .inner {display:table; width:100%; height:100%;}
+.jeonju_plants .network_info .txt_wrap .align_cont {display:table-cell; padding:40px 24px 106px 24px; word-break:break-all;}
+.jeonju_plants .network_info .txt_wrap .align_cont .phone_info {padding-top:16px;}
+.jeonju_plants .network_info .txt_wrap .align_cont dl {padding-top:8px;}
+.jeonju_plants .network_info .txt_wrap .align_cont dl:after {content:''; display:table; clear:both;}
+.jeonju_plants .network_info .txt_wrap .align_cont dt {float:left; width:90px;}
+.jeonju_plants .network_info .txt_wrap .align_cont dd {margin-left:90px; color:#666;}
+.jeonju_plants .network_info .txt_wrap .align_cont .site_info dt {float:none;}
+.jeonju_plants .network_info .txt_wrap .align_cont .site_info dd {margin-left:0; padding-top:4px;}
+.jeonju_plants .network_info .txt_wrap .align_cont .site_info a {color:#35719E; text-decoration:underline;}
+.jeonju_plants .network_info .txt_wrap .align_cont .btn_wrap {position:absolute; bottom:24px; left:0; width:35.42%; padding:0 24px; z-index:10;}
+.jeonju_plants .network_info .txt_wrap .align_cont .btn_wrap .ico {right:8px;}
+.jeonju_plants .network_info .img_wrap {float:right; max-width:64.58%; width:64.58%; max-height:536px; height:536px;}
+.jeonju_plants .network_info .img_wrap .inner,
+.jeonju_plants .network_info .img_wrap .align_cont {width:100%; height:100%;}
+
+/* Global Plants */
+.global_plants {}
+.global_plants .cont_row:first-child .contModule.cont_h2 {}
+.global_plants .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.global_plants .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:72px;}
+.global_plants .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+.global_plants .movie_cont {margin-top:40px;}
+.global_plants i.ico.video:after {}
+.global_plants .contModule.cont_h2 .movie_wrap .align_cont {padding-top:0;}
+.global_plants .contModule.cont_h2 .img_wrap .align_cont.movie {position:relative; padding-top:31.25%;}
+.global_plants .contModule.cont_h2 .img_wrap .align_cont.movie iframe {position:absolute; top:0; right:0; bottom:0; left:0; z-index:10;}
+.global_plants .contModule.cont_h2 .img_wrap .align_cont.movie img {display:none;}
+.global_plants .dev_process {padding:120px 0;}
+.global_plants .dev_process .module {max-width:1200px; margin:0 auto;}
+.global_plants .dev_process .header {text-align:center;}
+.global_plants .dev_process .tab_wrap {padding-top:40px;}
+.global_plants .dev_process .timeline_year {padding:80px 0 0 0;}
+.global_plants .dev_process .timeline_year .h2_tit {color:#EAEAEA;}
+.global_plants .dev_process .timeline_year .h2_tit span {color:#000;}
+.global_plants .dev_process .timeline_year .month_list {position:relative; padding-top:42px; color:#000;}
+.global_plants .dev_process .timeline_year .month_list:before,
+.global_plants .dev_process .timeline_year .month_list:after {content:''; position:absolute;}
+.global_plants .dev_process .timeline_year .month_list:before {top:52px; left:64px; width:12px; height:12px; border-radius:50%; background-color:#35719E; z-index:5;}
+.global_plants .dev_process .timeline_year .month_list:after {top:46px; bottom:-58px; left:69px; width:2px; background-color:#E0E0E0;}
+.global_plants .dev_process .timeline_year .month_list:first-child {padding-top:24px;}
+.global_plants .dev_process .timeline_year .month_list:first-child:before {top:34px;}
+.global_plants .dev_process .timeline_year .month_list:last-child:after {display:none;}
+.global_plants .dev_process .timeline_year .month_list .month {float:left; width:12.9167%; font-size:24px; font-family:'HyundaiSansHeadKRBold'; line-height:32px;}
+.global_plants .dev_process .timeline_year .month_list .month_info {margin-left:12.9167%; padding-bottom:16px;}
+.global_plants .dev_process .timeline_year .month_list .month_info:last-child {padding-bottom:0;}
+.global_plants .dev_process .timeline_year .month_list .month_info .date {color:#000; font-size:18px; font-family:'HyundaiSansTextKRBold'; line-height:28px;}
+.global_plants .dev_process .timeline_year .month_list .month_info .txt {}
+
+.global_plants .main_plants.md {width:1200px; margin:0 auto;}
+.global_plants .main_plants .thumb_boardlist .board_list .txt_wrap dt {font-family: 'HyundaiSansHeadKRBold';font-weight: bold;padding-top: 0;}
+.global_plants .main_plants .thumb_boardlist .board_list .list_wrap .item {padding:0 0 40px 0;}
+
+/* Commercial Vehicle History */
+.vehicle_history {}
+.vehicle_history .cont_row:first-child .contModule.cont_h2 {}
+.vehicle_history .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.vehicle_history .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:72px;}
+.vehicle_history .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+.vehicle_history .historyKey_wrap {position:relative; padding-bottom:51.2820%; background:url('/kr/images/brand/bg_history-key-text.jpg') no-repeat bottom center; background-size:cover;}
+.vehicle_history .historyKey_wrap .inner {position:absolute; top:0; right:0; left:0; }
+.vehicle_history .historyKey_wrap .header {max-width:476px; margin:0 auto; padding:80px 0 40px 0; text-align:center;}
+.vehicle_history .historyKey_wrap .info_wrap {max-width:1180px; margin:0 auto; font-size:0; line-height:0; text-align:center;}
+.vehicle_history .historyKey_wrap .info_wrap dl {position:relative; display:inline-block; width:180px; margin:0 10px 0 10px; vertical-align:top; word-break:break-word;}
+.vehicle_history .historyKey_wrap .info_wrap dl:first-child {margin-left:0;}
+.vehicle_history .historyKey_wrap .info_wrap dl:last-child {margin-right:0;}
+.vehicle_history .historyKey_wrap .info_wrap dl:after {content:''; position:absolute; top:5px; right:0; width:1px; height:64px; background-color:#E8E8E8; transform:rotate(25deg);}
+.vehicle_history .historyKey_wrap .info_wrap dl:last-child:after {display:none;}
+/*.vehicle_history .historyKey_wrap .info_wrap dt {color:#ccc; font-size:56px; font-family:'HyundaiSansHeadKRBold'; line-height:66px;}*/
+.vehicle_history .historyKey_wrap .info_wrap dt {color:#666; font-size:56px; font-family:'HyundaiSansHeadKRBold'; line-height:66px;} /* 180717_웹접근성 수정 */
+.vehicle_history .historyKey_wrap .info_wrap dd {padding-top:8px; font-size:16px; line-height:22px;}
+
+.vehicle_history .inpageNavi_wrap {height:80px;}
+.vehicle_history .inpageNavi_wrap .inpageNavi {width:100%; height:80px; background-color:#fff;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner {position:relative; max-width:1200px; height:80px; margin:0 auto;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .title {position:absolute; top:0; left:0; width:13%; font-size:28px; font-family:'HyundaiSansHeadKRBold'; line-height:80px; text-align:left;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .menu_wrap {margin-left:13%;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .menu_wrap .btn_open {display:none;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap {position:relative; padding:20px 0 0 0;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow {position:absolute; top:20px;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.prev {left:0;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.prev .ico:after {background-position:-240px 0;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.next {right:0;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.next .ico:after {background-position:-320px -40px;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow:after { display: none;} /* 191226 add */
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .year_list {position:relative; height:40px; margin:0 36px; overflow:hidden;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .list_wrap {margin:6px 0 0 0; font-size:0; line-height:0;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .list_wrap:after {content:''; display:table; clear:both;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .list_wrap .btn_arrow:after {display:none;}
+/* 190401_1 수정 */
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .item {display:inline-block; width:100px; padding:0 30px;}
+/* //190401_1 수정 */
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .item a {color:#666; font-size:18px; font-family:'HyundaiSansTextKRBold'; line-height:28px; text-decoration:none;}
+/*.vehicle_history .inpageNavi_wrap .inpageNavi_inner .item.on a {color:#35719E;}*/
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .item.on a {color:#35719E;text-decoration:underline;} /* 180717_웹접근성 수정 */
+
+.vehicle_history .inpageNavi_wrap.fixed .inpageNavi {position:fixed; top:0; left:0; z-index:10;}
+
+.vehicle_history .history_wrap {padding-bottom:80px;}
+.vehicle_history .historyList {max-width:1200px; margin:0 auto;}
+.vehicle_history .historyList .history_year {padding-top:24px; text-align:center;}
+.vehicle_history .historyList .history_year:first-child {padding-top:32px;}
+/* 190729 */
+.vehicle_history .historyList .history_year .h3_tit {color:#737373; font-size:80px; line-height:90px;}
+/* //190729 */
+.vehicle_history .historyList .history_year .h3_tit span {color:#000;}
+.vehicle_history .historyList .history_year .car_list {position:relative; max-width:914px; margin:24px auto 0 auto; padding:2px 0 69px 0; font-size:0; line-height:0;}
+.vehicle_history .historyList .history_year .car_list.cols3 {max-width:1280px; padding-bottom:103px;}
+.vehicle_history .historyList .history_year .car_list:after {content:''; display:table; clear:both;}
+.vehicle_history .historyList .history_year .car_list:before {content:''; position:absolute; top:0; left:50%; width:1px; height:100%; background-color:#E0E0E0;}
+.vehicle_history .historyList .history_year .car_list.cols3:before {top:auto; bottom:0; height:72px;}
+.vehicle_history .historyList .history_year .car_list.cols3 .car_info_wrap {width:auto;}
+
+.vehicle_history .historyList .history_year .car_list .car_info_wrap {position:relative; display:inline-block; overflow:hidden; vertical-align:top;}
+.vehicle_history .historyList .history_year .car_list .left_car {float:left; margin-right:0;}
+.vehicle_history .historyList .history_year .car_list .left_car.btm {margin-top:40px;} /* 181221 추가 */
+.vehicle_history .historyList .history_year .car_list .left_car.btm2 {margin-top:190px;} /* 190329 추가 */
+.vehicle_history .historyList .history_year .car_list .right_car {float:right; margin-left:0;}
+/* 190329 추가 */
+.vehicle_history .historyList .history_year .car_list .car_left_wrap {float:left; width:50%;}
+.vehicle_history .historyList .history_year .car_list .car_right_wrap {float:right; width:50%;}
+/* //190329 추가 */
+.vehicle_history .historyList .history_year .car_list .car_info {position:relative; opacity:0;}
+.vehicle_history .historyList .history_year .car_list .car_info .img_wrap img {max-width:100%; width:100%;}
+.vehicle_history .historyList .history_year .car_list .car_info .txt_wrap .h4_tit {display:inline-block; font-size:32px; font-family:'HyundaiSansHeadKRBold'; line-height:42px;}
+.vehicle_history .historyList .history_year .car_list .car_info .txt_wrap .h4_tit span {display:block; padding-bottom:5px; font-size:22px; font-family:'HyundaiSansTextKRRegular';}/* 190329 추가 */
+.vehicle_history .historyList .history_year .car_list .car_info .txt_wrap .txt {padding-top:14px; color:#666; font-size:18px; line-height:28px;}/* 190329 수정 */
+.vehicle_history .historyList .history_year .car_list .car_info .txt_wrap.point .h4_tit em {display:block; padding:0 26px; border-radius:2px; background-color:#35719E; color:#fff; line-height:50px;}/* 190329 수정 */
+.vehicle_history .historyList .history_year .car_list .left_car .car_info {right:-100%; -ms-transition:right 0.5s cubic-bezier(.66,.21,.4,1.09) 0s, opacity 0.5s cubic-bezier(.66,.21,.4,1.09) 0s; -o-transition:right 0.5s cubic-bezier(.66,.21,.4,1.09) 0s, opacity 0.5s cubic-bezier(.66,.21,.4,1.09) 0s; -moz-transition:right 0.5s cubic-bezier(.66,.21,.4,1.09) 0s, opacity 0.5s cubic-bezier(.66,.21,.4,1.09) 0s; -webkit-transition:right 0.5s cubic-bezier(.66,.21,.4,1.09) 0s, opacity 0.5s cubic-bezier(.66,.21,.4,1.09) 0s; transition:right 0.5s cubic-bezier(.66,.21,.4,1.09) 0s, opacity 0.5s cubic-bezier(.66,.21,.4,1.09) 0s;}
+.vehicle_history .historyList .history_year .car_list .right_car.btm {margin-top:200px;}/* 190329 수정 */
+.vehicle_history .historyList .history_year .car_list .right_car.btm2 {margin-top:40px;}/* 190329 추가 */
+.vehicle_history .historyList .history_year .car_list .right_car .car_info {left:-100%; -ms-transition:left 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s, opacity 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s; -o-transition:left 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s, opacity 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s; -moz-transition:left 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s, opacity 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s; -webkit-transition:left 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s, opacity 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s; transition:left 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s, opacity 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s;}
+
+.vehicle_history .historyList #year1988.history_year .car_list .right_car .car_info .txt_wrap.point {padding-top:20px;}
+.vehicle_history .historyList #year1998.history_year .car_list .right_car .car_info {left:-100%; -ms-transition:left 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s, opacity 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s; -o-transition:left 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s, opacity 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s; -moz-transition:left 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s, opacity 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s; -webkit-transition:left 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s, opacity 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s; transition:left 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s, opacity 0.5s cubic-bezier(.66,.21,.4,1.09) 0.5s;}
+
+.vehicle_history .historyList .history_year.on .car_list .left_car .car_info {right:0; opacity:1;}
+.vehicle_history .historyList #year1998.history_year.on .car_list .right_car .car_info {left:0; opacity:1;}
+.vehicle_history .historyList .history_year.on .car_list .right_car .car_info {left:0; opacity:1;}
+
+@media only screen and (min-width:1280px) and (max-width: 1919px) {
+/* Modern Premium */
+.modern_premium .cont_row:first-child .contModule.cont_h2 {}
+.modern_premium .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:64px 0 0 80px;}
+.modern_premium .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:42px; line-height:46px;}
+.modern_premium .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+.modern_premium .contModule.wid {padding:0px 0px 80px;}
+
+/* CV Design Philosophy, CV Design Philosophy - Bus Identity, CV Design Philosophy - Truck Identity 공통 */
+.cvdesign_wrap .contModule.pd_120 .txt_wrap .align_cont {padding:80px 40px;}
+.cvdesign_wrap .contModule.cont_h2 .txt_wrap .align_cont .h2_tit {font-size:36px; line-height:44px}
+.cvdesign_wrap .contModule.cont_h2 .txt_wrap .align_cont .txt {padding-top:16px;}
+.cvdesign_wrap .cont_row:first-child .contModule.cont_h2 {}
+.cvdesign_wrap .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:64px 0 0 80px;}
+.cvdesign_wrap .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:42px; line-height:46px;}
+.cvdesign_wrap .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+
+/* CV Design Philosophy */
+
+/* CV Design Philosophy - Bus Identity */
+
+/* CV Design Philosophy - Truck Identity */
+
+/* Design Process */
+.design_process .cont_row:first-child .contModule.cont_h2 {}
+.design_process .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:64px 0 0 80px;}
+.design_process .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:42px; line-height:46px;}
+.design_process .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+
+/* Future Technology */
+.future_tech {}
+.future_tech .cont_row:first-child .contModule.cont_h2 {}
+.future_tech .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:64px 0 0 80px;}
+.future_tech .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:42px; line-height:46px;}
+.future_tech .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+
+/* Performance & Safety Technology */
+.perform_safety .cont_row:first-child .contModule.cont_h2 {}
+.perform_safety .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:64px 0 0 80px;}
+.perform_safety .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:42px; line-height:46px;}
+.perform_safety .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+
+/* R&D Story */
+.rnd_story .cont_row:first-child .contModule.cont_h2 {}
+.rnd_story .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:64px 0 0 80px;}
+.rnd_story .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:42px; line-height:46px;}
+.rnd_story .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+
+/* Eco-Friendly Research Technology */
+.ecoTech_wrap .cont_row:first-child .contModule.cont_h2 {}
+.ecoTech_wrap .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:64px 0 0 80px;}
+.ecoTech_wrap .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:42px; line-height:46px;}
+.ecoTech_wrap .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+
+/* R&D Center and Design Center */
+.rnd_center .cont_row:first-child .contModule.cont_h2 {}
+.rnd_center .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:64px 0 0 80px;}
+.rnd_center .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:42px; line-height:46px;}
+.rnd_center .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+
+/* Jeonju Plants */
+.jeonju_plants .cont_row:first-child .contModule.cont_h2 {}
+.jeonju_plants .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:64px 0 0 80px;}
+.jeonju_plants .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:42px; line-height:46px;}
+.jeonju_plants .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+
+/* Global Plants */
+.global_plants .cont_row:first-child .contModule.cont_h2 {}
+.global_plants .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:64px 0 0 80px;}
+.global_plants .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:42px; line-height:46px;}
+.global_plants .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+
+/* Commercial Vehicle History */
+.vehicle_history .cont_row:first-child .contModule.cont_h2 {}
+.vehicle_history .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:64px 0 0 80px;}
+.vehicle_history .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:42px; line-height:46px;}
+.vehicle_history .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+
+}
+
+/* Tablet */
+@media only screen and (min-width:768px) and (max-width: 1279px) {
+/* Modern Premium */
+.modern_premium {}
+.modern_premium .cont_row:first-child .contModule.cont_h2 {}
+.modern_premium .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+.modern_premium .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+/*.modern_premium .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:8px; font-size:16px; line-height:24px;}*/
+.modern_premium .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:4px; font-size:14px; line-height:24px;}/* 180709_가이드 수정 */
+.modern_premium .contModule .txt_box {padding: 25px 0;}
+.contModule.h4titf1.wid .txt_wrap {padding: 0 0 20px;}
+.modern_premium .contModule .txt_box p.txt_type1 span.slogan_tit {padding-bottom: 8px;font-size: 32px;line-height: 36px;}
+.modern_premium .contModule .txt_box p.txt_type1 {font-size: 14px;line-height: 16px;}
+.modern_premium .contModule.wid {padding:0px 0px 36px;}
+
+/* CV Design Philosophy, CV Design Philosophy - Bus Identity, CV Design Philosophy - Truck Identity 공통 */
+.cvdesign_wrap {}
+.cvdesign_wrap .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+.cvdesign_wrap .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+.cvdesign_wrap .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:8px; font-size:16px; line-height:24px;}
+.cvdesign_wrap .contModule.pd_120 .txt_wrap .align_cont {padding:48px 25px;}
+
+/* CV Design Philosophy */
+.cv_identity .cont_row .designPhilosophy h3 {line-height:33px; letter-spacing:20px;}
+.cv_identity .cont_row .designPhilosophy .contModule.cont_h3tit .txt_wrap .align_cont {width:auto; padding:48px 0;}
+
+.cv_identity .cont_row .cvMotion {position:relative; background:url('/kr/images/brand/cv-motion-bg.jpg') no-repeat bottom center; background-size:cover;}
+.cv_identity .cont_row .cvMotion:before {content:''; display:block; padding-top:41.7%;}
+.cv_identity .cont_row .cvMotion .motion_wrap {position:absolute; top:0; right:0; bottom:0; left:0; color:#fff;}
+.cv_identity .cont_row .cvMotion .motion_wrap .inner {display:table; width:100%; height:100%;}
+.cv_identity .cont_row .cvMotion .motion_wrap .align_cont {display:table-cell; vertical-align:middle;}
+/* 처음 모션 */
+.cv_identity .cont_row .cvMotion #motion_txt .align_cont p {width:46.3541%; margin:0 auto; color:#fff; font-size:21px; font-family:'HyundaiSansHeadKRBold'; line-height:26px;}
+
+/* ?��번째 모션 */
+.cv_identity .cont_row .cvMotion #motionTxt_move .inner {width:84.47916666667%; margin:0 auto; -ms-transition:all 0.5s ease; -o-transition:all 0.5s ease; -moz-transition:all 0.5s ease; -webkit-transition:all 0.5s ease; transition:all 0.5s ease;}
+.cv_identity .cont_row .cvMotion #motionTxt_move .align_cont {position:relative; width:33.3333%; text-align:center; -ms-transition:all 0.5s ease; -o-transition:all 0.5s ease; -moz-transition:all 0.5s ease; -webkit-transition:all 0.5s ease; transition:all 0.5s ease;}
+.cv_identity .cont_row .cvMotion #motionTxt_move .align_cont .title {font-size:25px; font-family:'HyundaiSansHeadKRBold'; line-height:27px;}
+.cv_identity .cont_row .cvMotion #motionTxt_move .align_cont .txt_move {position:absolute; font-size:11px; line-height:16px; opacity:0.7; -ms-transition:all 0.5s ease; -o-transition:all 0.5s ease; -moz-transition:all 0.5s ease; -webkit-transition:all 0.5s ease; transition:all 0.5s ease;}
+
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi01 {top:36.75%; left:0%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi02 {top:29.125%; left:42%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi03 {top:35%; right:5%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi04 {bottom:31%; left:21%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi05 {bottom:37%; left:48%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi06 {bottom:25%; left:62%;}
+
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi01 {top:34%; left:11%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi02 {top:25%; left:42%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi03 {top:34%; left:57%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi04 {bottom:31%; left:10%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi05 {bottom:21%; left:48%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi06 {bottom:37%; left:65%;}
+
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi01 {top:20%; left:10%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi02 {top:25%; left:42%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi03 {top:34%; left:11%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi04 {bottom:36%; left:10%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi05 {bottom:28%; left:48%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi06 {bottom:37%; left:65%;}
+
+.cv_identity .cont_row .cvMotion #motionTxt_last {}
+.cv_identity .cont_row .cvMotion #motionTxt_last .inner {max-width:1200px; width:84.47916666667%; margin:0 auto;}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont {position:relative; width:33.3333%; padding:0 18px;}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont .title {width:216px; height:216px; font-size:21px; line-height:26px;}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont .title span {display:block; padding-top:43px;}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont .title span:before {content:''; display:block; width:64px; height:64px; margin:0 auto 8px auto; background:url('/kr/images/brand/icon_design_philosophy_m.png') no-repeat 0 0;}
+.cv_identity .cont_row .cvMotion #motionTxt_last #practicality_last .title span:before {background-position:0 0;}
+.cv_identity .cont_row .cvMotion #motionTxt_last #originality_last .title span:before {background-position:-64px 0;}
+.cv_identity .cont_row .cvMotion #motionTxt_last #reliability_last .title span:before {background-position:-128px 0;}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont .txt_move {opacity:0;}
+
+/* 모션 전문 제공 */
+.motion_txt{margin-top:-40px;}
+.motion_txt dt{height:40px;}
+.motion_txt dd{padding:26px 34px 34px;}
+.motion_txt i.ico.more{width:28px;height:16px;}
+.motion_txt i.ico.more:after{width:28px;height:16px;left:0;margin-top:-8px;background-position:-322px -77px;}
+
+.motion_txt.dark i.ico.more:after{left:10px;background-position:-174px 0px;}/*190927 modify*/
+.motion_txt.open i.ico.more:after{margin-left:-15px; margin-top:0;}/*190927 add*/
+
+/* CV Design Philosophy - Bus Identity */
+.cv_bus .motion_wrap .img_wrap {position:relative;}
+.cv_bus .motion_wrap .img_wrap .align_cont {position:absolute; top:48px; right:24px; width:37.5%;}
+.cv_bus .motion_wrap .img_wrap .align_cont img {max-width:100%; width:auto;}
+.cv_bus .motion_wrap .img_wrap .align_cont .sequence_wrap {position:absolute; bottom:0; right:0; left:0;}
+
+.cv_bus .motionWrap {position:relative;}
+.cv_bus .motionWrap img {max-width:100%;}
+.cv_bus #motion_TxtLine {}
+.cv_bus #motion_TxtLine #motionTxt {position:absolute; top:0; left:0; width:100%; height:100%; text-align:center;}
+.cv_bus #motion_TxtLine #motionTxt .inner {display:table; width:100%; height:100%;}
+.cv_bus #motion_TxtLine #motionTxt .align_cont {display:table-cell; vertical-align:middle;}
+.cv_bus #motion_TxtLine #motionTxt .align_cont .h2_tit {color:#34B4E0; font-size:32px; line-height:36px;}
+
+.cv_bus #motion_TxtLine #motionTxt_line {position:absolute; top:0; left:0; width:100%; height:100%; text-align:center;}
+.cv_bus #motion_TxtLine #motionTxt_line .inner {display:table; position:relative; width:100%; height:100%;}
+.cv_bus #motion_TxtLine #motionTxt_line .align_cont {display:table-cell; position:relative; vertical-align:middle; z-index:10;}
+.cv_bus #motion_TxtLine #motionTxt_line .align_cont .h2_tit {color:#34B4E0; font-size:32px; font-family:'HyundaiSansTextKRRegular'; line-height:36px;}
+.cv_bus #motion_TxtLine #motionTxt_line .align_cont .h2_tit span {display:block; padding-bottom:8px; color:#000; font-size:14px; line-height:16px;}
+.cv_bus #motion_TxtLine #motionTxt_line .align_cont .h2_tit strong {font-family:'HyundaiSansHeadKRBold'; font-weight:normal;}
+.cv_bus #motion_TxtLine #motionTxt_line .line_wrap {position:absolute; top:0; left:0; width:100%; height:100%; text-align:center; z-index:5;}
+.cv_bus #motion_TxtLine #motionTxt_line .line_wrap .inner {position:static;}
+.cv_bus #motion_TxtLine #motionTxt_line .line_wrap .inner p:nth-child(2) {margin:-50px 0 -10px 0;}
+.cv_bus #motion_car {position:absolute; top:0; left:0; width:100%; height:100%;}
+.cv_bus #motion_car .txt_wrap {position:absolute; top:0; right:13.125%; left:13.125%; height:100%; z-index:10;}
+.cv_bus #motion_car .txt_wrap .inner {display:table; position:relative; float:left; width:50%; height:100%;}
+.cv_bus #motion_car .txt_wrap .inner:nth-child(2) {float:right; text-align:right;}
+.cv_bus #motion_car .txt_wrap .align_cont {display:table-cell; vertical-align:middle;}
+.cv_bus #motion_car .txt_wrap .align_cont .h1_tit {color:#34B4E0; font-size:25px; font-family:'HyundaiSansHeadKRBold'; line-height:27px;}
+.cv_bus #motion_car .img_wrap {position:relative;}
+.cv_bus #motion_car .img_wrap .align_cont {position:absolute; bottom:50%; left:25.7291%; width:38.6458%; height:auto; transform:translate(0, 50%);}
+.cv_bus #motion_car .img_wrap .align_cont .sequence_wrap {position:absolute; bottom:0; right:0; width:73.5849%; height:100%;}
+.cv_bus #motion_car .img_wrap .align_cont .sequence_wrap img {position:absolute; bottom:0; right:0; width:200%; visibility:hidden;}
+.cv_bus #motion_car .img_wrap p img {width:100%;}
+
+/* CV Design Philosophy - Truck Identity */
+.cv_truck .motion_wrap .img_wrap {position:relative;}
+.cv_truck .motion_wrap .img_wrap .align_cont {position:absolute; top:48px; right:24px; width:33.85416666667%;}
+.cv_truck .motion_wrap .img_wrap .align_cont img {max-width:100%; width:auto;}
+.cv_truck .motion_wrap .img_wrap .align_cont .sequence_wrap {position:absolute; bottom:0; right:0; left:0;}
+
+.cv_truck .motionWrap {position:relative;}
+.cv_truck .motionWrap img {max-width:100%;}
+.cv_truck #motion_TxtLine {}
+.cv_truck #motion_TxtLine #motionTxt {position:absolute; top:0; left:0; width:100%; height:100%; text-align:center;}
+.cv_truck #motion_TxtLine #motionTxt .inner {display:table; width:100%; height:100%;}
+.cv_truck #motion_TxtLine #motionTxt .align_cont {display:table-cell; vertical-align:middle;}
+.cv_truck #motion_TxtLine #motionTxt .align_cont .h2_tit {color:#34B4E0; font-size:32px; line-height:36px;}
+
+.cv_truck #motion_TxtLine #motionTxt_line {position:absolute; top:0; left:0; width:100%; height:100%; text-align:center;}
+.cv_truck #motion_TxtLine #motionTxt_line .inner {display:table; position:relative; width:100%; height:100%;}
+.cv_truck #motion_TxtLine #motionTxt_line .align_cont {display:table-cell; position:relative; vertical-align:middle; z-index:10;}
+.cv_truck #motion_TxtLine #motionTxt_line .align_cont .h2_tit {color:#34B4E0; font-size:32px; font-family:'HyundaiSansTextKRRegular'; line-height:36px;}
+.cv_truck #motion_TxtLine #motionTxt_line .align_cont .h2_tit span {display:block; padding-bottom:8px; color:#000; font-size:14px; line-height:16px;}
+.cv_truck #motion_TxtLine #motionTxt_line .align_cont .h2_tit strong {font-family:'HyundaiSansHeadKRBold'; font-weight:normal;}
+.cv_truck #motion_TxtLine #motionTxt_line .line_wrap {position:absolute; top:0; left:0; width:100%; height:100%; text-align:center; z-index:5;}
+.cv_truck #motion_TxtLine #motionTxt_line .line_wrap .inner {position:static;}
+.cv_truck #motion_TxtLine #motionTxt_line .line_wrap .inner p:nth-child(2) {margin:-50px 0 -10px 0;}
+.cv_truck #motion_car {position:relative;}
+.cv_truck #motion_car .txt_wrap {position:absolute; top:0; right:13.125%; left:13.125%; height:100%; z-index:10;}
+.cv_truck #motion_car .txt_wrap .inner {display:table; position:relative; float:left; width:50%; height:100%;}
+.cv_truck #motion_car .txt_wrap .inner:nth-child(2) {float:right; text-align:right;}
+.cv_truck #motion_car .txt_wrap .align_cont {display:table-cell; vertical-align:middle;}
+.cv_truck #motion_car .txt_wrap .align_cont .h1_tit {color:#000; font-size:25px; font-family:'HyundaiSansHeadKRBold'; line-height:27px;}
+.cv_truck #motion_car .img_wrap {position:relative;}
+.cv_truck #motion_car .img_wrap .align_cont {position:absolute; bottom:50%; left:25.7291%; width:38.6458%; height:auto; transform:translate(0, 50%);}
+.cv_truck #motion_car .img_wrap .align_cont .sequence_wrap {position:absolute; bottom:0; right:0; width:84.1444%; height:100%;}
+.cv_truck #motion_car .img_wrap .align_cont .sequence_wrap img {position:absolute; bottom:0; right:0; width:200%; visibility:hidden;}
+.cv_truck #motion_car .img_wrap p img {width:100%;}
+
+/* Design Process */
+.design_process {}
+.design_process .cont_row:first-child .contModule.cont_h2 {}
+.design_process .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+.design_process .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+/*.design_process .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:8px; font-size:16px; line-height:24px;}*/
+.design_process .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:4px; font-size:14px; line-height:20px;} /* 180709_가이드 수정 */
+.design_process .contModule.cont_h2.manifesto_cont .txt_wrap {position:static;}
+.design_process .contModule.cont_h2.manifesto_cont .txt_wrap .align_cont.center * {max-width:890px; margin:0 auto;}
+.design_process .contModule.cont_h2.manifesto_cont .txt_wrap .align_cont {padding-bottom:8px;}
+
+/* Future Technology */
+.future_tech {}
+.future_tech .cont_row:first-child .contModule.cont_h2 {}
+.future_tech .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+.future_tech .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+/*.future_tech .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:8px; font-size:16px; line-height:24px;}*/
+.future_tech .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:4px; font-size:14px; line-height:20px;} /* 180709_가이드 수정 */
+.future_tech .movie_wrap {text-align:center; color:#fff;}
+.future_tech .contModule.cont_h2 .movie_wrap .align_cont {padding: 0 25px 0 25px;}
+.future_tech .movie_cont {margin-top:20px;}
+.future_tech i.ico.video:after {margin-left:0;}
+
+/* Performance & Safety Technology */
+.perform_safety {}
+.perform_safety .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+.perform_safety .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+/*.perform_safety .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:8px; font-size:16px; line-height:24px;}*/
+.perform_safety .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:4px; font-size:14px; line-height:20px;} /* 180709_가이드 수정 */
+.perform_safety .contModule.h4tita3 .btn_arrow {width:24px; height:48px; margin-top:-24px;}
+.perform_safety .contModule.h4tita3 .btn_arrow.prev {left:0;}
+.perform_safety .contModule.h4tita3 .btn_arrow.next {right:0;}
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_prev .ico,
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_next .ico {width:24px; height:48px;}
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_prev .ico:after,
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_next .ico:after {width:24px; height:48px;}
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_prev .ico:after {background-position:0 0;}
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_next .ico:after {background-position:-24px 0;}
+
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_prev:hover .ico:after,
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_prev:focus .ico:after {background-position:0 -48px;}
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_next:hover .ico:after,
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_next:focus .ico:after {background-position:-24px -48px;}
+
+.perform_safety .contModule.h4tita3:hover .indicate,
+.perform_safety .contModule.h4tita3.hover .indicate {height:14px;}
+
+/* R&D Story */
+.rnd_story {}
+.rnd_story .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+.rnd_story .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+/*.rnd_story .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:8px; font-size:16px; line-height:24px;}*/
+.rnd_story .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:4px; font-size:14px; line-height:20px;} /* 180709_가이드 수정 */
+.rnd_story .contModule.h4titb3 {}
+.rnd_story .contModule.h4titb3 .img_wrap {position:relative;}
+/*.rnd_story .contModule.h4titf1 .img_wrap .movie_cont .ico.video:after {background-position:-96px -355px;}
+.rnd_story .contModule.h4titf1 .img_wrap .movie_cont .ico.video:hover:after,
+.rnd_story .contModule.h4titf1 .img_wrap .movie_cont .ico.video:focus:after {background-position:-48px -355px;}*/
+
+/* Eco-Friendly Research Technology */
+.ecoTech_wrap {}
+.ecoTech_wrap .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+.ecoTech_wrap .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+/*.ecoTech_wrap .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:8px; font-size:16px; line-height:24px;}*/
+.ecoTech_wrap .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:4px; font-size:14px; line-height:20px;} /* 180709_가이드 수정 */
+.ecoTech_wrap .eco_tech .tab_eco {width:auto; margin:0 24px;}
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list {padding:0 12px;}
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list a i.eco_ico {width:100px; height:100px;}
+.ecoTech_wrap .eco_tech .tab_eco .tab_link {width:214px; height:214px; padding:24px 20px 0 20px;}
+.ecoTech_wrap .eco_tech .tab_eco .tab_link img {width:100px;}
+.ecoTech_wrap .eco_tech .tab_eco .tab_link .txt1 {padding-top:8px; font-size:18px; line-height:24px;}
+.ecoTech_wrap .eco_tech .tab_eco .tab_link .txt2 {padding-top:8px; font-size:8px; line-height:12px;}
+
+.ecoTech_wrap #ev_cont .txt_wrap,
+.ecoTech_wrap #cng_cont .txt_wrap,
+.ecoTech_wrap #fcev_cont .txt_wrap {position:static;}
+.ecoTech_wrap #ev_cont .txt_wrap .align_cont ,
+.ecoTech_wrap #cng_cont .txt_wrap .align_cont ,
+.ecoTech_wrap #fcev_cont .txt_wrap .align_cont {padding-bottom:16px;}
+.ecoTech_wrap #cng_cont {background-color:#E3EEF7;}
+.ecoTech_wrap #fcev_cont {background-color:#F4EFEF;}
+
+/* R&D Center and Design Center */
+.rnd_center {}
+.rnd_center .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+.rnd_center .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+/*.rnd_center .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:8px; font-size:16px; line-height:24px;}*/
+.rnd_center .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:4px; font-size:14px; line-height:20px;} /* 180709_가이드 수정 */
+.rnd_center .movie_cont {margin-top:20px;}
+.rnd_center i.ico.video:after {margin-left:0;}
+.rnd_center .hmcCv_center {padding:40px 0;}
+.rnd_center .hmcCv_center .module {max-width:1200px; margin:0 24px;}
+.rnd_center .hmcCv_center .header .txt {padding-top:16px;}
+.rnd_center .hmcCv_center .header .txt.first {padding-top:4px;}
+.rnd_center .hmcCv_center .list_wrap {padding-top:40px;}
+.rnd_center .hmcCv_center .list_wrap .list {font-size:0; line-height:0; text-align:center;}
+.rnd_center .hmcCv_center .list_wrap .item {display:inline-block; width:20%; padding:0 20px;}
+.rnd_center .hmcCv_center .list_wrap .item .img_wrap img {max-width:100%;}
+.rnd_center .hmcCv_center .list_wrap .item .txt_wrap {padding-top:8px; font-size:14px; font-family:'HyundaiSansTextKRBold'; line-height:16px;}
+
+/* Jeonju Plants */
+.jeonju_plants {}
+.jeonju_plants .cont_row:first-child .contModule.cont_h2 {}
+.jeonju_plants .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+.jeonju_plants .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+/*.jeonju_plants .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:8px; font-size:16px; line-height:24px;}*/
+.jeonju_plants .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:4px; font-size:14px; line-height:20px;} /* 180709_가이드 수정 */
+.jeonju_plants .movie_wrap {text-align:center; color:#fff;}
+.jeonju_plants .contModule.cont_h2 .movie_wrap .align_cont {padding: 0 25px 0 25px;}
+.jeonju_plants .movie_cont {margin-top:20px;}
+/*.jeonju_plants i.ico.video:after {margin-left:0; background-position:-96px -355px;}
+.jeonju_plants i.ico.video:hover:after,
+.jeonju_plants i.ico.video:focus:after {background-position:-48px -355px;}*/
+.jeonju_plants .jeonju_factory_wrap {width:auto; margin:0 auto;}
+.jeonju_plants .jeonju_factory li {display: inline-block; margin-left:0;}
+.jeonju_plants .jeonju_factory li:first-child {float: left;}
+.jeonju_plants .jeonju_factory li:nth-child(2) {margin-left:3.3%; }
+.jeonju_plants .jeonju_factory li:last-child {float: right; padding: 51px 0 52px;}
+
+.jeonju_plants .jeonju_factory .sub_tit {font-size:16px;}
+.jeonju_plants .jeonju_factory .txt {font-size:47px;}
+.jeonju_plants .countries .txt_wrap {width:309px; float:left;}
+.jeonju_plants .countries .txt_wrap .tit{font-size: 16px;}
+.jeonju_plants .countries .txt_wrap .num{font-size:45px; line-height: 64px;}
+.jeonju_plants .countries .txt_wrap .txt{font-size: 35px; line-height: 10px;}
+.jeonju_plants .countries .img_wrap {margin-left:309px;}
+.jeonju_plants .models .txt_wrap {width:309px; float:left;}
+.jeonju_plants .models .txt_wrap .tit{font-size: 16px;}
+.jeonju_plants .models .txt_wrap .num{font-size:45px; line-height: 64px;}
+.jeonju_plants .models .txt_wrap .txt{font-size: 35px; line-height: 10px;}
+.jeonju_plants .models .img_wrap {margin-left:309px;}
+.jeonju_plants .models .img_wrap .models_list {display: inline-block;}
+.jeonju_plants .models .img_wrap .models_list li{width:32%;margin-left:0;}
+.jeonju_plants .models .img_wrap .models_list li:first-child{float:left;}
+.jeonju_plants .models .img_wrap .models_list li:nth-child(2){margin-left:2%;}
+.jeonju_plants .models .img_wrap .models_list li:last-child{ float:right;}
+.jeonju_plants .graph_wrap .graph_wrap_li li{width:47.1%;}
+.jeonju_plants .graph_wrap .graph_wrap_li li img{width:100%; max-width: 100%;}
+.jeonju_plants .graph_wrap .graph_wrap_li li:last-child{float:right;}
+.jeonju_plants .process_guide.md{width: auto;margin-right: 24px; margin-left: 24px;}
+.jeonju_plants .network_info {}
+.jeonju_plants .network_info .txt_wrap {width:38.48%;}
+.jeonju_plants .network_info .txt_wrap .align_cont {display:table-cell; padding:24px 16px 84px 16px;}
+.jeonju_plants .network_info .txt_wrap .align_cont .h4_tit {font-size:18px; line-height:24px;}
+.jeonju_plants .network_info .txt_wrap .align_cont .phone_info {padding-top:4px;}
+.jeonju_plants .network_info .txt_wrap .align_cont dl {padding-top:4px;font-size: 14px;}
+.jeonju_plants .network_info .txt_wrap .align_cont dt {float:left; width:57px;}
+.jeonju_plants .network_info .txt_wrap .align_cont dd {margin-left:57px;}
+.jeonju_plants .network_info .txt_wrap .align_cont .site_info dd {padding-top:4px;}
+.jeonju_plants .network_info .txt_wrap .align_cont .btn_wrap {bottom:24px; width:38.48%; padding:0 16px;}
+.jeonju_plants .network_info .txt_wrap .align_cont .btn_wrap .ico {right:4px;}
+.jeonju_plants .network_info .img_wrap {max-width:61.52%; width:61.52%; max-height:none; height:430px;}
+.jeonju_plants .network_info .img_wrap .align_cont:after {content:''; display:block; padding-top:56.25%;}
+
+/* Global Plants */
+.global_plants {}
+.global_plants .cont_row:first-child .contModule.cont_h2 {}
+.global_plants .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+.global_plants .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+/*.global_plants .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:8px; font-size:16px; line-height:24px;}*/
+.global_plants .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:4px; font-size:14px; line-height:20px;} /* 180709_가이드 수정 */
+.global_plants .movie_cont {margin-top:20px;}
+.global_plants i.ico.video:after {margin-left:0;}
+.global_plants .dev_process {padding:48px 0;}
+.global_plants .dev_process .module {max-width:1200px; margin:0 24px;}
+.global_plants .dev_process .header {text-align:center;}
+.global_plants .dev_process .tab_wrap {padding-top:24px;}
+.global_plants .dev_process .timeline_year {padding:24px 0 0 0;}
+.global_plants .dev_process .timeline_year .h2_tit {color:#EAEAEA;}
+.global_plants .dev_process .timeline_year .h2_tit span {color:#000;}
+.global_plants .dev_process .timeline_year .month_list {position:relative; padding-top:24px; color:#000;}
+.global_plants .dev_process .timeline_year .month_list:before,
+.global_plants .dev_process .timeline_year .month_list:after {content:''; position:absolute;}
+.global_plants .dev_process .timeline_year .month_list:before {top:29px; left:44px; width:8px; height:8px; border-radius:50%; background-color:#35719E; z-index:5;}
+.global_plants .dev_process .timeline_year .month_list:after {top:29px; bottom:-30px; left:47px; width:2px; background-color:#E0E0E0;}
+.global_plants .dev_process .timeline_year .month_list:first-child {padding-top:16px;}
+.global_plants .dev_process .timeline_year .month_list:first-child:before {top:21px;}
+.global_plants .dev_process .timeline_year .month_list:last-child:after {display:none;}
+.global_plants .dev_process .timeline_year .month_list .month {float:left; width:12.9167%; font-size:14px; font-family:'HyundaiSansHeadKRBold'; line-height:16px;}
+.global_plants .dev_process .timeline_year .month_list .month_info {margin-left:12.9167%; padding-bottom:16px;}
+.global_plants .dev_process .timeline_year .month_list .month_info:last-child {padding-bottom:0;}
+.global_plants .dev_process .timeline_year .month_list .month_info .date {color:#000; font-size:11px; font-family:'HyundaiSansTextKRBold'; line-height:16px;}
+.global_plants .dev_process .timeline_year .month_list .month_info .txt {}
+.global_plants .main_plants.md {width:auto; margin:0 24px;}
+
+/* Commercial Vehicle History */
+.vehicle_history {}
+.vehicle_history .cont_row:first-child .contModule.cont_h2 {}
+.vehicle_history .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+.vehicle_history .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+/*.vehicle_history .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:8px; font-size:16px; line-height:24px;}*/
+.vehicle_history .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:4px; font-size:14px; line-height:20px;} /* 180709_가이드 수정 */
+.vehicle_history .historyKey_wrap {position:relative; padding-bottom:51.2820%; background:url('/kr/images/brand/bg_history-key-text.jpg') no-repeat bottom center; background-size:cover;}
+.vehicle_history .historyKey_wrap .inner {position:absolute; top:0; right:0; left:0; }
+.vehicle_history .historyKey_wrap .header {max-width:186px; margin:0 auto; padding:49px 0 19px 0; text-align:center;}
+.vehicle_history .historyKey_wrap .header .h3_tit {font-size:14px; line-height:18px;}
+.vehicle_history .historyKey_wrap .info_wrap {max-width:472px; margin:0 auto; font-size:0; line-height:0; text-align:center;}
+.vehicle_history .historyKey_wrap .info_wrap dl {position:relative; display:inline-block; width:72px; margin:0 4px 0 4px; vertical-align:top;}
+.vehicle_history .historyKey_wrap .info_wrap dl:first-child {margin-left:0;}
+.vehicle_history .historyKey_wrap .info_wrap dl:last-child {margin-right:0;}
+.vehicle_history .historyKey_wrap .info_wrap dl:after {content:''; position:absolute; top:2px; right:0; width:1px; height:25px; background-color:#E8E8E8; transform:rotate(25deg);}
+.vehicle_history .historyKey_wrap .info_wrap dl:last-child:after {display:none;}
+/*.vehicle_history .historyKey_wrap .info_wrap dt {color:#ccc; font-size:21px; font-family:'HyundaiSansHeadKRBold'; line-height:26px;}*/
+.vehicle_history .historyKey_wrap .info_wrap dt {color:#666; font-size:21px; font-family:'HyundaiSansHeadKRBold'; line-height:26px;} /* 180717_웹접근성 수정 */
+.vehicle_history .historyKey_wrap .info_wrap dd {padding-top:4px; font-size:6px; line-height:8px;}
+
+.vehicle_history .inpageNavi_wrap {height:48px;}
+.vehicle_history .inpageNavi_wrap .inpageNavi {width:100%; height:48px; background-color:#fff;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner {position:relative; max-width:1200px; height:48px; margin:0 24px;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .title {position:absolute; top:11px; left:0; width:94px; font-size:14px; font-family:'HyundaiSansHeadKRBold'; line-height:26px; text-align:left;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .menu_wrap {margin-left:94px;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap {position:relative; padding:12px 0 0 0;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow {position:absolute; top:12px;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.prev {left:0;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.prev .ico:after {background-position:-144px 0;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.next {right:0;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.next .ico:after {background-position:-192px -24px;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .year_list {position:relative; height:24px; margin:0 24px 0 24px; overflow:hidden;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .list_wrap {margin:6px 0 0 0; font-size:0; line-height:0;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .list_wrap:after {content:''; display:table; clear:both;}
+/* 190401_1 수정 */
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .item {display:inline-block; width:55px; padding:0 15px;}
+/* //190401_1 수정 */
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .item a {color:#000; font-size:11px; font-family:'HyundaiSansTextKRBold'; line-height:16px; text-decoration:none;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .item.on a {color:#35719E;}
+
+.vehicle_history .inpageNavi_wrap.fixed .inpageNavi {position:fixed; top:0; left:0;}
+
+.vehicle_history .history_wrap {padding-bottom:80px;}
+.vehicle_history .historyList {max-width:1200px; margin:0 auto;}
+.vehicle_history .historyList .history_year {padding-top:24px; text-align:center;}
+.vehicle_history .historyList .history_year:first-child {padding-top:19px;}
+/* 190729 */
+.vehicle_history .historyList .history_year .h3_tit {color:#737373; font-size:48px; line-height:54px;}
+/* // 190729 */
+.vehicle_history .historyList .history_year .h3_tit span {color:#000;}
+.vehicle_history .historyList .history_year .car_list {position:relative; max-width:550px; margin:14px auto 0 auto; padding:2px 0 40px 0; font-size:0; line-height:0;}
+.vehicle_history .historyList .history_year .car_list.cols3 {max-width:1280px; padding-bottom:74px;}
+.vehicle_history .historyList .history_year .car_list.cols3 .car_info_wrap {width:33.3333%; padding:0;}
+.vehicle_history .historyList .history_year .car_list.cols3 .car_info_wrap .img_wrap {max-width:241px; margin:0 auto;}
+.vehicle_history .historyList .history_year .car_list:after {content:''; display:table; clear:both;}
+.vehicle_history .historyList .history_year .car_list:before {content:''; position:absolute; top:0; left:50%; width:1px; height:100%; background-color:#E0E0E0;}
+.vehicle_history .historyList .history_year .car_list.cols3:before {top:auto; bottom:0; height:43px;}
+
+.vehicle_history .historyList .history_year .car_list .car_info_wrap {position:relative; display:inline-block; width:50%; overflow:hidden; vertical-align:top;}
+.vehicle_history .historyList .history_year .car_list .left_car {float:left; margin-right:0; padding-right:34px;}
+.vehicle_history .historyList .history_year .car_list .right_car {float:right; margin-left:0; padding-left:34px;}
+/* 190329 추가 */
+.vehicle_history .historyList .history_year .car_list .left_car.btm {margin-top:20px;}
+.vehicle_history .historyList .history_year .car_list .left_car.btm2 {margin-top:120px;}
+.vehicle_history .historyList .history_year .car_list .car_left_wrap .left_car {width:auto;}
+.vehicle_history .historyList .history_year .car_list .car_right_wrap .right_car {width:auto;}
+/* //190329 추가 */
+.vehicle_history .historyList .history_year .car_list .car_info {position:relative; opacity:0;}
+.vehicle_history .historyList .history_year .car_list .car_info .img_wrap img {max-width:100%; width:100%;}
+.vehicle_history .historyList .history_year .car_list .car_info .txt_wrap .h4_tit {font-size:19px; font-family:'HyundaiSansHeadKRBold'; line-height:25px;}
+.vehicle_history .historyList .history_year .car_list .car_info .txt_wrap .h4_tit span {font-size:16px;} /* 190329 추가 */
+.vehicle_history .historyList .history_year .car_list .car_info .txt_wrap .txt {padding-top:10px; color:#000; font-size:11px; line-height:16px;}/* 190329 수정 */
+.vehicle_history .historyList .history_year .car_list .car_info .txt_wrap.point .h4_tit em {padding:0 20px; border-radius:1px; background-color:#35719E; color:#fff; line-height:30px;}/* 190329 수정 */
+.vehicle_history .historyList .history_year .car_list .left_car .car_info {right:-100%; -ms-transition:right 0.5s linear 0s, opacity 0.5s ease 0s; -o-transition:right 0.5s linear 0s, opacity 0.5s ease 0s; -moz-transition:right 0.5s linear 0s, opacity 0.5s ease 0s; -webkit-transition:right 0.5s linear 0s, opacity 0.5s ease 0s; transition:right 0.5s linear 0s, opacity 0.5s ease 0s;}
+.vehicle_history .historyList .history_year .car_list .right_car.btm {margin-top:120px;}/* 190329 수정 */
+.vehicle_history .historyList .history_year .car_list .right_car.btm2 {margin-top:30px;}/* 190329 추가 */
+.vehicle_history .historyList .history_year .car_list .right_car .car_info {left:-100%; -ms-transition:left 0.5s linear 0.5s, opacity 0.5s ease 0.5s; -o-transition:left 0.5s linear 0.5s, opacity 0.5s ease 0.5s; -moz-transition:left 0.5s linear 0.5s, opacity 0.5s ease 0.5s; -webkit-transition:left 0.5s linear 0.5s, opacity 0.5s ease 0.5s; transition:left 0.5s linear 0.5s, opacity 0.5s ease 0.5s;}
+
+.vehicle_history .historyList #year1988.history_year .car_list .right_car .car_info .txt_wrap.point {padding-top:12px;}
+
+.vehicle_history .historyList .history_year.on .car_list .left_car .car_info {right:0; opacity:1;}
+.vehicle_history .historyList .history_year.on .car_list .right_car .car_info {left:0; opacity:1;}
+
+.modern_premium .contModule.cont_h2.manifesto_cont .txt_wrap:first-child .align_cont{ padding: 40px 24px 0 24px;}/*191029 add*/
+.modern_premium .contModule.cont_h2.manifesto_cont .txt_wrap .align_cont { padding: 30px 24px 0 24px;}/*191029 add*/
+
+
+}
+
+/*Mobile */
+@media only screen and (max-width: 767px) {
+/* Modern Premium */
+.modern_premium {}
+.modern_premium .cont_row:first-child .contModule.cont_h2 {}
+.modern_premium .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+.modern_premium .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:none; font-size:28px; line-height:33px;}
+/*.modern_premium .cont_row:first-child .contModule.cont_h2 .txt {max-width:none; padding-top:8px;}*/
+.modern_premium .cont_row:first-child .contModule.cont_h2 .txt {max-width:none; padding-top:4px;}/* 180709_가이드 수정 */
+.modern_premium .contModule.cont_h2.manifesto_cont .txt_wrap .align_cont.center * {max-width:none; margin:0 auto;}
+.contModule.h4titf1.wid .txt_wrap {padding: 0 0 25px;}
+.modern_premium .contModule .txt_box {padding: 30px 25px;}
+.modern_premium .contModule .txt_box p.txt_type1 {font-size: 14px;line-height: 19px;}
+.modern_premium .contModule .txt_box p.txt_type1 span.slogan_tit {padding-bottom: 15px;font-size: 27px;line-height: 32px;}
+.modern_premium .contModule.wid {padding:0px 0px 36px;}
+
+
+/* CV Design Philosophy, CV Design Philosophy - Bus Identity, CV Design Philosophy - Truck Identity 공통 */
+.cvdesign_wrap {}
+.cvdesign_wrap .cont_row:first-child .contModule.cont_h2 {}
+.cvdesign_wrap .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+.cvdesign_wrap .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:none; font-size:28px; line-height:33px;}
+.cvdesign_wrap .cont_row:first-child .contModule.cont_h2 .txt {max-width:none; padding-top:8px;}
+.cvdesign_wrap .contModule.pd_120 .txt_wrap .align_cont {padding:40px 20px;}
+
+/* CV Design Philosophy */
+.cv_identity .cont_row .designPhilosophy h3 {padding:0 10px; font-size:20px; line-height:33px; letter-spacing:18px;}
+.cv_identity .cont_row .designPhilosophy .contModule.cont_h3tit .txt_wrap .align_cont {padding:60px 0;}
+/*
+.cv_identity .cont_row .cvMotion {background:url('/kr/images/brand/cv-motion-bg-m.jpg') no-repeat bottom center; background-size:cover;}
+.cv_identity .cont_row .cvMotion .contModule.cont_h3tit .txt_wrap .align_cont {padding:208.5px 0;}
+.cv_identity .cont_row .cvMotion .contModule.cont_h3tit .txt_wrap .align_cont .h3_tit {line-height:33px;}
+*/
+.cv_identity .cont_row .cvMotion {position:relative; background:url('/kr/images/brand/cv-motion-bg-m.jpg') no-repeat bottom center; background-size:cover;}
+.cv_identity .cont_row .cvMotion:before {content:''; display:block; padding-top:156.25%;}
+.cv_identity .cont_row .cvMotion .motion_wrap {position:absolute; top:0; right:0; bottom:0; left:0; color:#fff;}
+.cv_identity .cont_row .cvMotion .motion_wrap .inner {display:table; width:100%; height:100%;}
+.cv_identity .cont_row .cvMotion .motion_wrap .align_cont {display:table-cell; vertical-align:middle;}
+/* 처음 모션 */
+.cv_identity .cont_row .cvMotion #motion_txt .align_cont p {width:46.3541%; margin:0 auto; color:#fff; font-size:28px; font-family:'HyundaiSansHeadKRBold'; line-height:33px;}
+
+/* ?��번째 모션 */
+.cv_identity .cont_row .cvMotion #motionTxt_move .inner {width:100%; margin:0 auto; transition:all 0.5s ease;}
+.cv_identity .cont_row .cvMotion #motionTxt_move .align_cont {display:block; position:relative; width:100%; height:33.3333%; text-align:center; transition:all 0.5s ease;}
+.cv_identity .cont_row .cvMotion #motionTxt_move .align_cont .title {position:absolute; font-size:28px; font-family:'HyundaiSansHeadKRBold'; line-height:33px;}
+.cv_identity .cont_row .cvMotion #motionTxt_move .align_cont .txt_move {position:absolute; font-size:10px; line-height:16px; opacity:0.7; transition:all 0.5s ease;}
+.cv_identity .cont_row .cvMotion #motionTxt_move .title:before {background:url('/kr/images/brand/icon_design_philosophy_s.png') no-repeat 0 0; background-size:180px 60px;}
+
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi01 {top:28%; left:15%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi02 {top:15%; left:50%; margin-left:-22px;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi03 {top:28%; right:15%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi04 {bottom:28%; left:21%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi05 {bottom:15%; left:50%; margin-left:-32px;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #practicality .txt_posi06 {bottom:28%; right:15%; left:auto;}
+
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi01 {top:24%; left:11%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi02 {top:24%; left:77%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi03 {top:8%; left:40%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi04 {bottom:31%; left:10%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi05 {bottom:0%; left:48%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #originality .txt_posi06 {bottom:30%; left:75%;}
+
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi01 {top:20%; left:80%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi02 {top:25%; left:10%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi03 {top:43%; left:5%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi04 {bottom:20%; left:18%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi05 {bottom:8%; left:40%;}
+.cv_identity .cont_row .cvMotion #motionTxt_move #reliability .txt_posi06 {bottom:27%; left:55%;}
+
+.cv_identity .cont_row .cvMotion #motionTxt_last {}
+.cv_identity .cont_row .cvMotion #motionTxt_last .inner {}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont {display:block; position:relative; width:100%; height:33.3333%; padding:0 18px; text-align:center; transition:all 0.5s ease;}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont .title {position:absolute; top:50%; right:0; left:0; width:150px; height:150px; margin:-75px auto 0 auto; border-radius:100%; font-size:18px; font-family:'HyundaiSansHeadKRBold'; line-height:22px;}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont .title span {padding-top:27px;}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont .title span:before {content:''; display:block; width:60px; height:60px; margin:0 auto 8px auto; background:url('/kr/images/brand/icon_design_philosophy_s.png') no-repeat 0 0; background-size:180px 60px;}
+.cv_identity .cont_row .cvMotion #motionTxt_last #practicality_last .title span:before {background-position:0 0}
+.cv_identity .cont_row .cvMotion #motionTxt_last #originality_last .title span:before {background-position:-60px 0}
+.cv_identity .cont_row .cvMotion #motionTxt_last #reliability_last .title span:before {background-position:-120px 0}
+.cv_identity .cont_row .cvMotion #motionTxt_last .align_cont .txt_move {opacity:0;}
+
+/* 모션 전문 제공 */
+/*.motion_txt{margin-top:-40px;font-size:14px;line-height:21px;}*/
+.motion_txt{margin-top:0;font-size:14px;line-height:21px;} /* 080718_모션 영역과 겹쳐 일단 마진값 뺌 */
+.motion_txt dt{height:40px;}
+.motion_txt dd{padding:24px 20px 32px;}
+.motion_txt i.ico.more{width:28px;height:16px;top:4px;left:10px;}
+.motion_txt i.ico.more:after{width:28px;height:16px;left:0;margin-top:-8px;background-position:-128px -50px;} /*190927 modify*/
+.motion_txt.open i.ico.more:after { transform: rotate(180deg); margin-top: -10px; margin-left: -3px; } /*190927 add*/
+.motion_txt.dark dt{opacity:1;}
+.motion_txt.dark i.ico.more:after{left:0;background-position:-130px -13px;}/*190927 modify*/
+
+/* CV Design Philosophy - Bus Identity */
+.cv_bus .motion_wrap .img_wrap {position:relative;}
+.cv_bus .motion_wrap .img_wrap .align_cont {position:absolute; top:auto; right:0; bottom:0; width:100%;}
+.cv_bus .motion_wrap .img_wrap .align_cont img {max-width:100%; width:auto;}
+.cv_bus .motion_wrap .img_wrap .align_cont .sequence_wrap {position:absolute; bottom:0; right:0; left:0;}
+
+.cv_bus .motionWrap {position:relative;}
+.cv_bus .motionWrap img {max-width:100%;}
+.cv_bus #motion_TxtLine {}
+.cv_bus #motion_TxtLine #motionTxt {position:absolute; top:0; left:0; width:100%; height:100%; text-align:center;}
+.cv_bus #motion_TxtLine #motionTxt .inner {display:table; width:65.3333%; height:100%; margin:0 auto;}
+.cv_bus #motion_TxtLine #motionTxt .align_cont {display:table-cell; vertical-align:middle;}
+.cv_bus #motion_TxtLine #motionTxt .align_cont .h2_tit {color:#34B4E0; font-size:38px; line-height:50px;}
+
+.cv_bus #motion_TxtLine #motionTxt_line {position:absolute; top:0; right:10px; left:10px;; width:auto; height:100%; text-align:center;}
+.cv_bus #motion_TxtLine #motionTxt_line .inner {display:table; position:relative; width:100%; height:100%;}
+.cv_bus #motion_TxtLine #motionTxt_line .align_cont {display:table-cell; position:relative; vertical-align:middle; z-index:10;}
+.cv_bus #motion_TxtLine #motionTxt_line .align_cont .h2_tit {color:#34B4E0; font-size:38px; font-family:'HyundaiSansTextKRRegular'; line-height:50px;}
+.cv_bus #motion_TxtLine #motionTxt_line .align_cont .h2_tit span {display:block; padding-bottom:12px; color:#000; font-size:14px; line-height:19px;}
+.cv_bus #motion_TxtLine #motionTxt_line .align_cont .h2_tit strong {font-family:'HyundaiSansHeadKRBold'; font-weight:normal;}
+.cv_bus #motion_TxtLine #motionTxt_line .line_wrap {position:absolute; top:0; right:-10px; left:-10px; width:auto; height:100%; text-align:center; z-index:5;}
+.cv_bus #motion_TxtLine #motionTxt_line .line_wrap .inner {position:static;}
+.cv_bus #motion_TxtLine #motionTxt_line .line_wrap .inner p:nth-child(2) {margin:-20px 0 -10px 0;}
+.cv_bus #motion_car {position:absolute; top:0; left:0; width:100%; height:100%;}
+.cv_bus #motion_car .txt_wrap {position:absolute; top:85px; right:10px; left:10px; height:auto; z-index:10;}
+.cv_bus #motion_car .txt_wrap .inner {display:block; position:relative; float:none; width:100%; height:auto; text-align:center;}
+.cv_bus #motion_car .txt_wrap .inner:nth-child(2) {float:none; padding-top:18px; text-align:center;}
+.cv_bus #motion_car .txt_wrap .align_cont {display:block; vertical-align:middle;}
+.cv_bus #motion_car .txt_wrap .align_cont .h1_tit {color:#34B4E0; font-size:28px; font-family:'HyundaiSansHeadKRBold'; line-height:33px;}
+.cv_bus #motion_car .img_wrap {position:relative;}
+.cv_bus #motion_car .img_wrap .align_cont {position:absolute; bottom:60px; left:-11%; width:100%; height:auto; transform:translate(0, 0);}
+.cv_bus #motion_car .img_wrap .align_cont img {width:100%;}
+.cv_bus #motion_car .img_wrap .align_cont .sequence_wrap {position:absolute; bottom:0; right:0; width:73.5849%; height:100%;}
+.cv_bus #motion_car .img_wrap .align_cont .sequence_wrap img {position:absolute; bottom:0; right:0; width:200%; visibility:hidden;}
+.cv_bus #motion_car .img_wrap p img {width:100%;}
+
+/* CV Design Philosophy - Truck Identity */
+.cv_truck .motion_wrap .img_wrap {position:relative;}
+.cv_truck .motion_wrap .img_wrap .align_cont {position:absolute; top:auto; right:0; bottom:0; width:100%;}
+.cv_truck .motion_wrap .img_wrap .align_cont img {max-width:100%; width:auto;}
+.cv_truck .motion_wrap .img_wrap .align_cont .sequence_wrap {position:absolute; bottom:0; right:0; left:0;}
+
+.cv_truck .motionWrap {position:relative;}
+.cv_truck .motionWrap img {max-width:100%;}
+.cv_truck #motion_TxtLine {}
+.cv_truck #motion_TxtLine #motionTxt {position:absolute; top:0; left:0; width:100%; height:100%; text-align:center;}
+.cv_truck #motion_TxtLine #motionTxt .inner {display:table; width:65.3333%; height:100%; margin:0 auto;}
+.cv_truck #motion_TxtLine #motionTxt .align_cont {display:table-cell; vertical-align:middle;}
+.cv_truck #motion_TxtLine #motionTxt .align_cont .h2_tit {color:#34B4E0; font-size:38px; line-height:50px;}
+
+.cv_truck #motion_TxtLine #motionTxt_line {position:absolute; top:0; right:10px; left:10px;; width:auto; height:100%; text-align:center;}
+.cv_truck #motion_TxtLine #motionTxt_line .inner {display:table; position:relative; width:100%; height:100%;}
+.cv_truck #motion_TxtLine #motionTxt_line .align_cont {display:table-cell; position:relative; vertical-align:middle; z-index:10;}
+.cv_truck #motion_TxtLine #motionTxt_line .align_cont .h2_tit {color:#34B4E0; font-size:38px; font-family:'HyundaiSansTextKRRegular'; line-height:50px;}
+.cv_truck #motion_TxtLine #motionTxt_line .align_cont .h2_tit span {display:block; padding-bottom:12px; color:#000; font-size:14px; line-height:19px;}
+.cv_truck #motion_TxtLine #motionTxt_line .align_cont .h2_tit strong {font-family:'HyundaiSansHeadKRBold'; font-weight:normal;}
+.cv_truck #motion_TxtLine #motionTxt_line .line_wrap {position:absolute; top:0; right:-10px; left:-10px; width:auto; height:100%; text-align:center; z-index:5;}
+.cv_truck #motion_TxtLine #motionTxt_line .line_wrap .inner {position:static;}
+.cv_truck #motion_TxtLine #motionTxt_line .line_wrap .inner p:nth-child(2) {margin:-20px 0 -10px 0;}
+.cv_truck #motion_car {position:relative;}
+.cv_truck #motion_car .txt_wrap {position:absolute; top:auto; bottom:80%; right:10px; left:10px; height:auto; z-index:10;}
+.cv_truck #motion_car .txt_wrap .inner {display:block; position:relative; float:none; width:100%; height:auto; text-align:center;}
+.cv_truck #motion_car .txt_wrap .inner:nth-child(2) {float:none; padding-top:18px; text-align:center;}
+.cv_truck #motion_car .txt_wrap .align_cont {display:block; vertical-align:middle;}
+.cv_truck #motion_car .txt_wrap .align_cont .h1_tit {color:#000; font-size:28px; font-family:'HyundaiSansHeadKRBold'; line-height:33px;}
+.cv_truck #motion_car .img_wrap {position:relative;}
+.cv_truck #motion_car .img_wrap .align_cont {position:absolute; bottom:60px; left:-10%; width:100%; height:auto; transform:translate(0, 0);}
+.cv_truck #motion_car .img_wrap .align_cont img {width:100%;}
+.cv_truck #motion_car .img_wrap .align_cont .sequence_wrap {position:absolute; bottom:0; right:0; width:84.1444%; height:100%;}
+.cv_truck #motion_car .img_wrap .align_cont .sequence_wrap img {position:absolute; bottom:0; right:0; width:200%; visibility:hidden;}
+.cv_truck #motion_car .img_wrap p img {width:100%;}
+
+/* Design Process */
+.design_process {}
+.design_process .cont_row:first-child .contModule.cont_h2 {}
+.design_process .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+.design_process .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:none; font-size:28px; line-height:33px;}
+.design_process .cont_row:first-child .contModule.cont_h2 .txt {max-width:none; padding-top:8px;}
+.design_process .contModule.cont_h2.manifesto_cont .txt_wrap {position:static;}
+.design_process .contModule.cont_h2.manifesto_cont .txt_wrap .align_cont.center * {max-width:890px; margin:0 auto;}
+.design_process .contModule.cont_h2.manifesto_cont .txt_wrap .align_cont {padding-bottom:16px;}
+
+/* Future Technology */
+.future_tech {}
+.future_tech .cont_row:first-child .contModule.cont_h2 {}
+.future_tech .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+.future_tech .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:none; font-size:28px; line-height:33px;}
+.future_tech .cont_row:first-child .contModule.cont_h2 .txt {max-width:none; padding-top:8px;}
+.future_tech .contModule.cont_h2 .img_wrap .align_cont.movie {position:relative; padding-top:61.7283%;}
+.future_tech .contModule.cont_h2 .movie_wrap {text-align:center; color:#fff;}
+.future_tech .contModule.cont_h2 .movie_wrap .align_cont {padding: 0 25px 0 25px;}
+.future_tech .contModule.cont_h2 .movie_wrap .h2_tit {font-size: 20px; line-height:25px;}
+.future_tech .contModule.cont_h2 .movie_wrap .txt {font-size:14px; line-height:19px;}
+.future_tech .contModule.cont_h2 .movie_wrap .movie_cont {margin-top:20px;}
+/*.future_tech i.ico.video {width:40px; height:40px;}
+.future_tech i.ico.video:after {width:40px; height:40px; margin:-20px 0 0 0;}*/
+.future_tech i.ico.video:after{margin-left:0;}
+
+/* Performance & Safety Technology */
+.perform_safety {}
+.perform_safety .cont_row:first-child .contModule.cont_h2 {}
+.perform_safety .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+.perform_safety .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:none; font-size:28px; line-height:33px;}
+.perform_safety .cont_row:first-child .contModule.cont_h2 .txt {max-width:none; padding-top:8px;}
+.perform_safety .contModule.h4tita3 .btn_arrow {width:20px; height:40px; margin-top:-20px;}
+.perform_safety .contModule.h4tita3 .btn_arrow.prev {left:0;}
+.perform_safety .contModule.h4tita3 .btn_arrow.next {right:0;}
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_prev .ico,
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_next .ico {width:20px; height:40px;}
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_prev .ico:after,
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_next .ico:after {width:20px; height:40px;}
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_prev .ico:after {background-position:0 0;}
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_next .ico:after {background-position:-20px 0;}
+
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_prev:hover .ico:after,
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_prev:focus .ico:after {background-position:0 -40px;}
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_next:hover .ico:after,
+.perform_safety .contModule.h4tita3 .btn_arrow .btn_next:focus .ico:after {background-position:-20px -40px;}
+
+.perform_safety .contModule.h4tita3:hover .indicate,
+.perform_safety .contModule.h4tita3.hover .indicate {height:10px;}
+
+/* R&D Story */
+.rnd_story .cont_row:first-child .contModule.cont_h2 {}
+.rnd_story .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+.rnd_story .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:none; font-size:28px; line-height:33px;}
+.rnd_story .cont_row:first-child .contModule.cont_h2 .txt {max-width:none; padding-top:8px;}
+.rnd_story .contModule.h4titb3 .img_wrap {position:relative;}
+/*.rnd_story .contModule.h4titf1 .img_wrap .movie_cont .ico.video:after {background-position:-310px -290px;}
+.rnd_story .contModule.h4titf1 .img_wrap .movie_cont .ico.video:hover:after,
+.rnd_story .contModule.h4titf1 .img_wrap .movie_cont .ico.video:focus:after {background-position:-270px -290px;}*/
+
+/* Eco-Friendly Research Technology */
+.ecoTech_wrap .cont_row:first-child .contModule.cont_h2 {}
+.ecoTech_wrap .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+.ecoTech_wrap .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:none; font-size:28px; line-height:33px;}
+.ecoTech_wrap .cont_row:first-child .contModule.cont_h2 .txt {max-width:none; padding-top:8px;}
+.ecoTech_wrap .eco_tech > .eco_bg {background:url('/kr/images/brand/future-vision-of-hyundai-commercial-vehicle-m.jpg') no-repeat center;}
+.ecoTech_wrap .eco_tech .tab_eco {width:auto;}
+.ecoTech_wrap .eco_tech .tab_eco ul {display:inline-block;}
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list {display:block; margin-bottom:28px; padding:0;}
+.ecoTech_wrap .eco_tech .tab_eco .tab .tab_list a i.eco_ico {width:83px; height:83px;}
+.ecoTech_wrap .eco_tech .tab_eco .tab_link {width:212px; height:212px; padding-top:35px;}
+.ecoTech_wrap .eco_tech .tab_eco .tab_link img {width:83px;}
+.ecoTech_wrap .eco_tech .tab_eco .tab_link .txt1 {font-size:20px;}
+.ecoTech_wrap .eco_tech .tab_eco .tab_link .txt2 {width:120px; margin:0 auto; padding-top:5px; line-height:16px; font-size:12px;}
+
+/* R&D Center and Design Center */
+.rnd_center {}
+.rnd_center .cont_row:first-child .contModule.cont_h2 {}
+.rnd_center .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+.rnd_center .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:none; font-size:28px; line-height:33px;}
+.rnd_center .cont_row:first-child .contModule.cont_h2 .txt {max-width:none; padding-top:8px;}
+.rnd_center .contModule.cont_h2 .img_wrap .align_cont.movie {position:relative; padding-top:61.7283%;}
+.rnd_center .movie_cont {margin-top:20px;}
+.rnd_center i.ico.video {width:40px; height:40px;}
+.rnd_center i.ico.video:after {width:40px; height:40px; margin:-20px 0 0 0;}
+.rnd_center .hmcCv_center {padding:60px 0;}
+.rnd_center .hmcCv_center .module {max-width:1200px; margin:0 10px;}
+.rnd_center .hmcCv_center .header .txt {padding-top:16px;}
+.rnd_center .hmcCv_center .header .txt.first {padding-top:8px;}
+.rnd_center .hmcCv_center .list_wrap {padding-top:28px;}
+.rnd_center .hmcCv_center .list_wrap .list {font-size:0; line-height:0; text-align:center;}
+.rnd_center .hmcCv_center .list_wrap .item {display:inline-block; width:33.3333%; padding:0 0 28px 0;}
+.rnd_center .hmcCv_center .list_wrap .item .img_wrap {padding:0 10px;}
+.rnd_center .hmcCv_center .list_wrap .item .img_wrap img {max-width:100%;}
+.rnd_center .hmcCv_center .list_wrap .item .txt_wrap {padding-top:12px; font-size:14px; font-family:'HyundaiSansTextKRBold'; line-height:19px;}
+
+/* Jeonju Plants */
+.jeonju_plants {}
+.jeonju_plants .cont_row:first-child .contModule.cont_h2 {}
+.jeonju_plants .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+.jeonju_plants .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:none; font-size:28px; line-height:33px;}
+.jeonju_plants .cont_row:first-child .contModule.cont_h2 .txt {max-width:none; padding-top:8px;}
+.jeonju_plants .contModule.cont_h2 .img_wrap .align_cont.movie {position:relative; padding-top:61.7283%;}
+.jeonju_plants .contModule.cont_h2 .movie_wrap .align_cont { padding: 0 25px 0 25px; color:#fff; text-align: center;}
+.jeonju_plants .contModule.cont_h2 .movie_wrap .h2_tit {font-size: 20px;line-height: 25px;}
+/*.jeonju_plants i.ico.video:after {margin-left:0; background-position:-310px -290px;}
+.jeonju_plants i.ico.video:hover:after,
+.jeonju_plants i.ico.video:focus:after {background-position:-270px -290px;}*/
+.jeonju_plants .jeonju_factory {width:100%;}
+.jeonju_plants .jeonju_factory li{float:none; padding:39px 0; width:100%; margin-left:0; margin-bottom:12px;}
+.jeonju_plants .jeonju_factory li:last-child {padding:28px 0 28px;}
+.jeonju_plants .jeonju_factory .sub_tit {font-size:14px;}
+.jeonju_plants .jeonju_factory .txt {font-size:38px;line-height: 41px;}
+.jeonju_plants .countries .txt_wrap {margin-bottom:28px;}
+.jeonju_plants .countries .txt_wrap .tit{color: #666; font-size: 12px; line-height: 27px;font-size: inherit;}
+.jeonju_plants .countries .txt_wrap .num{display:inline; font-size: 38px; line-height: 41px;}
+.jeonju_plants .countries .txt_wrap .txt{display:inline; font-size: 28px; line-height: 41px;}
+.jeonju_plants .models .txt_wrap {margin-bottom:28px;}
+.jeonju_plants .models .txt_wrap .tit{color: #666; line-height: 27px; font-size: 12px;font-size: inherit;}
+.jeonju_plants .models .txt_wrap .num{display:inline; font-size: 38px; line-height: 41px;}
+.jeonju_plants .models .txt_wrap .txt{display:inline; font-size: 28px; line-height: 41px;}
+.jeonju_plants .models .img_wrap .models_list .item dt{font-size:36px; line-height:44px;}
+.jeonju_plants .models .img_wrap .models_list .item{display: inline-block; width:32%; padding: 0 11px;}
+.jeonju_plants .models .img_wrap .models_list li{float:none; margin-left:0;}
+.jeonju_plants .models .img_wrap .models_list li:first-child{margin-left:0;}
+.jeonju_plants .cont_row .graph_wrap {margin:40px 5px 60px 5px;}
+.jeonju_plants .graph_wrap .graph_wrap_li li{float:none;}
+.jeonju_plants .graph_wrap .graph_wrap_li li{margin-left:0; margin-bottom:12px;}
+.jeonju_plants .graph_wrap .graph_wrap_li li:last-child{margin-bottom:0;}
+.jeonju_plants .graph_wrap .graph_wrap_li img{width:100%;}
+.jeonju_plants .process_guide.md {width: auto; margin-right: 10px;margin-left: 10px;}
+.jeonju_plants .process_guide .thumb_boardlist.view_list .board_list .img_wrap { float: none; max-width: none; width: 100%; height: auto; max-height: none; }
+.jeonju_plants .process_guide .thumb_boardlist.view_list .board_list .txt_wrap { padding:28px 0 0 20px; margin:0; }
+.jeonju_plants .network_info {margin-top:55px;}
+.jeonju_plants .network_info:first-child {margin-top:0;}
+.jeonju_plants .network_info:after {content:''; display:table; clear:both;}
+.jeonju_plants .network_info .txt_wrap {position:relative; float:none; width:auto; z-index:5;}
+.jeonju_plants .network_info .txt_wrap .inner {display:table; width:100%; height:100%;}
+.jeonju_plants .network_info .txt_wrap .align_cont {display:table-cell; padding:28px 20px 96px 20px; word-break:break-all;}
+.jeonju_plants .network_info .txt_wrap .align_cont .phone_info {padding-top:4px;}
+.jeonju_plants .network_info .txt_wrap .align_cont dl {padding-top:8px;}
+.jeonju_plants .network_info .txt_wrap .align_cont dt { width:70px;}
+.jeonju_plants .network_info .txt_wrap .align_cont dd {margin-left:70px;}
+.jeonju_plants .network_info .txt_wrap .align_cont .site_info dd {padding-top:4px;}
+.jeonju_plants .network_info .txt_wrap .align_cont .btn_wrap {position:absolute; right:20px; bottom:28px; left:20px; width:auto; padding:0; z-index:10;}
+.jeonju_plants .network_info .txt_wrap .align_cont .btn_wrap .ico {right:12px;}
+.jeonju_plants .network_info .img_wrap {float:none; max-width:none; width:100%; height:auto; max-height:none;}
+.jeonju_plants .network_info .img_wrap .align_cont:after {content:''; display:block; padding-top:56.25%;}
+.jeonju_plants .network_info .img_wrap img {max-width:100%;}
+
+/* Global Plants */
+.global_plants {}
+.global_plants .cont_row:first-child .contModule.cont_h2 {}
+.global_plants .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+.global_plants .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:none; font-size:28px; line-height:33px;}
+.global_plants .cont_row:first-child .contModule.cont_h2 .txt {max-width:none; padding-top:8px;}
+.global_plants .movie_cont {margin-top:20px;}
+.global_plants .contModule.cont_h2 .img_wrap .align_cont.movie {position:relative; padding-top:61.7283%;}
+.global_plants i.ico.video {width:40px; height:40px;}
+.global_plants i.ico.video:after {margin:-22px 0 0 0;}
+.global_plants .dev_process {padding:60px 0;}
+.global_plants .dev_process .module {max-width:1200px; margin:0 10px;}
+.global_plants .dev_process .header {text-align:center;}
+.global_plants .dev_process .tab_wrap {padding-top:24px;}
+.global_plants .dev_process .tab_wrap .tab_depth1 {top:74px; z-index:15;}
+.global_plants .dev_process .timeline_year {padding:24px 0 0 0;}
+.global_plants .dev_process .timeline_year .h2_tit {color:#EAEAEA;}
+.global_plants .dev_process .timeline_year .h2_tit span {color:#000;}
+.global_plants .dev_process .timeline_year .month_list {position:relative; padding-top:24px; color:#000;}
+.global_plants .dev_process .timeline_year .month_list:before,
+.global_plants .dev_process .timeline_year .month_list:after {content:''; position:absolute;}
+.global_plants .dev_process .timeline_year .month_list:before {top:29px; left:24px; width:10px; height:10px; border-radius:50%; background-color:#35719E; z-index:5;}
+.global_plants .dev_process .timeline_year .month_list:after {top:29px; bottom:-30px; left:28px; width:2px; background-color:#E0E0E0;}
+.global_plants .dev_process .timeline_year .month_list:first-child {padding-top:16px;}
+.global_plants .dev_process .timeline_year .month_list:first-child:before {top:21px;}
+.global_plants .dev_process .timeline_year .month_list:last-child:after {display:none;}
+.global_plants .dev_process .timeline_year .month_list .month {float:left; width:18.8059%; font-size:18px; font-family:'HyundaiSansHeadKRBold'; line-height:23px;}
+.global_plants .dev_process .timeline_year .month_list .month_info {margin-left:18.8059%; padding-bottom:16px; font-size:14px; line-height:19px;}
+.global_plants .dev_process .timeline_year .month_list .month_info:last-child {padding-bottom:0;}
+.global_plants .dev_process .timeline_year .month_list .month_info .date {color:#000; font-size:14px; font-family:'HyundaiSansTextKRBold'; line-height:19px;}
+.global_plants .dev_process .timeline_year .month_list .month_info .txt {}
+.global_plants .main_plants.md {width: auto;}
+.global_plants .main_plants .thumb_boardlist.view_list .board_list .img_wrap { float: none; max-width: none; width: 100%; height: auto; max-height: none; }
+.global_plants .main_plants .thumb_boardlist.view_list .board_list .txt_wrap { padding:28px 0 0 20px; margin:0; }
+
+/* Commercial Vehicle History */
+.vehicle_history {}
+.vehicle_history .cont_row:first-child .contModule.cont_h2 {}
+.vehicle_history .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+.vehicle_history .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:none; font-size:28px; line-height:33px;}
+.vehicle_history .cont_row:first-child .contModule.cont_h2 .txt {max-width:none; padding-top:8px;}
+.vehicle_history .historyKey_wrap {position:relative; padding-bottom:31.282%; background:url('/kr/images/brand/bg_history-key-text-m.jpg') no-repeat bottom center; background-size:contain;}
+.vehicle_history .historyKey_wrap .inner {position:static;}
+.vehicle_history .historyKey_wrap .header {padding:60px 10px 28px 10px; text-align:center;}
+.vehicle_history .historyKey_wrap .info_wrap {max-width:none; margin:0 auto; padding:0 52px; font-size:0; line-height:0; text-align:center;}
+.vehicle_history .historyKey_wrap .info_wrap dl {position:relative; display:block; width:100%; margin:0; padding:0 0 28px 0; font-size:0; line-height:0; text-align:left;vertical-align:top;}
+.vehicle_history .historyKey_wrap .info_wrap dl:first-child {padding-left:0;}
+.vehicle_history .historyKey_wrap .info_wrap dl:last-child {padding-bottom:0;}
+.vehicle_history .historyKey_wrap .info_wrap dl:after {display:none; content:''; position:absolute; top:0; right:0; width:1px; height:109px; background-color:#E8E8E8; transform:rotate(25deg);}
+.vehicle_history .historyKey_wrap .info_wrap dl:last-child:after {display:none;}
+/*.vehicle_history .historyKey_wrap .info_wrap dt {display:inline-block; width:38%; color:#ccc; font-size:32px; font-family:'HyundaiSansHeadKRBold'; line-height:37px; vertical-align:middle;}*/
+.vehicle_history .historyKey_wrap .info_wrap dt {display:inline-block; width:38%; color:#666; font-size:32px; font-family:'HyundaiSansHeadKRBold'; line-height:37px; vertical-align:middle;} /* 180717_웹접근성 수정 */
+.vehicle_history .historyKey_wrap .info_wrap dd {display:inline-block; width:62%; padding-top:0; font-size:14px; line-height:19px; vertical-align:middle;}
+
+.vehicle_history .inpageNavi_wrap {height:60px;}
+.vehicle_history .inpageNavi_wrap .inpageNavi {width:100%; height:60px; background-color:#fff;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner {position:relative; max-width:none; height:60px; margin:0 auto; padding:0 20px;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .title {position:absolute; top:0; left:24px; width:13%; font-size:18px; font-family:'HyundaiSansHeadKRBold'; line-height:60px; text-align:left;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .menu_wrap {margin-left:16%;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .menu_wrap .btn_open {display:block;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .menu_wrap .btn_open button {position:relative; width:100%; height:60px; padding:0 50px 0 20px; color:#35719E; font-size:14px; font-family:'HyundaiSansTextKRBold'; line-height:60px; text-align:right;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .menu_wrap .btn_open button:after {content:''; position:absolute; top:50%; right:0; width:40px; height:40px; margin-top:-20px; background:url('/kr/images/common/icon_all_s.svg') no-repeat -120px 0; background-size:400px 400px;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap {position:static; padding:0;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow {display:none; position:absolute; top:20px;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.prev {left:0;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.prev .ico:after {background-position:-560px -250px;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.next {right:0;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.next .ico:after {background-position:-600px -250px;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .year_list {position:static; height:40px; margin:0; overflow:visible;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .list_wrap {position:static; margin:0; font-size:0; line-height:0;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .list_wrap:after {content:''; display:table; clear:both;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .list {display:none; position:absolute; top:60px; right:0; left:0; max-height:200px; z-index:5; background-color:#35719E; overflow-y:scroll; -webkit-overflow-scrolling:touch;}
+/* 190401_1 수정 */
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .item {display:block; width:auto; padding:20px 0 0 0; text-align:center;}
+/* //190401_1 수정 */
+/*.vehicle_history .inpageNavi_wrap .inpageNavi_inner .item a {display:block; padding:0 5px; color:#5185AA; font-size:20px; font-family:'HyundaiSansTextKRBold'; line-height:25px; text-decoration:none;}*/
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .item a {display:block; padding:0 5px; color:#fff; font-size:20px; font-family:'HyundaiSansTextKRBold'; line-height:25px; text-decoration:none;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .item.on a {color:#fff;}
+
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .list_wrap.open .btn_open button:after {background-position:-160px 0;}
+.vehicle_history .inpageNavi_wrap .inpageNavi_inner .list_wrap.open .list {display:block;min-width: 100% !important;transform:none !important;} /* 191224 modify*/
+
+.vehicle_history .inpageNavi_wrap.fixed .inpageNavi {position:fixed; top:0; left:0;}
+
+.vehicle_history .history_wrap {padding-bottom:31px;}
+.vehicle_history .historyList {max-width:1200px; margin:0 auto;}
+.vehicle_history .historyList .history_year {padding-top:24px; text-align:center;}
+.vehicle_history .historyList .history_year:first-child {padding-top:32px;}
+/* 190729 */
+.vehicle_history .historyList .history_year .h3_tit {color:#737373; font-size:24px; line-height:27px;}
+/* // 190729 */
+.vehicle_history .historyList .history_year .h3_tit span {color:#000;}
+.vehicle_history .historyList .history_year .car_list {position:relative; max-width:914px; margin:7px auto 0 auto; padding:2px 50px 19px 50px; font-size:0; line-height:0;}
+.vehicle_history .historyList .history_year .car_list.cols3 {max-width:1280px; padding:2px 0 0 0;}
+.vehicle_history .historyList .history_year .car_list.cols3 .car_info_wrap {float:none; width:33.3333%; padding:0;}
+.vehicle_history .historyList .history_year .car_list.cols3 .car_info_wrap .img_wrap {max-width:none; margin:0 auto;}
+.vehicle_history .historyList .history_year .car_list:after {content:''; display:table; clear:both;}
+.vehicle_history .historyList .history_year .car_list:before {content:''; position:absolute; top:0; left:50%; width:1px; height:100%; background-color:#E0E0E0;}
+.vehicle_history .historyList .history_year .car_list.cols3:before {display:none; top:auto; bottom:0; height:72px;}
+/*.vehicle_history .historyList .history_year .car_list.cols3 .car_info_wrap {width:auto;}*/
+
+.vehicle_history .historyList .history_year .car_list .car_info_wrap {position:relative; display:inline-block; overflow:hidden; vertical-align:top;}
+.vehicle_history .historyList .history_year .car_list .left_car {float:left; width:50%; margin-right:0; padding-right:17px;}
+.vehicle_history .historyList .history_year .car_list .left_car.btm {margin-top:15px;} /* 181221 추가 */
+.vehicle_history .historyList .history_year .car_list .left_car.btm2 {margin-top:70px;} /* 190329 추가 */
+.vehicle_history .historyList .history_year .car_list .right_car {float:right; width:50%; margin-left:0; padding-left:17px;}
+/* 190329 추가 */
+.vehicle_history .historyList .history_year .car_list .car_left_wrap .left_car {width:auto;}
+.vehicle_history .historyList .history_year .car_list .car_right_wrap .right_car {width:auto;}
+/* //190329 추가 */
+.vehicle_history .historyList .history_year .car_list .car_info {position:relative; opacity:0;}
+.vehicle_history .historyList .history_year .car_list .car_info .img_wrap img {max-width:100%; width:100%;}
+.vehicle_history .historyList .history_year .car_list .car_info .txt_wrap .h4_tit {font-size:14px; font-family:'HyundaiSansHeadKRBold'; line-height:19px;}
+.vehicle_history .historyList .history_year .car_list .car_info .txt_wrap .h4_tit span {padding-bottom:2px; font-size:12px;}/* 190329 추가 */
+.vehicle_history .historyList .history_year .car_list .car_info .txt_wrap .txt {padding-top:6px; color:#666; font-size:10px; line-height:12px;}/* 190329 수정 */
+.vehicle_history .historyList .history_year .car_list .car_info .txt_wrap.point .h4_tit em {padding:0 14px; background-color:#35719E; color:#fff; line-height:20px;}/* 190329 수정 */
+.vehicle_history .historyList .history_year .car_list .left_car .car_info {right:-100%; -ms-transition:right 0.5s linear 0s, opacity 0.5s ease 0s; -o-transition:right 0.5s linear 0s, opacity 0.5s ease 0s; -moz-transition:right 0.5s linear 0s, opacity 0.5s ease 0s; -webkit-transition:right 0.5s linear 0s, opacity 0.5s ease 0s; transition:right 0.5s linear 0s, opacity 0.5s ease 0s;}
+.vehicle_history .historyList .history_year .car_list .right_car.btm {margin-top:75px;}
+.vehicle_history .historyList .history_year .car_list .right_car.btm2 {margin-top:20px;}/* 190329 추가 */
+.vehicle_history .historyList .history_year .car_list .right_car .car_info {left:-100%; -ms-transition:left 0.5s linear 0.5s, opacity 0.5s ease 0.5s; -o-transition:left 0.5s linear 0.5s, opacity 0.5s ease 0.5s; -moz-transition:left 0.5s linear 0.5s, opacity 0.5s ease 0.5s; -webkit-transition:left 0.5s linear 0.5s, opacity 0.5s ease 0.5s;}
+
+.vehicle_history .historyList #year1988.history_year .car_list .right_car .car_info .txt_wrap.point {padding-top:8px;}
+
+.vehicle_history .historyList .history_year.on .car_list .left_car .car_info {right:0; opacity:1;}
+.vehicle_history .historyList .history_year.on .car_list .right_car .car_info {left:0; opacity:1;}
+
+.modern_premium .contModule.cont_h2.manifesto_cont .txt_wrap:first-child .align_cont { padding: 56px 41px 20px;} /*191029 add*/
+.modern_premium .contModule.cont_h2.manifesto_cont .txt_wrap .align_cont { padding: 25px 41px 20px; } /*191029 add*/
+}
+
+
+
+/* kr rnd_center */
+.rnd_center .hmcCv_center .header .h3_tit {max-width:890px; margin:0 auto;}
+
+/* kr modern_premium*/
+.modern_premium .txt_box { width: 100%;padding: 50px 0; background-color: #35719E; text-align: center;}
+.modern_premium .txt_box p.txt_type1 span.slogan_tit {display: block; padding-bottom: 16px; font-family: 'HyundaiSansHeadKRBold'; font-size: 54px; line-height: 58px;}
+.modern_premium .txt_box p.txt_type1 {font-family: 'HyundaiSansTextRegular'; font-size: 24px; line-height: 28px; color: #fff;}
+.modern_premium .contModule.pad{padding:0;}

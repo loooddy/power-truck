@@ -1,0 +1,247 @@
+@charset "utf-8";
+/************************************************************************
+* filename : add_service.css
+* description : 2019 상용 고도화 고객서비스 css
+************************************************************************/
+
+/* 하자재발 통보서 */
+.area_failure_notice {margin-bottom:120px;}
+.area_failure_notice .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.area_failure_notice .introduce .info_wrap p {margin-top:18px;}
+.area_failure_notice .btn_wrap {text-align:center;}
+.area_failure_notice .introduce .btn_wrap {margin-top:42px; text-align:center;}
+.area_failure_notice .introduce .notice_wrap ol + h4 {margin-top:32px;}
+.area_failure_notice .introduce .notice_wrap ol {margin-top:10px;}
+.area_failure_notice .introduce .notice_wrap {margin-top:80px; padding:32px 40px; background:#f8f8f8;}
+.area_failure_notice .introduce .notice_wrap li {padding-left:20px; color:#666; text-indent:-20px; word-break:keep-all;}
+.area_failure_notice .introduce .notice_wrap li:before {display:none;}
+.area_failure_notice .introduce .notice_wrap li .sub {padding-left:20px; text-indent:-20px;}
+
+.area_failure_notice .step_process {background:#f8f8f8;}
+.area_failure_notice .request {}
+.area_failure_notice .request .turn {height:62px; margin:40px 0; padding-left:20px; background:#002b5e; color:#fff; font-size:22px; line-height:62px; text-align:center;}
+.area_failure_notice .request .required_noti {margin-bottom:-20px; text-align:right;}
+.area_failure_notice .request .required_noti span {position:relative; padding-left:14px; font-size:22px;}
+.area_failure_notice .request .required_noti span::after {content:''; position:absolute; top:50%; left:0; width:6px; height:6px; margin-top:-3px; border-radius:50%; background:#eb3323;}
+.area_failure_notice .request .input_form:first-child {margin-top:40px; padding-top:30px; border-top:2px solid #264c74;}
+.area_failure_notice .request .input_form + .input_form {margin-top:0; padding-top:0; border-top:none;}
+.area_failure_notice .request .input_form dd .input_txt {margin-bottom:40px;}
+.area_failure_notice .request .input_form dd .input_txt.zip {margin-bottom:16px;}
+.area_failure_notice .request .input_form dd .input_txt.zip + .input_txt {margin-bottom:16px;}
+.area_failure_notice .request .input_form dd .input_txt textarea {height:200px;}
+.area_failure_notice .request .input_form dd .notice_wrap {margin-left:0;}
+.area_failure_notice .request .input_form.col2 li:last-child dd .input_txt {margin-bottom:10px;}
+.area_failure_notice .request .input_form .desc {margin-bottom:30px; color:#666; font-size:16px;}
+.area_failure_notice .request .input_form.question {padding-top:36px; border-top:1px solid #d0d0d0; border-bottom:1px solid #d0d0d0;}
+.area_failure_notice .request .input_form.question dl {padding-left:304px;}
+.area_failure_notice .request .input_form.question dt {width:304px;}
+.area_failure_notice .request .input_form.question .rad_wrap + .rad_wrap {margin-left:80px;}
+.area_failure_notice .request .input_form.question .input_txt {display:inline-block; width:150px; height:50px; min-height:50px; margin-top:5px; margin-bottom:30px;}
+.area_failure_notice .request .input_form.question .input_txt input {width:80px; height:50px;}
+.area_failure_notice .request .input_form.question + .agreement {margin-top:10px;}
+.area_failure_notice .request .input_form.question + .agreement .txt {color:#666; font-size:16px; line-height:26px;}
+.area_failure_notice .request .input_form.question + .agreement .chk_wrap {margin-top:10px;font-size:22px; line-height:36px;}
+.area_failure_notice .request .input_form.question + .agreement .chk_wrap label {padding-left:56px; font-size:22px; line-height:inherit;}
+.area_failure_notice .request .input_form.question + .agreement .chk_wrap label:after {width:36px; height:36px; border-width:1px;}
+.area_failure_notice .request .input_form.question + .agreement .chk_wrap label:before {width:22px; height:22px; margin:7px;}
+.area_failure_notice .request .input_form.question + .agreement .chk_wrap .link {display:inline-block; margin-left:10px; font-weight:bold; line-height:inherit; position:relative; top:1px;}
+.area_failure_notice .request .input_form.question + .agreement .chk_wrap .link:after {content:'>'; display:inline-block; margin-left:5px;}
+.area_failure_notice .request .rad_wrap label {padding-left:50px; font-size:22px; line-height:36px;}
+.area_failure_notice .request .rad_wrap input+label:before {border-width:2px; width:36px; height:36px;}
+.area_failure_notice .request .rad_wrap input:checked+label:before {border-color:#35719e;}
+.area_failure_notice .request .rad_wrap input:checked+label:after {left:0; top:0; width:22px; height:22px; margin:7px;}
+.area_failure_notice .request .input_form .txt_counter {position:absolute; right:0; bottom:-28px; color:#666; font-size:16px; line-height:28px; text-align:right;}
+.area_failure_notice .introduce .info_wrap .btn_wrap {text-align:left; margin: 10px 0 20px;}/*191015 add*/
+.area_failure_notice .introduce .info_wrap .btn_wrap .btn { height: 40px; font-size: 16px; font-family: 'HyundaiSansTextKRRegular'; padding: 0 60px 0 28px; line-height: 40px;}/*191015 add*/
+.area_failure_notice .request .input_form + .notice_wrap {margin:0 0 40px 13.63%;}
+.area_failure_notice .request .notice_wrap li {padding-left:20px; color:#666; font-size:16px; text-indent:-20px; word-break: keep-all;}
+.area_failure_notice .request .notice_wrap li:before {display:none;}
+.area_failure_notice .request .notice_wrap li .link {color:#000; font-weight:bold; }
+.area_failure_notice .request .notice_wrap li .link:after {content:'>'; display:inline-block; margin-left:5px; text-indent:0;}
+.area_failure_notice .request .btn_wrap {padding-top:50px; border-top:1px solid #d0d0d0;}
+.area_failure_notice .request .btn_wrap .btn {height:60px; line-height:60px;}
+.area_failure_notice .request .btn_wrap.last {border-top:none;}
+.area_failure_notice .request .btn_wrap + .notice_wrap {margin:100px 40px 0 40px; padding:32px 40px; background:#f8f8f8;}
+.area_failure_notice .request .btn_wrap + .notice_wrap ul {margin-top:0;}
+.area_failure_notice .request .btn_wrap + .notice_wrap .list_dot li {position:relative; margin:0; padding-left:11px; font-size:18px; line-height:32px; color:#666; text-indent:0;}
+.area_failure_notice .request .btn_wrap + .notice_wrap .list_dot li:after {content:''; display:block; position:absolute; top:15px; left:2px; width:2px; height:2px; background:#666;}
+
+.vehicle_registration_layer {display:none; opacity:1 !important; position:relative; width:900px; padding:66px 60px 60px; background-color:#fff; box-shadow:0 4px 10px 0 rgba(0, 0, 0, 0.50);}
+.vehicle_registration_layer .h5_tit {margin-bottom:20px; font-size:36px; line-height:44px; text-align:center;}
+.vehicle_registration_layer .vehicle_registration_layer_wrap {}
+.vehicle_registration_layer .vehicle_registration_layer_wrap .img_wrap {border:1px solid #e8e8e8; padding:80px 58px;}
+.vehicle_registration_layer .vehicle_registration_layer_wrap .img_wrap img {width:100%; height:auto;}
+.vehicle_registration_layer .vehicle_registration_layer_wrap .txt_wrap {margin-top:20px; color:#666; font-size:16px; line-height:26px;}
+.vehicle_registration_layer .vehicle_registration_layer_wrap .txt_wrap strong {color:#000;}
+.vehicle_registration_layer .vehicle_registration_layer_wrap .btn_wrap {margin-top:20px; text-align:center;}
+.vehicle_registration_layer .btn_close {position:absolute; top:0; right:0; width:80px; height:80px;}
+.vehicle_registration_layer .btn_close button {position:relative; width:80px; height:80px;}
+.vehicle_registration_layer .btn_close button:after {content:''; position:absolute; top:0; left:0; width:80px; height:80px; background:url('/kr/images/common/img_footer.svg') no-repeat 0 -58px;}
+
+.privacy_layer {display:none; opacity:1 !important; position:relative; width:900px; padding:66px 60px 60px; background-color:#fff; box-shadow:0 4px 10px 0 rgba(0, 0, 0, 0.50);}
+.privacy_layer .h5_tit {margin-bottom:20px; font-size:36px; line-height:44px; text-align:center;}
+.privacy_layer .privacy_layer_wrap .txt_wrap {margin-top:20px; font-size:18px; line-height:28px;}
+.privacy_layer .privacy_layer_wrap .scroll_wrap {height:300px; margin-top:13px; border:1px solid #e8e8e8; padding:30px 58px; overflow:auto}
+.privacy_layer .privacy_layer_wrap .scroll_wrap p {color:#666; font-size:16px; line-height:22px;}
+.privacy_layer .privacy_layer_wrap .btn_wrap {margin-top:50px; text-align:center;}
+.privacy_layer .btn_close {position:absolute; top:0; right:0; width:80px; height:80px;}
+.privacy_layer .btn_close button {position:relative; width:80px; height:80px;}
+.privacy_layer .btn_close button:after {content:''; position:absolute; top:0; left:0; width:80px; height:80px; background:url('/kr/images/common/img_footer.svg') no-repeat 0 -58px;}
+
+.failure_request_layer {display:none; opacity:1 !important; position:relative; width:600px; padding:66px 60px 60px; background-color:#fff; box-shadow:0 4px 10px 0 rgba(0, 0, 0, 0.50);}
+.failure_request_layer .h5_tit {margin-bottom:20px; font-size:24px; line-height:34px; text-align:center;}
+.failure_request_layer .failure_request_layer_wrap {}
+.failure_request_layer .failure_request_layer_wrap .txt_wrap {margin-top:20px; color:#666; font-size:16px; text-align:center; line-height:26px;}
+.failure_request_layer .failure_request_layer_wrap .btn_wrap {margin-top:32px; text-align:center;}
+.failure_request_layer .failure_request_layer_wrap .btn_wrap .btn {width:140px; min-width:100px;}
+.failure_request_layer .btn_close {position:absolute; top:0; right:0; width:80px; height:80px;}
+.failure_request_layer .btn_close button {position:relative; width:80px; height:80px;}
+.failure_request_layer .btn_close button:after {content:''; position:absolute; top:0; left:0; width:80px; height:80px; background:url('/kr/images/common/img_footer.svg') no-repeat 0 -58px;}
+
+.nologin_layer {display:none; opacity:1 !important; position:relative; width:600px; padding:66px 60px 60px; background-color:#fff; box-shadow:0 4px 10px 0 rgba(0, 0, 0, 0.50);}
+.nologin_layer .h5_tit {margin-bottom:20px; font-size:24px; line-height:34px; text-align:center;}
+.nologin_layer .btn_wrap {margin-top:32px; text-align:center;}
+.nologin_layer .btn_close {position:absolute; top:0; right:0; width:80px; height:80px;}
+.nologin_layer .btn_close button {position:relative; width:80px; height:80px;}
+.nologin_layer .btn_close button:after {content:''; position:absolute; top:0; left:0; width:80px; height:80px; background:url('/kr/images/common/img_footer.svg') no-repeat 0 -58px;}
+
+/* Tablet */
+@media only screen and (min-width:768px) and (max-width: 1279px) {
+  .area_failure_notice {margin-bottom:90px;}
+  .area_failure_notice .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+  .area_failure_notice .introduce .info_wrap p {margin-top:18px;}
+  .area_failure_notice .introduce .btn_wrap {margin-top:42px; text-align:center;}
+  .area_failure_notice .introduce .notice_wrap ol + h4 {margin-top:32px;}
+  .area_failure_notice .introduce .notice_wrap ol {margin-top:10px;}
+  .area_failure_notice .introduce .notice_wrap {margin-top:80px; padding:32px 40px; background:#f8f8f8;}
+  .area_failure_notice .introduce .notice_wrap li {padding-left:20px; text-indent:-20px;}
+  .area_failure_notice .introduce .notice_wrap li:before {display:none;}
+  .area_failure_notice .introduce .notice_wrap li .sub {padding-left:20px; text-indent:-20px;}
+  .area_failure_notice .request .turn {height:42px; line-height:42px; font-size:18px;}
+  .area_failure_notice .request .input_form dd .input_txt {margin-bottom:30px;}
+  .area_failure_notice .request .input_form .input_txt.unit .unit {top:16px; margin-top:0;}
+  .area_failure_notice .request .input_form .desc {margin-right:-200px;}
+  .area_failure_notice .request .input_form.question dl {padding-left:220px;}
+  .area_failure_notice .request .input_form.question dt {width:220px;}
+  .area_failure_notice .request .input_form.question .input_txt {margin-top:0;}
+  .area_failure_notice .request .input_form.question .input_txt input {height:40px;}
+  .area_failure_notice .request .input_form.question + .agreement .chk_wrap {margin-top:10px;font-size:18px; line-height:32px;}
+  .area_failure_notice .request .input_form.question + .agreement .chk_wrap label {padding-left:48px; font-size:18px;}
+  .area_failure_notice .request .input_form.question + .agreement .chk_wrap label:after {width:30px; height:30px; border-width:1px;}
+  .area_failure_notice .request .input_form.question + .agreement .chk_wrap label:before {width:20px; height:20px; margin:5px;}
+  .area_failure_notice .request .rad_wrap label {padding-left:48px; font-size:18px; line-height:30px;}
+  .area_failure_notice .request .rad_wrap input+label:before {border-width:1px; width:30px; height:30px;}
+  .area_failure_notice .request .rad_wrap input:checked+label:before {border-color:#35719e;}
+  .area_failure_notice .request .rad_wrap input:checked+label:after {left:0; top:0; width:20px; height:20px; margin:5px;}
+
+  .area_failure_notice .request .required_noti {margin-bottom:-20px; text-align:right;}
+  .area_failure_notice .request .required_noti span {position:relative; padding-left:10px; font-size:18px;}
+  .area_failure_notice .request .required_noti span::after {content:''; position:absolute; top:50%; left:0; width:6px; height:6px; margin-top:-3px; border-radius:50%; background:#eb3323;}
+
+  .area_failure_notice .request .btn_wrap .btn {height:50px; line-height:50px;}
+}
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .area_failure_notice {margin-bottom:60px;}
+  .area_failure_notice .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+  .area_failure_notice .introduce .info_wrap p {margin-top:18px;}
+  .area_failure_notice .introduce .info_wrap p:first-child {margin-top:0;}
+  .area_failure_notice .introduce .btn_wrap {margin-top:20px; text-align:center;}
+  .area_failure_notice .introduce .info_wrap .btn_wrap { text-align:center; margin: 20px 0 0; }/*191015 add*/
+  .area_failure_notice .introduce .info_wrap .btn_wrap .btn {  font-size: 14px; padding: 0 45px 0 20px;}/*191015 add*/
+  .area_failure_notice .introduce .notice_wrap {margin-top:40px; padding:30px 10px;}
+  .area_failure_notice .introduce .notice_wrap ol + h4 {margin-top:20px;}
+  .area_failure_notice .introduce .notice_wrap ol {margin-top:10px;}
+  .area_failure_notice .introduce .notice_wrap li {padding-left:17px; text-indent:-17px;}
+  .area_failure_notice .introduce .notice_wrap li:before {display:none;}
+  .area_failure_notice .introduce .notice_wrap li .sub {padding-left:0; text-indent:0;}
+
+  .area_failure_notice .contModule.cont_h3tit .txt_wrap .align_cont {padding:30px 10px 20px 10px}
+  .area_failure_notice .request .turn {height:40px; margin:30px 0 0 0; padding-left:0; font-size:14px; line-height:40px; text-align:center;}
+  .area_failure_notice .request .required_noti {margin-bottom:-10px; text-align:right;}
+  .area_failure_notice .request .required_noti span {position:relative; padding-left:10px; font-size:16px;}
+  .area_failure_notice .request .required_noti span::after {content:''; position:absolute; top:50%; left:0; width:6px; height:6px; margin-top:-3px; border-radius:50%; background:#eb3323;}
+  .area_failure_notice .request .input_form:first-child {margin-top:20px; padding-top:15px; border-top:1px solid #d0d0d0;}
+  .area_failure_notice .request .input_form + .input_form {margin-top:0; padding-top:0; border-top:none;}
+  .area_failure_notice .request .input_form dd .input_txt {margin-bottom:8px;}
+  .area_failure_notice .request .input_form dd .input_txt textarea {height:120px;}
+  .area_failure_notice .request .input_form dd .notice_wrap {margin-left:0;}
+  .area_failure_notice .request .input_form.col2 li:last-child dd .input_txt {margin-bottom:10px;}
+  .area_failure_notice .request .input_form .desc {margin-bottom:5px; color:#666; font-size:12px;}
+  .area_failure_notice .request .input_form.question {margin-top:30px; padding-top:0; border-top:1px solid #d0d0d0; border-bottom:1px solid #d0d0d0;}
+  .area_failure_notice .request .input_form.question dl {padding-left:0;}
+  .area_failure_notice .request .input_form.question dt {width:100%;}
+  .area_failure_notice .request .input_form.question .input_txt {display:inline-block; width:130px; margin-bottom:15px;}
+  .area_failure_notice .request .input_form.question .input_txt input {width:78px; height:40px;}
+  .area_failure_notice .request .input_form.question + .agreement {margin-top:10px;}
+  .area_failure_notice .request .input_form.question + .agreement .txt {color:#666; font-size:12px; line-height:18px;}
+  .area_failure_notice .request .input_form.question + .agreement .chk_wrap {margin-top:10px;font-size:14px; line-height:21px;}
+  .area_failure_notice .request .input_form.question + .agreement .chk_wrap label {min-height:20px; padding-left:30px; font-size:14px;}
+  .area_failure_notice .request .input_form.question + .agreement .chk_wrap label:after {width:20px; height:20px; border-width:1px;}
+  .area_failure_notice .request .input_form.question + .agreement .chk_wrap label:before {width:10px; height:10px; margin:5px;}
+  .area_failure_notice .request .input_form.question + .agreement .chk_wrap .link {font-weight:bold;}
+  .area_failure_notice .request .input_form.question + .agreement .chk_wrap .link:after {content:'>'; display:inline-block; margin-left:3px;}
+  .area_failure_notice .request .rad_wrap label {padding-left:27px; font-size:14px; line-height:18px;}
+  .area_failure_notice .request .rad_wrap input+label:before {border-width:1px; width:18px; height:18px;}
+  .area_failure_notice .request .rad_wrap input:checked+label:before {border-color:#35719e;}
+  .area_failure_notice .request .rad_wrap input:checked+label:after {left:0; top:0; width:8px; height:8px; margin:5px;}
+  .area_failure_notice .request .input_form .txt_counter {position:absolute; right:0; bottom:-17px; color:#666; font-size:12px; line-height:17px; text-align:right;}
+
+  .area_failure_notice .request .input_form + .notice_wrap {margin:0 0 15px 0;}
+  .area_failure_notice .request .notice_wrap li {padding-left:18px; color:#666; font-size:12px; text-indent:-18px; word-break: keep-all;}
+  .area_failure_notice .request .notice_wrap li:before {display:none;}
+  .area_failure_notice .request .notice_wrap li .link {color:#000; font-weight:bold; }
+  .area_failure_notice .request .notice_wrap li .link:after {content:'>'; display:inline-block; margin-left:5px; text-indent:0;}
+  .area_failure_notice .request .btn_wrap {margin-top:13px; padding-top:40px; border-top:1px solid #d0d0d0;}
+  .area_failure_notice .request .btn_wrap.last {margin-top:0;border-top:none;}
+  .area_failure_notice .request .btn_wrap .btn {height:50px; line-height:50px; width:100%; margin-bottom:8px;}
+  .area_failure_notice .request .btn_wrap + .notice_wrap {margin:40px -10px 0 -10px; padding:30px 20px;}
+  .area_failure_notice .request .btn_wrap + .notice_wrap ul {margin-top:0;}
+  .area_failure_notice .request .btn_wrap + .notice_wrap .list_dot li {position:relative; margin:0; padding-left:11px; font-size:14px; line-height:23px; color:#666; text-indent:0;}
+  .area_failure_notice .request .btn_wrap + .notice_wrap .list_dot li:after {content:''; display:block; position:absolute; top:11px; left:2px; width:2px; height:2px; background:#666;}
+
+  .vehicle_registration_layer {position:fixed; top:0; left:0; width:94%; margin:0; padding:60px 0 60px 0; background-color:#fff; visibility:visible;}
+  .vehicle_registration_layer .scroll_wrap {height:487px; overflow:hidden; overflow-y:auto;}
+  .vehicle_registration_layer .h5_tit {padding:0 40px; font-size:28px; line-height:33px; text-align:center;}
+  .vehicle_registration_layer .vehicle_registration_layer_wrap {margin:0 20px;}
+  .vehicle_registration_layer .vehicle_registration_layer_wrap .img_wrap {height:260px; border:1px solid #e8e8e8; padding:10px 10px; text-align:center; overflow:auto; -webkit-overflow-scrolling:touch;}
+  .vehicle_registration_layer .vehicle_registration_layer_wrap .img_wrap img {width:auto; height:100%;}
+  .vehicle_registration_layer .vehicle_registration_layer_wrap .txt_wrap {margin-top:5px; color:#666; font-size:14px; line-height:21px;}
+  .vehicle_registration_layer .vehicle_registration_layer_wrap .txt_wrap strong {color:#000;}
+  .vehicle_registration_layer .vehicle_registration_layer_wrap .btn_wrap {margin-top:32px; text-align:center;}
+  .vehicle_registration_layer .btn_close {position:absolute; top:0; right:0; width:40px; height:40px;}
+	.vehicle_registration_layer .btn_close button {position:relative; width:40px; height:40px;}
+	.vehicle_registration_layer .btn_close button:after {content:''; position:absolute; top:0; left:0; width:40px; height:40px; background:url('/kr/images/common/img_footer_s.svg') no-repeat -36px 6px; background-size:400px 400px;}
+
+  .privacy_layer {position:fixed; top:0; left:0; width:94%; margin:0; padding:60px 0 60px 0; background-color:#fff; visibility:visible;}
+  .privacy_layer .scroll_wrap {height:487px; overflow:hidden; overflow-y:auto;}
+  .privacy_layer .h5_tit {padding:0 40px; font-size:28px; line-height:33px; text-align:center;}
+  .privacy_layer .privacy_layer_wrap {margin:0 20px;}
+  .privacy_layer .privacy_layer_wrap .txt_wrap {margin-top:20px; font-size:14px; line-height:21px;}
+  .privacy_layer .privacy_layer_wrap .scroll_wrap {height:210px; margin-top:5px; border:1px solid #e8e8e8; padding:30px 20px; overflow:auto;-webkit-overflow-scrolling:touch;}
+  .privacy_layer .privacy_layer_wrap .scroll_wrap p {color:#666; font-size:14px; line-height:21px;}
+  .privacy_layer .privacy_layer_wrap .btn_wrap {margin-top:20px; text-align:center;}
+  .privacy_layer .btn_close {position:absolute; top:0; right:0; width:40px; height:40px;}
+	.privacy_layer .btn_close button {position:relative; width:40px; height:40px;}
+	.privacy_layer .btn_close button:after {content:''; position:absolute; top:0; left:0; width:40px; height:40px; background:url('/kr/images/common/img_footer_s.svg') no-repeat -36px 6px; background-size:400px 400px;}
+
+  .failure_request_layer {position:fixed; top:0; left:0; width:94%; margin:0; padding:60px 0 60px 0; background-color:#fff; visibility:visible;}
+  .failure_request_layer .scroll_wrap {max-height:487px; overflow:hidden; overflow-y:auto;}
+  .failure_request_layer .h5_tit {padding:0 40px; font-size:28px; line-height:33px; text-align:center;}
+  .failure_request_layer .failure_request_layer_wrap {margin:0 20px;}
+  .failure_request_layer .failure_request_layer_wrap .txt_wrap {margin-top:20px; color:#666; font-size:16px; text-align:center; line-height:26px;}
+  .failure_request_layer .failure_request_layer_wrap .btn_wrap {margin-top:32px; text-align:center;}
+  .failure_request_layer .failure_request_layer_wrap .btn_wrap .btn {width:120px; min-width:100px;}
+  .failure_request_layer .btn_close {position:absolute; top:0; right:0; width:40px; height:40px;}
+	.failure_request_layer .btn_close button {position:relative; width:40px; height:40px;}
+	.failure_request_layer .btn_close button:after {content:''; position:absolute; top:0; left:0; width:40px; height:40px; background:url('/kr/images/common/img_footer_s.svg') no-repeat -36px 6px; background-size:400px 400px;}
+
+  .nologin_layer {position:fixed; top:0; left:0; width:94%; margin:0; padding:60px 0 60px 0; background-color:#fff; visibility:visible;}
+  .nologin_layer .scroll_wrap {max-height:487px; overflow:hidden; overflow-y:auto;}
+  .nologin_layer .h5_tit {padding:0 40px; font-size:28px; line-height:33px; text-align:center;}
+  .nologin_layer .btn_wrap {margin-top:32px; text-align:center;}
+  .nologin_layer .btn_close {position:absolute; top:0; right:0; width:40px; height:40px;}
+  .nologin_layer .btn_wrap .btn {height:40px; line-height:40px;}
+	.nologin_layer .btn_close button {position:relative; width:40px; height:40px;}
+	.nologin_layer .btn_close button:after {content:''; position:absolute; top:0; left:0; width:40px; height:40px; background:url('/kr/images/common/img_footer_s.svg') no-repeat -36px 6px; background-size:400px 400px;}
+}

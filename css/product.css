@@ -1,0 +1,1558 @@
+@charset "utf-8";
+/************************************************************************
+* filename : product.css
+* description : ?��?��?���? css
+************************************************************************/
+/* ?���?(차량 ?��?��) */
+.prdDetail_wrap {}
+.prdDetail_wrap .topCont_wrap {}
+
+/* Key Visual */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap {position:relative;}
+.prdDetail_wrap .topCont_wrap .banner_wrap .item {display:none; position:relative; overflow:hidden;}
+.prdDetail_wrap .topCont_wrap .banner_wrap .item:nth-child(1){
+display:block;
+}
+.prdDetail_wrap .topCont_wrap .ui_carousel_initialized .banner_wrap .item{
+display:block;
+}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .img_wrap img {max-width:100%; width:100%;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap {position:absolute; top:120px; left:205px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap .align_cont {max-width:890px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap dt {font-size:64px; font-family:'HyundaiSansHeadKRBold'; line-height:74px;filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color=#fff, Positive=true);/*text-shadow:0 0 2px #fff;*/zoom:1;}/*191228 modify*/
+/*.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap dd {padding-top:16px;}*/
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap dd {padding-top:16px;font-size:22px;} /* 180709_가이드 수정 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item.dark .txt_wrap dd {filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color=#000, Positive=true);text-shadow: 0 0 2px #000;zoom: 1;} /*200615 modify*/ /* 180716_가이드 추가 */
+/* .prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap .btn_wrap {padding-top:40px;} */ /*190917 delete*/
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow {position:absolute; top:50%; width:40px; height:80px; margin-top:-40px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow:after { display: none; } /* 191128 add */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow.prev {left:0;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow.next {right:0;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_prev .ico,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_next .ico {width:40px; height:80px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_prev .ico:after,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_next .ico:after {top:0; width:40px; height:80px; margin:0;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_prev .ico:after {background-position:0 0;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_next .ico:after {background-position:-40px 0;}
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_prev:hover .ico:after,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_prev:focus .ico:after {background-position:0 -80px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_next:hover .ico:after,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_next:focus .ico:after {background-position:-40px -80px;}
+
+/*.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate {position:absolute; right:0; bottom:0; left:0; height:4px; -ms-transition:height 0.5s ease; -o-transition:height 0.5s ease; -moz-transition:height 0.5s ease; -webkit-transition:height 0.5s ease; transition:height 0.5s ease;}*/
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate {position:absolute; right:0; bottom:0; left:0; height:12px; -ms-transition:height 0.5s ease; -o-transition:height 0.5s ease; -moz-transition:height 0.5s ease; -webkit-transition:height 0.5s ease; transition:height 0.5s ease;} /* 180712_수정 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate ul {height:100%; font-size:0; line-height:0;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li {display:inline-block; width:100%; height:100%;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li .indi {display:block; margin-left:1px; height:100%; background-color:rgba(0, 0, 0, 0.5);}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li .indi span {display:inline-block; height:100%; background-color:#35719E;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:first-child .indi {margin-left:0;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(2),
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(2) ~ li {
+width:50%;
+}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(3),
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(3) ~ li {
+width:33.33333333%;
+}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(4),
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(4) ~ li {
+width:25%;
+}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(5),
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(5) ~ li {
+width:20%;
+}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(6),
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(6) ~ li {
+width:16.66666666%;
+}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(7),
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(7) ~ li {
+width:14.28571428%;
+}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(8),
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(8) ~ li {
+width:12.5%;
+}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(9),
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(9) ~ li {
+width:11.11111111%;
+}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(10),
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li:nth-child(1):nth-last-child(10) ~ li {
+width:10%;
+}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap:hover .indicate,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap.hover .indicate {height:12px;}
+
+/* 롤링 배너 현재 위치 아이콘 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li.active .indi span:before{content:'';display:inline-block;margin-left:-6px;width:6px;height:12px;background-color:#F1F9FF;}
+
+/* 배너 롤링 컨트롤 버튼 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate .btn_control_wrap{position:absolute;bottom:36px;right:40px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate .btn_control_wrap button{display:inline-block;height:28px;background:url('/kr/images/common/icon_control.png') no-repeat;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate .btn_control_wrap button.play{width:70px;background-position:0 -24px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate .btn_control_wrap button.pause{width:80px;background-position:-70px -24px;}
+/*.prdDetail_wrap .topCont_wrap .ui_carousel.dark .topVisual_wrap .indicate .btn_control_wrap button.play{width:60px;background-position:0 0;}
+.prdDetail_wrap .topCont_wrap .ui_carousel.dark .topVisual_wrap .indicate .btn_control_wrap button.pause{width:76px;background-position:-60px 0;}*/
+
+/* ?��?�� ????�� 배너 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .txt_wrap dd {padding-top:40px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .txt_wrap dd.txt {padding-top:16px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap {display:inline-block; font-size:0; line-height:0; text-align:center; vertical-align:top;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .spec_item {display:inline-block; padding:0 12px; vertical-align:top;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .spec_item:first-child {padding-left:0;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .spec_item .img_wrap {width:80px; height:80px; margin:0 auto; background:url('/kr/images/product/ico_showroom.svg') no-repeat;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .spec_item .img_wrap {background-position:-280px 0;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .spec_item:last-child .img_wrap {background-position:-360px 0;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap.bus .spec_item .img_wrap {background-position:-440px 0;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap.bus .spec_item:last-child .img_wrap {background-position:-520px 0;}
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .img_wrap {width:80px; margin:0 auto;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .txt_wrap {position:static; width:auto; margin:0; padding:8px 0 0 0; font-size:18px; line-height:28px; white-space:nowrap;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .txt_wrap span {display:block;}
+
+/* 갤러�? ????�� 배너 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_gallery {}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_gallery .btn_wrap a {display:block; width:100px; height:60px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_gallery .btn_wrap .ico {width:100px; height:60px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_gallery .btn_wrap .ico:after {width:100px; height:60px; margin-top:-30px; background:url('/kr/images/product/ico_showroom.svg') no-repeat;}
+
+/* 360VR ????�� 배너 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_360vr {}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_360vr .btn_wrap a {display:block; width:100px; height:60px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_360vr .btn_wrap .ico {width:100px; height:60px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_360vr .btn_wrap .ico:after {width:100px; height:60px; margin-top:-30px; background:url('/kr/images/product/ico_showroom.svg') no-repeat -100px 0;}
+
+/* ?��?��?�� ????�� 배너 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie {}
+/*190917 modify*/
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap {padding-top:0px;  position: absolute;  top: 50%;left: 50%; margin:-58px -58px; z-index: 100;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap a {display:block; width: 115px; height: 115px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap .ico { width: 115px; height: 115px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap .ico:after {display:block; width: 115px; height: 115px; margin-top:-58px; background:url('/kr/images/common/icon_all.svg') no-repeat -522px -480px;}/*191002 modify*/
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap a:hover .ico:after,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap a:focus .ico:after {background-position:-390px -480px}/*191002 modify*/
+/*//190917 modify*/
+
+/* 버튼 모션 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap .btn_wrap .btn {position:relative; border-color:rgba(34, 34, 34, 0.9); background-color:transparent;
+-ms-transition:color 0.5s ease 0.3s, border 0.5s ease 0.3s;
+-o-transition:color 0.5s ease 0.3s, border 0.5s ease 0.3s;
+-moz-transition:color 0.5s ease 0.3s, border 0.5s ease 0.3s;
+-webkit-transition:color 0.5s ease 0.3s, border 0.5s ease 0.3s;
+transition:color 0.5s ease 0.3s, border 0.5s ease 0.3s;
+}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap .btn_wrap .btn span {position:relative; z-index:1;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap .btn_wrap .btn:hover {color:#fff; border-color:rgba(53, 115, 158, 1); background-color:transparent; text-decoration:none;
+-ms-transition:color 0.1s ease, border 0.1s ease;
+-o-transition:color 0.1s ease, border 0.1s ease;
+-moz-transition:color 0.1s ease, border 0.1s ease;
+-webkit-transition:color 0.1s ease, border 0.1s ease;
+transition:color 0.1s ease, border 0.1s ease;
+}
+/*190917 modify*/
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .btn_wrap .btn:before,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .btn_wrap .btn:after {content:''; position:absolute; top:0; right:0; width:0; height:100%;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .btn_wrap .btn:before {background-color:rgba(34, 34, 34, 1); -ms-transition:all 0.3s cubic-bezier(0.75, 0, 0.125, 1); -o-transition:all 0.3s cubic-bezier(0.75, 0, 0.125, 1); -moz-transition:all 0.3s cubic-bezier(0.75, 0, 0.125, 1); -webkit-transition:all 0.3s cubic-bezier(0.75, 0, 0.125, 1); transition:all 0.3s cubic-bezier(0.75, 0, 0.125, 1);}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .btn_wrap .btn:after {background-color:rgba(53, 113, 158, 1); -ms-transition:all 0.3s cubic-bezier(0.75, 0, 0.125, 1) 0.2s; -o-transition:all 0.3s cubic-bezier(0.75, 0, 0.125, 1) 0.2s; -moz-transition:all 0.3s cubic-bezier(0.75, 0, 0.125, 1) 0.2s; -webkit-transition:all 0.3s cubic-bezier(0.75, 0, 0.125, 1) 0.2s; transition:all 0.3s cubic-bezier(0.75, 0, 0.125, 1) 0.2s;}
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .btn_wrap .btn:hover:before,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .btn_wrap .btn:focus:before {left:0; right:auto; width:100%;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .btn_wrap .btn:hover:after,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .btn_wrap .btn:focus:after {left:0; right:auto; width:100%;}
+/*//190917 modify*/
+
+/* ?��?��?�� 버전 */
+.prdDetail_wrap .topCont_wrap .banner_wrap .item.dark {color:#fff;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item.dark .txt_wrap dt{filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=1, Color=#000, Positive=true);text-shadow:0 0 2px #000;zoom:1;} /* 200615 modify */ /* 191228 modify*/
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap { color: inherit;} /* 191228 add */
+/*190917 modify*/
+.prdDetail_wrap .topCont_wrap .banner_wrap .item.dark .btn_wrap .btn {border-color:#fff; color:#fff;}
+.prdDetail_wrap .topCont_wrap .banner_wrap .item.dark .btn_wrap .btn:hover,
+.prdDetail_wrap .topCont_wrap .banner_wrap .item.dark .btn_wrap .btn:focus {color:#fff; border-color:rgba(53, 113, 158, 1); background-color:transparent; text-decoration:none;}
+/*//190917 modify*/
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec.dark .list_wrap .spec_item .img_wrap {background-position:-280px -80px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec.dark .list_wrap .spec_item:last-child .img_wrap {background-position:-360px -80px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec.dark .list_wrap.bus .spec_item .img_wrap {background-position:-440px -80px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec.dark .list_wrap.bus .spec_item:last-child .img_wrap {background-position:-520px -80px;}
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_gallery.dark .btn_wrap .ico:after {background-position:0 -60px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_360vr.dark .btn_wrap .ico:after {background-position:-100px -60px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie.dark .btn_wrap .ico:after {background-position:-522px -480px;}/* 201020 modify */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie.dark .btn_wrap a:hover .ico:after,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie.dark .btn_wrap a:focus .ico:after {background-position:-390px -480px;}/* 201020 modify */
+
+/* SNB */
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap {height:80px;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi {width:100%; height:80px; background-color:#fff;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi_inner {position:relative; max-width:1200px; height:80px; margin:0 auto; text-align:center;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi_inner .h1_tit {position:absolute;top:0;left:0;width:21%;font-size:28px;font-family:'HyundaiSansHeadKRBold';line-height:80px;text-align:left;letter-spacing:-0.8px;}/* 220105 modify : letter-spacing */ /* 200825 modify *//* 211229 modify */
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap.new .tab_wrap { position: relative;  float: right; left: -50%;}/*191118 modify*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap.new .tab_wrap .tab {position:relative;left:50%; margin-left:-30%;}/*191118 modify*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap .tab_list {width:auto; padding:26px 20px 0 20px;float:none;}/*191106 modify*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap .tab_link {height:auto; padding:0; border:0; background-color:transparent; color:#666; font-family:'HyundaiSansTextKRRegular'; line-height:28px;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap .tab_list:first-child .tab_link {padding-left:0;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap .tab_list:last-child .tab_link {padding-right:0;}
+/*.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap .tab_list.on .tab_link {color:#35719E; font-family:'HyundaiSansTextKRBold';}*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap .tab_list.on .tab_link {color:#35719E; font-family:'HyundaiSansTextKRBold';text-decoration:underline;} /* 180717_웹접근성 수정 */
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link {position:absolute; top:20px; right:0;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .list_wrap {font-size:0; line-height:0;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item {display:inline-block; padding:0 25px; vertical-align:top;}/*191106 modify*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap.new .etc_link .item {padding:0 9px;}/*191118 modify*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item:first-child {padding-left:0;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item:last-child {padding-right:0;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item a { position: relative; display:inline-block; font-weight: 600; padding-right: 15px; font-size: 16px; line-height: 40px;text-decoration: none;} /*191106 modify*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item a:after {content:''; display:inline-block; position: absolute; top: 0; right: 0; width:40px; height:40px; background:url('/kr/images/product/ico_showroom.svg') no-repeat;} /*191106 modify*/
+/* 191106 modify */
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item .go_gallery:after {background-position:-100px -340px;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item .go_brochure:after {background-position:-140px -340px;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item .vr360:after {background-position:-180px -340px;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item .go_newico:after { top: 14px; width: 12px; background: url(/kr/images/product/ico-navi.png) no-repeat;}/* 191106 add */
+/* //191106 modify */
+
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap.fixed .inpageNavi {position:fixed; top:0; left:0; z-index:10;}
+
+.prdDetail_wrap .btmCont_wrap {}
+
+.keyMsg_wrap.kr{}
+.keyMsg_wrap.kr .txt_wrap{position:static;}
+.keyMsg_wrap.kr .model_county .body_compare .contModule.cont_h2 .txt_wrap .align_cont{padding:120px 0 0 0}
+
+/* ?��메세�? */
+.keyMsg_wrap {}
+.keyMsg_wrap .header {max-width:890px; margin:0 auto;}
+.keyMsg_wrap .header .h1_tit {font-size:42px; line-height:46px;}
+.keyMsg_wrap .header .txt {padding-top:16px;color:#000;} /* 190222 수정 */
+.keyMsg_wrap .img_wrap img {max-width:100%;}
+.keyMsg_wrap .txt_wrap.txt_overlap_pc {position:absolute;} /* 211229 add */
+
+/* ?��메세�? - admin ?���? */
+.keyMsg_wrap .basic_wrap {}
+.keyMsg_wrap .basic_wrap .module {position:relative;}
+.keyMsg_wrap .basic_wrap .txt_wrap {position:absolute; top:0; right:0; bottom:0; left:0;}
+.keyMsg_wrap .basic_wrap .txt_wrap .inner {display:table; max-width:580px; height:100%; margin:0 auto;}
+.keyMsg_wrap .basic_wrap .txt_wrap .align_cont {display:table-cell;}
+.keyMsg_wrap .basic_wrap .txt_wrap .h2_tit {}
+.keyMsg_wrap .basic_wrap .txt_wrap .txt {}
+.keyMsg_wrap .basic_wrap .txt_wrap .btn_wrap {padding-top:32px;}
+.keyMsg_wrap .basic_wrap .txt_wrap .btn_wrap .btn {border-color:#222; background-color:transparent; -ms-transition:color 0.5s ease; -o-transition:color 0.5s ease; -moz-transition:color 0.5s ease; -webkit-transition:color 0.5s ease; transition:color 0.5s ease;}
+.keyMsg_wrap .basic_wrap .txt_wrap .btn_wrap .btn:hover {border-color:#222; background-color:#222; color:#fff;}
+
+.keyMsg_wrap .basic_wrap .img_wrap .align_cont.movie {position:relative;}
+.keyMsg_wrap .basic_wrap .img_wrap .align_cont.movie iframe {position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;}
+.keyMsg_wrap .basic_wrap .img_wrap .align_cont.movie:after {content:''; display:block; padding-bottom:31.25%;}
+.keyMsg_wrap .basic_wrap .img_wrap .align_cont.movie img {display:none;}
+.keyMsg_wrap .basic_wrap .txt_wrap .align_cont {padding-top:0; padding-bottom:0;}
+.keyMsg_wrap .basic_wrap .txt_wrap .align_cont .btn_wrap {padding-top:32px;}
+.keyMsg_wrap .basic_wrap .txt_wrap .align_cont .btn_wrap i.ico.video:after {}
+
+/* ?��?��?�� 버전 */
+.keyMsg_wrap .basic_wrap .module.dark {}
+.keyMsg_wrap .basic_wrap .module.dark .txt_wrap {color:#fff;}
+.keyMsg_wrap .basic_wrap .module.dark .txt_wrap .btn_wrap .btn {border-color:#fff; background-color:transparent;}
+.keyMsg_wrap .basic_wrap .module.dark .txt_wrap .btn_wrap .btn:hover {border-color:#fff; background-color:#fff; color:#000;}
+.keyMsg_wrap .basic_wrap .module.dark .txt_wrap .align_cont .btn_wrap i.ico.video:after {}
+
+/* HD36L */
+.keyMsg_wrap .model_hd36l {padding:120px 0 43px 0;}
+.keyMsg_wrap .model_hd36l .img_wrap {padding-top:0;}
+.keyMsg_wrap .model_hd36l .img_wrap img {display:block; margin:0 auto;}
+
+/* HD38~78 */
+.keyMsg_wrap .model_hd38-78 {padding:120px 0 80px 0;}
+.keyMsg_wrap .model_hd38-78 .car_list {max-width:1200px; margin:0 auto; padding-top:56px;}
+.keyMsg_wrap .model_hd38-78 .car_list .list {margin:0 -20px; font-size:0; line-height:0; text-align:center;}
+.keyMsg_wrap .model_hd38-78 .car_list .item {display:inline-block; width:25%; padding:0 20px; padding-bottom:40px; vertical-align:top;}
+.keyMsg_wrap .model_hd38-78 .car_list .item .txt_wrap {padding-top:24px;}
+.keyMsg_wrap .model_hd38-78 .car_list .item .txt_wrap .title {font-size:18px; font-family:'HyundaiSansTextKRBold'; line-height:28px;}
+.keyMsg_wrap .model_hd38-78 .car_list .item .txt_wrap .title span {display:block; color:#666; font-family:'HyundaiSansTextKRRegular';}
+/* .prdDetail_wrap .new_truck .tab_list{width:33.3%;} *//* 190228 삭제 */
+
+/* Mighty */
+.keyMsg_wrap .model_mighty {padding:120px 0 0 0;}
+.keyMsg_wrap .model_mighty .header .txt dt {font-family:'HyundaiSansTextKRBold';}
+.keyMsg_wrap .model_mighty .header .txt dd {padding-top:28px;}
+.keyMsg_wrap .model_mighty .superCab_info {max-width:1200px; margin:0 auto; padding:64px 0 113px 0; text-align:center;}
+.keyMsg_wrap .model_mighty .superCab_info .h2_tit {font-size:32px; line-height:44px;}
+.keyMsg_wrap .model_mighty .superCab_info .txt {padding-top:6px; color:#666;}
+.keyMsg_wrap .model_mighty .superCab_info .superCab_list .list {padding-top:40px;}
+.keyMsg_wrap .model_mighty .superCab_info .superCab_list .list:after {content:''; display:table; clear:both;}
+.keyMsg_wrap .model_mighty .superCab_info .superCab_list .item {float:left; width:50%;}
+.keyMsg_wrap .model_mighty .superCab_info .superCab_list img {max-width:100%;}
+.keyMsg_wrap .model_mighty .superCab_series {padding:120px 0; background-color:#f8f8f8;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list,
+.keyMsg_wrap .model_mighty .superCab_series .new_series {max-width:1200px; margin:0 auto;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .list {margin:0 -20px; font-size:0; line-height:0; text-align:center;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item {display:inline-block; width:33%; padding:0 75px; text-align:left; vertical-align:top;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item dt {color:#999; font-size:80px; font-family:'HyundaiSansHeadKRBold'; line-height:84px;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item dt span {color:#000;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item dd {padding-top:16px; color:#666; font-size:18px; line-height:28px;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item.new_item {width:100%; padding-top:77px; text-align:center;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item.new_item .flag_wrap {padding-bottom:3px;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item.new_item .flag_wrap .flag {display:inline-block; min-width:70px; margin:0 auto; background-color:#35719E; color:#fff; font-size:16px; font-family:'HyundaiSansHeadKRBold'; line-height:26px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series {padding-top:56px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap {padding-top:48px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap:after {content:''; display:table; clear:both;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap {float:left; width:50%;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap:first-child {padding-right:40px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap:last-child {padding-left:40px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap .info {color:#35719E; font-size:80px; font-family:'HyundaiSansHeadKRBold'; line-height:90px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap .info em {font-size:42px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap .info span {display:block; padding-top:24px; color:#000; font-size:32px; font-family:'HyundaiSansTextKRBold'; line-height:34px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap .txt {padding-top:16px; color:#666;}
+.keyMsg_wrap .model_mighty .superCab_info .superCab_list .superCab_tit {padding-top:4px; font-size:24px; font-family:'HyundaiSansHeadKRBold'; line-height:44px;}
+.mighty_txt .align_cont .txt{padding-top:16px;}
+.mighty_txt .contModule.cont_h3tit .txt_wrap .align_cont{width: 890px; margin: 0 auto; padding: 120px 0;}
+.mighty_txt .contModule .txt_wrap {position:absolute;} /* 210906 add */
+
+/* 제품 공통 */
+
+/* HD120 */
+.keyMsg_wrap .model_hd120 {}
+.keyMsg_wrap .model_hd120 .header {max-width:none;}
+.keyMsg_wrap .model_hd120 .header .contModule.cont_h2 .txt_wrap .align_cont {padding-top:120px;}
+.keyMsg_wrap .model_hd120 .keyMsg_body {padding:40px 0 224px 0;}
+.keyMsg_wrap .model_hd120 .keyMsg_body .contModule.cont_h2 {padding-top:80px;}
+.keyMsg_wrap .model_hd120 .keyMsg_body .contModule.cont_h2 .txt_wrap {position:static;}
+.keyMsg_wrap .model_hd120 .keyMsg_body .contModule.cont_h2 .txt_wrap .align_cont {padding:0;}
+.keyMsg_wrap .model_hd120 .keyMsg_body .contModule.cont_h2 .txt_wrap .align_cont .h2_tit {font-size:32px;; line-height:32px;}
+.keyMsg_wrap .model_hd120 .keyMsg_body .contModule.cont_h2 .img_wrap {padding-top:24px;}
+
+
+.xcient_movie .contModule.cont_h2 .txt_wrap .align_cont{padding:0!important;}
+.xcient_movie .contModule.cont_h2 .txt_wrap .align_cont .movie_cont{padding-top:10px;}
+
+/* HD170~1000 */
+.keyMsg_wrap .model_hd170-1000 {}
+.keyMsg_wrap .model_hd170-1000 .header {max-width:none;}
+.keyMsg_wrap .model_hd170-1000 .header .contModule.cont_h2 .txt_wrap {width:890px; margin:0 auto;padding-top:120px;}
+.keyMsg_wrap .model_hd170-1000 .header .contModule.cont_h2 .txt_wrap .align_cont {padding:0; width:890px;}
+.keyMsg_wrap .model_hd170-1000 .keyMsg_body {padding:120px 0 40px 0;}
+.keyMsg_wrap .model_hd170-1000 .keyMsg_body .contModule.h4titc1 .txt_wrap .txt {padding-top:16px;}
+
+/* Xcient */
+.keyMsg_wrap .model_xcient {padding-bottom:120px;}
+.keyMsg_wrap .model_xcient .header {max-width:none;}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 {}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 .img_wrap .align_cont.movie {position:relative; padding-bottom:31.25%;}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 .img_wrap .align_cont.movie iframe {position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 .txt_wrap .align_cont {padding-top:0; padding-bottom:0;}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 .txt_wrap .align_cont .movie_cont {padding-top:40px;}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 .txt_wrap .align_cont .movie_cont i.ico.video:after {}
+
+.prdDetail_wrap .cont_h3engine .tab_wrap .xcient_tab .tab_list{width:20%;}
+
+.keyMsg_wrap .model_xcient .keyMsg_body .contModule.cont_h3tit {}
+.keyMsg_wrap .model_xcient .keyMsg_body .contModule.cont_h3tit .img_wrap {padding-top:57px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap {padding-top:40px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .contModule.cont_h3tit .txt_wrap .align_cont {max-width:540px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .contModule.cont_h3tit .h3_tit {font-size:32px; line-height:42px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .contModule.cont_h3tit .txt {padding-top:16px;}
+
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info {padding-top:23px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row {border:0; border-right:1px solid #222; border-bottom:1px solid #222; border-left:1px solid #222;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row th,
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row td {padding:10px 10px; border-color:#222;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row th {padding:10px 10px; font-size:16px; font-family:'HyundaiSansHeadKRBold'; line-height:26px; font-weight:normal;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row thead th {background-color:#222; color:#fff;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row tbody th {padding:10px 10px; border-right:1px solid #222;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row tbody td {border-left:0; text-align:center;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .list_wrap {padding-top:80px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .list_wrap .list {margin:0 -12px;; font-size:0; line-height:0; overflow:hidden;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .list_wrap .item {display:inline-block; width:25%; padding:0 12px; vertical-align:top;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .list_wrap .txt_wrap {padding-top:18px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .list_wrap .txt_wrap .title {font-size:18px; font-family:'HyundaiSansHeadKRBold'; line-height:28px;}
+
+.contModule.h4titb6 .txt_wrap .thumb_wrap.xcient li {float:none !important;} /* 190207 추가 */
+
+/* County */
+.keyMsg_wrap .model_county {}
+.keyMsg_wrap .model_county .header {padding:110px 0 40px 0;}
+.keyMsg_wrap .model_county .contModule.cont_h2 {}
+.keyMsg_wrap .model_county .contModule.cont_h2 .img_wrap .align_cont.movie {position:relative; padding-bottom:31.25%;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .img_wrap .align_cont.movie iframe {position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .txt_wrap .align_cont {padding-top:0; padding-bottom:0;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .txt_wrap .align_cont .h2_tit {max-width:700px; margin:0 auto;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .txt_wrap .align_cont .movie_cont {padding-top:40px;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .txt_wrap .align_cont .movie_cont i.ico.video:after {background-position:-696px -40px;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .txt_wrap .align_cont .btn_wrap .btn {border-color:#fff; background-color:transparent;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .txt_wrap .align_cont .btn_wrap .btn:hover {border-color:#fff; background-color:#fff; color:#000;}
+.keyMsg_wrap .model_county .body_compare.technology .contModule.cont_h2 .txt_wrap {position:absolute;}
+.keyMsg_wrap .model_county .body_compare .contModule.cont_h2 .txt_wrap {position:static;}
+.keyMsg_wrap .model_county .body_compare .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 60px 0;}
+.keyMsg_wrap .model_county .body_compare .contModule.cont_h2 .txt_wrap .align_cont .txt {padding-top:16px;}
+.keyMsg_wrap .model_county .body_compare .contModule.cont_h2 .txt_wrap .align_cont * {max-width:1200px;margin:0 auto;}/* 201116 modify */
+
+.cont_row.model_county {max-width:1520px;}/* 201116 add */
+
+/* Town */
+.keyMsg_wrap .model_town {}
+.keyMsg_wrap .model_town .header {max-width:none;}
+.keyMsg_wrap .model_town .header .contModule.cont_h2 .txt_wrap {width:1200px; margin:0 auto;}
+.keyMsg_wrap .model_town .header .contModule.cont_h2 .txt_wrap.txtPos {position: absolute; top:0;}/*220722 add*/
+.keyMsg_wrap .model_town .header .contModule.cont_h2 .img_wrap.imgPos {padding-top:120px;}/*220722 add*/
+.keyMsg_wrap .model_town .header .contModule.cont_h2 .txt_wrap {}
+.air_wrap .contModule.h4titb2 .txt_wrap .align_cont .list_wrap{width:300px;text-align:left!important; float:right; border-top:2px solid #979797;font-size:14px;clear:right;}
+.air_wrap .contModule.h4titb2 .txt_wrap .align_cont .h4_tit{float:right; margin-bottom:8px;}
+.air_wrap .contModule.h4titb2 .txt_wrap .align_cont .list_1{float:left; padding-right:40px;}
+.air_wrap .contModule.h4titb2 .txt_wrap .align_cont .list_1 li{border-bottom:2px solid #979797}
+.air_wrap .contModule.h4titb2 .txt_wrap .align_cont .list_2{text-align: left;}
+.air_wrap .contModule.h4titb2 .txt_wrap .align_cont .list_2 li{border-bottom:2px solid #979797}
+
+/* Super Aero City */
+.keyMsg_wrap .model_super-aero-city .header .align_cont {padding:117px 0 80px;}
+.keyMsg_wrap .model_super-aero-city .rigidity_info .contModule .txt_wrap .align_cont {padding:0 0 0 80px;}
+.keyMsg_wrap .model_super-aero-city .rigidity_info .contModule .txt_wrap .rigidity_list li {color:#000; font-size:18px; line-height:42px;}
+.keyMsg_wrap .model_super-aero-city .rigidity_info .contModule .txt_wrap .rigidity_list li .num {padding-right:22px; font-family:'HyundaiSansHeadKRBold'; color:#1672A2;}
+
+/* Elec City*/
+.keyMsg_wrap .model_elec-city .header {max-width:none;}
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .txt_wrap {width:890px;position:absolute;margin:0 auto;}/* 211101 modify */
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 0;}
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info {width:966px;margin:0 auto;padding:40px 0 120px;}/* 190502 수정 */ /* 201127 modify */
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info ul {font-size:0; line-height:0;}
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info ul li {display:inline-block; margin-right:50px;}
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info ul li:last-child {margin-right:0;}
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info dl dt {color:#666; font-size:18px; line-height:28px;margin-bottom:8px;}
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info dl dd {font-family:'HyundaiSansHeadKRBold'; color:#000; font-size:42px; line-height:46px;}
+.contModule.elec_txt .txt_wrap .align_cont {width:100%;}
+
+
+/* Universe */
+.keyMsg_wrap .model_universe {}
+.keyMsg_wrap .model_universe {padding-bottom:90px;}
+.keyMsg_wrap .model_universe .keyMsg_body {padding:84px 0 80px 0;}
+.keyMsg_wrap .model_universe .contModule.cont_h3tit .txt_wrap .align_cont {padding:120px 0 66px;}
+.keyMsg_wrap .model_universe .contModule.h4titd1 .swipe_wrap {margin:0 -20px;}
+.keyMsg_wrap .model_universe .contModule.h4titd1 li.item {width:25%; padding:0 20px;}
+.keyMsg_wrap .model_universe .contModule.h4titd1 li.item .txt_wrap {text-align: center; margin-top:5px; padding:0; font-family:'HyundaiSansTextKRBold';}
+.keyMsg_wrap .model_universe .contModule.h4titd1 li.item .txt_wrap .txt {font-size:16px; line-height:18px;}
+.keyMsg_wrap .model_universe .bus_model .list_wrap .list {text-align:center;}
+.keyMsg_wrap .model_universe .bus_model .list_wrap .list li.item{display: inline-block; margin-left: 6.2%;}
+.keyMsg_wrap .model_universe .bus_model .list_wrap .list li.item:first-child {margin-left:0;}
+.keyMsg_wrap .model_universe .bus_model .list_wrap .list .h4_tit{padding-top:24px;}
+.prdDetail_wrap .uni_tab li{width:33.3%;}
+/* 200914 add */
+.cont_universe_info .contModule .module {margin:0 auto;padding:56px 0 69px;}
+.cont_universe_info .contModule .module .img_wrap {float:left;width:500px;text-align:center;}
+.cont_universe_info .contModule .module .h4_tit {margin-top:0;font-size:22px;}
+.cont_universe_info .contModule .module .txt_wrap {float:right;width:700px;}
+.cont_universe_info .contModule .module .txt_wrap .align_cont {position:relative;padding:0 0 0 235px;}
+.cont_universe_info .contModule .module .txt_wrap .align_cont:before {position:absolute;top:3px;left:90px;width:96px;height:360px;background:url('/kr/images/product/cars/universe/bg-pictogram.png') no-repeat 0 0;}
+.cont_universe_info .contModule .txt_wrap .bul_list {padding-top:0;}
+.cont_universe_info .contModule .txt_wrap .bul_list .bul_circle dt {margin:43px 0 10px;font-size:22px;font-weight:bold;}
+.cont_universe_info .contModule .txt_wrap .bul_list .bul_circle dt:first-child {margin-top:21px;}
+.cont_universe_info .contModule .txt_wrap .bul_list .bul_circle dd {position:relative;padding-left:10px;font-size:18px;line-height:28px;}
+.cont_universe_info .contModule .txt_wrap .bul_list .bul_circle dd:before {display:inline-block;text-indent:-10px;font-size:18px;content:'·';}
+/* //200914 add */
+
+/* H350 */
+.keyMsg_wrap .model_h350 {}
+.keyMsg_wrap .model_h350 .contModule.cont_h2 .txt_wrap .align_cont {padding-top:150px; padding-bottom:0;}
+.keyMsg_wrap .model_h350 .contModule.cont_h2 .txt_wrap .align_cont * {max-width:890px; margin:0 auto;}
+.keyMsg_wrap .model_h350 .contModule.cont_h2 .txt_wrap .txt {padding-top:16px;}
+.keyMsg_wrap .model_h350 .contModule.cont_h2 .txt_wrap .txt.second {padding-top:28px;}
+
+/* 200928 add */
+.keyMsg_wrap .model_xcient_fuel .header {max-width:none;}
+.keyMsg_wrap .model_xcient_fuel .header .contModule.cont_h2 .txt_wrap.first {padding:0;}
+.keyMsg_wrap .model_xcient_fuel .header .contModule.cont_h2 .txt_wrap.first .align_cont {padding:0;}
+.keyMsg_wrap .model_xcient_fuel .header .contModule.cont_h2 .txt_wrap {position:absolute;padding-top:120px;}
+.keyMsg_wrap .model_xcient_fuel .header .contModule.cont_h2 .txt_wrap .align_cont {max-width:100%;padding:0 0 60px 0;}
+.keyMsg_wrap .model_xcient_fuel .header .contModule.cont_h2 .txt_wrap .align_cont .h2_tit + .txt {padding-top:25px;} /* 220106 modify */
+.keyMsg_wrap .model_xcient_fuel .header .contModule.cont_h2 .txt_wrap .align_cont .txt {padding-top:29px;color:#000;}
+/* //200928 add */
+
+/* 쏠라티 */
+.contModule.cont_h2 .solati_mov {margin-top:80px;} /* 180718_추가 */
+.contModule.cont_h2 .solati_mov .txt_wrap .align_cont{padding:0;}
+.contModule.cont_h2 .solati_mov .txt_wrap .h2_tit{font-size: 42px; margin-bottom:20px;}
+.contModule.cont_h2 .solati_mov i.ico.video:after {background-position:-359px -600px;}
+.contModule.cont_h2 .solati_mov i.ico.video:hover:after,
+.contModule.cont_h2 .solati_mov i.ico.video:focus:after {background-position:-439px -600px;}
+
+/* s : 200825 add */
+/* model_eleccity-fuel-cell */
+.keyMsg_wrap .model_eleccity-fuel-cell .header {max-width:none;}
+/* //e : 200825 add */
+
+/* 210331 add */
+/* Elecity-Double */
+.keyMsg_wrap .model_eleccity-double .header {max-width:none;}
+.keyMsg_wrap .model_eleccity-double .contModule.cont_h2 .module .h2_tit {font-size:54px;}
+/* //210331 add */
+
+/* Performance & Safety */
+/*
+#performance .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+#performance .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:74px;}
+#performance .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+*/
+
+/* Convenience */
+/*
+#convenience .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+#convenience .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:74px;}
+#convenience .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+*/
+
+/* Design */
+/*
+#design .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+#design .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:74px;}
+#design .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+*/
+
+/* Line Up */
+
+/* Vccation */
+.prdDetail_wrap .btmCont_wrap .vocation_wrap .network_wrap_kr{background:url('/kr/images/product/bg_vocation.png') no-repeat top center;}
+
+/* Specification & e-Brochure Download */
+.contModule.eBrochure {}
+.contModule.eBrochure .module {padding:88px 0 80px 0;}
+.contModule.eBrochure .module .btn_wrap .btn {width:310px;} /* 211229 add */
+.contModule.eBrochure .module .btn_wrap .btn + .btn {margin-left:15px;}/* 211229 add */
+.contModule.eBrochure .list_wrap {width:1200px; margin:0 auto;}
+.contModule.eBrochure .list {padding-top:40px;}
+.contModule.eBrochure .list_wrap .item {display:table; position:relative; width:100%; min-height:210px; margin-top:4px; padding:40px; background-color:#fff;}
+.contModule.eBrochure .list_wrap .item .txt_wrap {display:table-cell; width:50%;}
+.contModule.eBrochure .list_wrap .item .btn_wrap {display:table-cell; width:50%; text-align:right; vertical-align:middle;}
+.contModule.eBrochure .list_wrap .item .btn_wrap .inner {display:inline-block; width:310px;}
+.contModule.eBrochure .list_wrap .item .btn_wrap .btn {display:block; margin-top:4px;}
+.contModule.eBrochure .list_wrap .item .btn_wrap .btn:first-child {margin-top:0;}
+.contModule.eBrochure .list_wrap .item .btn_wrap .btn + .btn {margin-left:0;}/* 211229 add */
+.contModule.eBrochure .notice_wrap {max-width:1200px; margin:0 auto; padding-top:32px;}
+.contModule.eBrochure .notice_wrap .notice_txt {position:relative; padding-left:28px; color:#666;}
+.contModule.eBrochure .notice_wrap .notice_txt:after {content:''; position:absolute; top:50%; left:0; width:25px; height:25px; margin-top:-13px; background:url('/kr/images/product/ico_showroom.svg') no-repeat -600px 0;}
+
+/* Network */
+.prdDetail_wrap .btmCont_wrap .network_wrap {padding:85px 0 75px 0;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .header {text-align:center;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .header .txt {padding-top:8px; color:#666;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .location_info {padding-top:32px; font-size:24px; line-height:40px; text-align:center;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .location_info .own_location {position:relative; display:inline-block; margin-left:8px; padding-left:40px; color:#35719E; font-family:'HyundaiSansHeadKRBold';}
+.prdDetail_wrap .btmCont_wrap .network_wrap .location_info .own_location:before {content:''; position:absolute; top:0; left:0; width:40px; height:40px; background:url('/kr/images/common/icon_all.svg') no-repeat -710px 0;}
+.prdDetail_wrap .btmCont_wrap .network_wrap {min-height:300px; background:url('/kr/images/product/worldmap.png') no-repeat top center; background-size:cover;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .list_wrap {padding-top:32px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .list {position:relative; font-size:0; line-height:0; text-align:center;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .item {display:inline-block; width:50%; padding:0 0 40px 0; vertical-align:top;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .item:nth-child(odd){
+padding-right:20px;
+}
+.prdDetail_wrap .btmCont_wrap .network_wrap .item:nth-child(even){
+padding-left:20px;
+}
+
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr {padding:85px 0 75px 0;min-height:300px; background:url('/kr/images/product/bg_map.png') no-repeat top center; background-size:cover;}
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr .header {text-align:center;}
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr .contModule{max-width:1200px;margin-top:40px;padding:56px 0;background:#fff;}
+/*.prdDetail_wrap .btmCont_wrap .network_wrap_kr .contModule .txt {padding-top:8px; color:#666;text-align:center;}*/
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr .contModule .txt {padding-top:8px;color:#666;text-align:center;font-size:22px;line-height:32px;}/* 180709_가이드 수정 */
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr .contModule .btn_wrap{text-align:center;}
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr .contModule .btn_wrap .btn{min-width:310px;}
+
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info {display:table; position:relative; width:100%; min-height:336px; padding:56px 24px 40px 24px; background-color:#F6F3F2; text-align:left;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .flag {position:absolute; top:0; left:0; min-width:103px; height:32px; background-color:#35719E; color:#fff; font-family:'HyundaiSansTextKRBold'; font-size:16px; line-height:32px; text-align:center;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .h4_tit {margin-left:0; word-break:break-word;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info dl {clear:left; padding-top:16px; font-size:18px; line-height:28px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info dl:after {content:''; display:table; clear:both;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info dt {float:left; width:98px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info dd {margin-left:98px; color:#666; word-break:break-all;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .phone_info dd {}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .site_info dt {float:none;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .site_info dd {margin-left:0; padding-top:4px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .site_info a {color:#35719E; text-decoration:underline;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .btn_wrap {text-align:center;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .btn_wrap .btn {min-width:425px;}
+
+/* Service Policy */
+.service_policy {}
+
+/* Engine */
+.engineInfo_wrap {}
+.engineInfo_wrap .contModule.h4titb1 .txt_wrap .align_cont {padding-right:35px; padding-left:35px;}
+.engineInfo_wrap .contModule.h4titb2 .txt_wrap .align_cont {padding-left:36.4583%;}
+
+
+/* 220112 add */
+/* Tire efficiency level */
+.contModule.tireLevel {}
+.contModule.tireLevel .module {padding:75px 0;}
+.contModule.tireLevel .txt_wrap .txt {margin-bottom:55px;padding-top:14px;font-size:22px;}
+.contModule.tireLevel .tb_row {overflow:hidden;}
+.contModule.tireLevel table {width:100%;min-width:800px;}
+.contModule.tireLevel .list_dot {margin-top:20px;text-align:left;}
+.contModule.tireLevel .list_dot li {font-size:18px;color:#666;}
+.contModule.tireLevel .list_dot + .h3_tit {margin-top:150px;}
+/* //220112 add */
+
+@media only screen and (min-width:1280px) and (max-width: 1919px) {
+/*@media only screen and (min-width:1024px) and (max-width: 1919px) {*/
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap {position:absolute; top:64px; left:80px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap .align_cont {max-width:580px;}
+/*.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap dt {font-size:42px; line-height:46px;}*/
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap dt {font-size:54px; line-height:58px;} /* 180703_가이드 수정 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap dd {}
+
+/* Performance & Safety */
+/*
+#performance .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:64px 0 0 80px;}
+#performance .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:580px; font-size:42px; line-height:46px;}
+#performance .cont_row:first-child .contModule.cont_h2 .txt {max-width:580px; padding-top:16px;}
+*/
+
+/* Convenience */
+/*
+#convenience .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:64px 0 0 80px;}
+#convenience .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:580px; font-size:42px; line-height:46px;}
+#convenience .cont_row:first-child .contModule.cont_h2 .txt {max-width:580px; padding-top:16px;}
+*/
+
+/* Design */
+/*
+#design .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:64px 0 0 80px;}
+#design .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:580px; font-size:42px; line-height:46px;}
+#design .cont_row:first-child .contModule.cont_h2 .txt {max-width:580px; padding-top:16px;}
+*/
+
+}
+
+/* Tablet */
+@media only screen and (min-width:768px) and (max-width: 1279px) {
+/*@media only screen and (min-width:768px) and (max-width: 1023px) {*/
+/* ?���?(차량 ?��?��) */
+.prdDetail_wrap {font-size:14px; line-height:18px;}
+.prdDetail_wrap .topCont_wrap {}
+.prdDetail_wrap .h4_tit {font-size:16px;}
+.prdDetail_wrap .bodyCont_wrap .contModule.h4titb1 .txt_wrap .align_cont {padding:0 24px;}
+
+/* Key Visual */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap {top:40px; left:48px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap dl {max-width:400px;}
+/*.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap dt {font-size:32px; line-height:34px;}*/
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap dt {font-size:25px; line-height:34px;} /* 180709_가이드 수정 */
+/*.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap dd {padding-top:8px; font-size:16px; line-height:24px;}*/
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap dd {padding-top:4px; font-size:14px; line-height:20px;}/* 180709_가이드 수정 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap .btn_wrap {padding-top:24px;}
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow {width:24px; height:48px; margin-top:-24px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_prev .ico,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_next .ico {width:24px; height:48px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_prev .ico:after,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_next .ico:after {width:24px; height:48px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_prev .ico:after {background-position:0 0;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_next .ico:after {background-position:-24px 0;}
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_prev:hover .ico:after,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_prev:focus .ico:after {background-position:0 -48px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_next:hover .ico:after,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_next:focus .ico:after {background-position:-24px -48px;}
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap:hover .indicate,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap.hover .indicate {height:12px;}
+
+/* 롤링 배너 현재 위치 아이콘 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li.active .indi span:before{height:12px;}
+
+/* 배너 롤링 컨트롤 버튼 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate .btn_control_wrap{bottom:21px;right:22px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate .btn_control_wrap button{height:18px;background:url('/kr/images/common/icon_control_m.png') no-repeat;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate .btn_control_wrap button.play{width:48px;background-position:0 -18px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate .btn_control_wrap button.pause{width:57px;background-position:-48px -18px;}
+/*.prdDetail_wrap .topCont_wrap .ui_carousel.dark .topVisual_wrap .indicate .btn_control_wrap button.play{width:40px;background-position:0 0;}
+.prdDetail_wrap .topCont_wrap .ui_carousel.dark .topVisual_wrap .indicate .btn_control_wrap button.pause{width:56px;background-position:-40px 0;}*/
+
+/* ?��?�� ????�� 배너 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .txt_wrap dd {padding-top:16px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .txt_wrap dd.txt {padding-top:10px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap {display:inline-block; font-size:0; line-height:0; text-align:center;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .spec_item {display:inline-block; padding:0 6px; vertical-align:top;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .spec_item .img_wrap {width:48px; height:48px; margin:0 auto; background:url('/kr/images/product/ico_showroom_m.svg') no-repeat;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .spec_item .img_wrap {background-position:-180px 0;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .spec_item:last-child .img_wrap {background-position:-180px -48px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap.bus .spec_item .img_wrap {background-position:-180px -96px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap.bus .spec_item:last-child .img_wrap {background-position:-180px -144px;}
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .txt_wrap {width:auto; padding:4px 0 0 0; font-size:11px; line-height:16px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .txt_wrap span {display:block;}
+
+/* 갤러�? ????�� 배너 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_gallery {}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_gallery .btn_wrap a {display:block; width:60px; height:36px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_gallery .btn_wrap .ico {width:60px; height:36px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_gallery .btn_wrap .ico:after {width:60px; height:36px; margin-top:-18px; background:url('/kr/images/product/ico_showroom_m.svg') no-repeat;}
+
+/* 360VR ????�� 배너 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_360vr {}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_360vr .btn_wrap a {display:block; width:60px; height:36px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_360vr .btn_wrap .ico {width:60px; height:36px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_360vr .btn_wrap .ico:after {width:60px; height:36px; margin-top:-18px; background:url('/kr/images/product/ico_showroom_m.svg') no-repeat -60px 0;}
+
+/* ?��?��?�� ????�� 배너 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie {}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap {margin:-25px -25px;}/*19917 modify*/
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap a {display:block; width:48px; height:48px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap .ico {width:48px; height:48px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap .ico:after {display:block; width:48px; height:48px; margin-top:-24px; background:url('/kr/images/common/icon_all_m.svg') no-repeat -96px -355px}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap a:hover .ico:after,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap a:focus .ico:after {background-position:-48px -355px;}
+
+/* ?��?��?�� 버전 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_gallery.dark .btn_wrap .ico:after {background-position:0 -36px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_360vr.dark .btn_wrap .ico:after {background-position:-60px -36px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie.dark .btn_wrap .ico:after {background-position:-96px -355px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie.dark .btn_wrap a:hover .ico:after,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie.dark .btn_wrap a:focus .ico:after {background-position:-48px -355px;}
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec.dark .list_wrap .spec_item .img_wrap {background-position:-228px 0;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec.dark .list_wrap .spec_item:last-child .img_wrap {background-position:-228px -48px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec.dark .list_wrap.bus .spec_item .img_wrap {background-position:-228px -96px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec.dark .list_wrap.bus .spec_item:last-child .img_wrap {background-position:-228px -144px;}
+
+/* SNB */
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap {height:48px;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi {height:48px;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi_inner {height:48px; margin:0 24px}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi_inner .h1_tit {width:18%;font-size:14px;line-height:48px;}/* 200825 modify */
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap.new .tab_wrap .tab { position: relative; margin-left: -50%;} /*191118 modify*/ 
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap.new .tab_wrap .tab_list {padding: 18px 10px 0 10px;} /*191118 modify  */
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap .tab_link {height:auto; font-size:11px; line-height:16px;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap .tab_list {padding:18px 20px 0 20px;} /*191118 add*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link {top:7px;}/*191106 modify*/ 
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap.new .etc_link {top:5px;}/*191118 modify*/ 
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item {padding:0 13px;} /*191106 modify*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap.new .etc_link.item { padding: 0 5px;} /*191118 modify*/ 
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item a {font-size:11px;} /*191106 modify*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item a:after {top: 5px; content:''; display:block; width:24px; height:24px; background:url('/kr/images/product/ico_showroom_m.svg') no-repeat;} /*191106 modify*/
+/* 191106 modify */
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item .go_gallery:after {background-position:0 -234px;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item .go_brochure:after {background-position:-24px -234px;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item .vr360:after {background-position:-48px -234px;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item .go_newico:after{ top: 14px; width: 12px; background: url(/kr/images/product/ico-navi.png) no-repeat;}/*191106 add*/ 
+/* //191106 modify */
+
+/* ?��메세�? */
+.keyMsg_wrap {}
+.keyMsg_wrap .header .h1_tit {font-size:25px; line-height:27px;}
+.keyMsg_wrap .header .txt {padding-top:16px; color:#000;}
+.keyMsg_wrap .img_wrap img {max-width:100%;}
+
+    
+/* ?��메세�? - admin ?���? */
+.keyMsg_wrap .basic_wrap {}
+.keyMsg_wrap .basic_wrap .module {position:relative;}
+.keyMsg_wrap .basic_wrap .txt_wrap {position:absolute; top:0; right:0; bottom:0; left:0;}
+.keyMsg_wrap .basic_wrap .txt_wrap .inner {display:table; max-width:580px; height:100%; margin:0 auto;}
+.keyMsg_wrap .basic_wrap .txt_wrap .align_cont {display:table-cell;}
+.keyMsg_wrap .basic_wrap .txt_wrap .h2_tit {}
+.keyMsg_wrap .basic_wrap .txt_wrap .txt {}
+.keyMsg_wrap .basic_wrap .txt_wrap .btn_wrap {padding-top:16px;}
+.keyMsg_wrap .basic_wrap .txt_wrap .btn_wrap .btn {}
+
+.keyMsg_wrap .basic_wrap .img_wrap .align_cont.movie {position:relative;}
+.keyMsg_wrap .basic_wrap .img_wrap .align_cont.movie iframe {position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;}
+.keyMsg_wrap .basic_wrap .img_wrap .align_cont.movie:after {content:''; display:block; padding-bottom:31.25%;}
+.keyMsg_wrap .basic_wrap .img_wrap .align_cont.movie img {display:none;}
+.keyMsg_wrap .basic_wrap .txt_wrap .align_cont {padding-top:0; padding-bottom:0;}
+.keyMsg_wrap .basic_wrap .txt_wrap .align_cont .btn_wrap {padding-top:16px;}
+.keyMsg_wrap .basic_wrap .txt_wrap .align_cont .btn_wrap i.ico.video {}
+.keyMsg_wrap .basic_wrap .txt_wrap .align_cont .btn_wrap i.ico.video:after {}
+
+/* ?��?��?�� 버전 */
+.keyMsg_wrap .basic_wrap .module.dark .txt_wrap .align_cont .btn_wrap i.ico.video:after {}
+
+/* 제품 공통 */
+/*.keyMsg_wrap .contModule.cont_h2 .txt_wrap .txt{font-size:10px;line-height:16px;}/* 180703_가이드 추가 */
+.keyMsg_wrap .contModule.cont_h2 .txt_wrap .txt{max-width:580px;font-size:14px;line-height:20px;margin:0 auto;} /* 180709_가이드 수정 */
+
+/* HD36L */
+.keyMsg_wrap .model_hd36l {padding:72px 0 0 0;}
+.keyMsg_wrap .model_hd36l .img_wrap {padding-top:0;}
+.keyMsg_wrap .model_hd36l .img_wrap img {display:block; margin:0 auto;}
+
+/* HD38~78 */
+.keyMsg_wrap .model_hd38-78 {padding:72px 0 48px 0;}
+.keyMsg_wrap .model_hd38-78 .car_list {max-width:none; margin:0 12px; padding-top:56px;}
+.keyMsg_wrap .model_hd38-78 .car_list .list {margin:0; font-size:0; line-height:0; text-align:center;}
+.keyMsg_wrap .model_hd38-78 .car_list .item {display:inline-block; width:25%; padding:0 12px; padding-bottom:24px; vertical-align:top;}
+.keyMsg_wrap .model_hd38-78 .car_list .item .txt_wrap {padding-top:14px;}
+.keyMsg_wrap .model_hd38-78 .car_list .item .txt_wrap .title {font-size:11px; font-family:'HyundaiSansTextKRBold'; line-height:16px;}
+.keyMsg_wrap .model_hd38-78 .car_list .item .txt_wrap .title span {display:block; color:#000; font-family:'HyundaiSansTextKRRegular';}
+
+/* Mighty */
+.keyMsg_wrap .model_mighty {padding:72px 0 0 0;}
+.keyMsg_wrap .model_mighty .header .txt {padding-top:10px;}
+.keyMsg_wrap .model_mighty .header .txt dt {font-family:'HyundaiSansTextKRBold';}
+.keyMsg_wrap .model_mighty .header .txt dd {padding-top:16px;}
+
+.keyMsg_wrap .model_mighty .superCab_info {max-width:1200px; margin:0 24px; padding:42px 0 67px 0; text-align:center;}
+.keyMsg_wrap .model_mighty .superCab_info .h2_tit {font-size:18px; line-height:24px;}
+.keyMsg_wrap .model_mighty .superCab_info .txt {padding-top:6px; color:#000;}
+.keyMsg_wrap .model_mighty .superCab_info .superCab_list .list {padding-top:23px;}
+.keyMsg_wrap .model_mighty .superCab_info .superCab_list .list:after {content:''; display:table; clear:both;}
+.keyMsg_wrap .model_mighty .superCab_info .superCab_list .item {float:left; width:50%;}
+.keyMsg_wrap .model_mighty .superCab_info .superCab_list img {max-width:100%;}
+
+.keyMsg_wrap .model_mighty .superCab_series {padding:72px 0; background-color:#f8f8f8;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list,
+.keyMsg_wrap .model_mighty .superCab_series .new_series {max-width:1200px; margin:0 24px;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .list {margin:0 -12px; font-size:0; line-height:0; text-align:center;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item {display:inline-block; width:33%; padding:0 75px; text-align:left; vertical-align:top;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item dt {color:#999; font-size:48px; font-family:'HyundaiSansHeadKRBold'; line-height:50px;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item dt span {color:#000;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item dd {padding-top:10px; color:#000; font-size:11px; line-height:16px;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item.new_item {width:100%; padding-top:48px; text-align:center;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item.new_item .flag_wrap {padding-bottom:1px;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item.new_item .flag_wrap .flag {display:inline-block; min-width:42px; margin:0 auto; background-color:#35719E; color:#fff; font-size:9px; font-family:'HyundaiSansHeadKRBold'; line-height:16px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series {padding-top:56px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap {padding-top:48px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap:after {content:''; display:table; clear:both;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap {float:left; width:50%;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap:first-child {padding-right:24px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap:last-child {padding-left:24px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap .info {color:#35719E; font-size:48px; font-family:'HyundaiSansHeadKRBold'; line-height:54px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap .info em {font-size:25px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap .info span {display:block; padding-top:14px; color:#000; font-size:18px; font-family:'HyundaiSansTextKRBold'; line-height:20px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap .txt {padding-top:9px; color:#000;}
+.mighty_txt .align_cont .h6_tit{font-size: 25px; line-height: 34px;}
+.mighty_txt .contModule.cont_h3tit .txt_wrap .align_cont{width:100%; margin: 0 auto; padding: 50px 0;}
+
+/* HD120 */
+.keyMsg_wrap .model_hd120 {}
+.keyMsg_wrap .model_hd120 .header {max-width:none;}
+.keyMsg_wrap .model_hd120 .header .contModule.cont_h2 .txt_wrap .align_cont {padding-top:62px;}
+.keyMsg_wrap .model_hd120 .keyMsg_body {padding:63px 0 74px 0;}
+.keyMsg_wrap .model_hd120 .keyMsg_body .contModule.cont_h2 {padding-top:50px;}
+.keyMsg_wrap .model_hd120 .keyMsg_body .contModule.cont_h2 .txt_wrap {position:static;}
+.keyMsg_wrap .model_hd120 .keyMsg_body .contModule.cont_h2 .txt_wrap .align_cont {padding:0;}
+.keyMsg_wrap .model_hd120 .keyMsg_body .contModule.cont_h2 .txt_wrap .align_cont .h2_tit {font-size:18px;; line-height:19px;}
+.keyMsg_wrap .model_hd120 .keyMsg_body .contModule.cont_h2 .img_wrap {padding-top:12px;}
+
+/* HD170~1000 */
+.keyMsg_wrap .model_hd170-1000 {}
+.keyMsg_wrap .model_hd170-1000 .header {max-width:none;}
+.keyMsg_wrap .model_hd170-1000 .header .contModule.cont_h2 .txt_wrap {width:auto; margin:0 auto;padding-top:0;}
+.keyMsg_wrap .model_hd170-1000 .header .contModule.cont_h2 .txt_wrap .align_cont {padding: 40px 24px 0 24px;}
+.keyMsg_wrap .model_hd170-1000 .keyMsg_body {padding:72px 0 72px 0;}
+.keyMsg_wrap .model_hd170-1000 .keyMsg_body .contModule.h4titc1 .swipe_wrap.cols2 li.item .txt_wrap {padding:25px 0 0 0;}
+.keyMsg_wrap .model_hd170-1000 .keyMsg_body .contModule.h4titc1 .txt_wrap .txt {padding-top:12px;}
+
+/* Xcient */
+.keyMsg_wrap .model_xcient {padding-bottom:72px;}
+.keyMsg_wrap .model_xcient .header {max-width:none;}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 {}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 .img_wrap .align_cont.movie {position:relative; padding-bottom:31.25%;}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 .img_wrap .align_cont.movie iframe {position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 .txt_wrap .align_cont {padding-top:0; padding-bottom:0;}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 .txt_wrap .align_cont .movie_cont {padding-top:16px;}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 .txt_wrap .align_cont .movie_cont i.ico.video {}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 .txt_wrap .align_cont .movie_cont i.ico.video:after {margin-left:0;}
+
+.keyMsg_wrap .model_xcient .keyMsg_body .contModule.cont_h3tit {}
+.keyMsg_wrap .model_xcient .keyMsg_body .contModule.cont_h3tit .img_wrap {padding-top:26px;}
+
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap {padding-top:22px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .contModule.cont_h3tit .txt_wrap .align_cont {max-width:300px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .contModule.cont_h3tit .h3_tit {font-size:18px; line-height:24px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .contModule.cont_h3tit .txt {padding-top:12px;}
+
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info {padding-top:11px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row {border:0; border-right:1px solid #222; border-bottom:1px solid #222; border-left:1px solid #222;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row th,
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row td {padding:10px 10px; border-color:#222;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row th {padding:10px 10px; font-size:9px; font-family:'HyundaiSansHeadKRBold'; line-height:15px; font-weight:normal;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row thead th {background-color:#222; color:#fff;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row tbody th {padding:10px 10px; border-right:1px solid #222;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row tbody td {border-left:0; font-size:9px; line-height:15px; text-align:center;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .list_wrap {padding-top:28px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .list_wrap .list {margin:0 -12px;; font-size:0; line-height:0; overflow:hidden;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .list_wrap .item {display:inline-block; width:25%; padding:0 12px; vertical-align:top;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .list_wrap .txt_wrap {padding-top:8px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .list_wrap .txt_wrap .title {font-size:11px; font-family:'HyundaiSansHeadKRBold'; line-height:16px;}
+
+/* County */
+.keyMsg_wrap .model_county {}
+.keyMsg_wrap .model_county .header {padding:66px 0 25px 0;}
+.keyMsg_wrap .model_county .header .h2_tit {font-size:25px; line-height:27px;}
+.keyMsg_wrap .model_county .header .txt {padding-top:10px}
+.keyMsg_wrap .model_county .contModule.cont_h2 {}
+.keyMsg_wrap .model_county .contModule.cont_h2 .img_wrap .align_cont.movie {position:relative; padding-bottom:31.25%;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .img_wrap .align_cont.movie iframe {position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .txt_wrap .align_cont {padding-top:0; padding-bottom:0;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .txt_wrap .align_cont .h2_tit {max-width:350px; margin:0 auto; font-size:18px; line-height:24px;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .txt_wrap .align_cont .movie_cont {padding-top:16px;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .txt_wrap .align_cont .movie_cont i.ico.video {width:36px; height:36px;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .txt_wrap .align_cont .movie_cont i.ico.video:after {width:36px; height:36px; margin:-18px 0 0 0; background-position:-432px -24px;}
+.keyMsg_wrap .model_county .body_compare .contModule.cont_h2 .txt_wrap .align_cont {padding-top:48px;}
+.keyMsg_wrap .model_county .body_compare .contModule.cont_h2 .txt_wrap .align_cont .h2_tit {font-size:26px; line-height:27px;}
+.keyMsg_wrap .model_county .body_compare .contModule.cont_h2 .txt_wrap .align_cont .txt {padding-top:9px;}
+.keyMsg_wrap .model_county .body_compare .contModule.cont_h2 .txt_wrap .align_cont * {max-width:534px; margin:0 auto;}
+
+/* Town */
+.keyMsg_wrap .model_town {}
+.keyMsg_wrap .model_town .header {max-width:none !important;}
+.keyMsg_wrap .model_town .header .contModule.cont_h2 .txt_wrap {width:100%; max-width:534px; margin:0 auto;} /* 220112 modify */
+.keyMsg_wrap .model_town .header .contModule.cont_h2 .txt_wrap.txtPos {position: static;}/*220722 add*/
+.keyMsg_wrap .model_town .header .contModule.cont_h2 .img_wrap.imgPos {padding-top:0;}/*220722 add*/
+    
+/* Super Aero City */
+.keyMsg_wrap .model_super-aero-city {}
+.keyMsg_wrap .model_super-aero-city .header {max-width:534px;}
+.keyMsg_wrap .model_super-aero-city .header .align_cont {padding:72.2px 0 30.8px;}
+.keyMsg_wrap .model_super-aero-city .rigidity_info .contModule .txt_wrap .align_cont {padding:0 0 0 24px;}
+.keyMsg_wrap .model_super-aero-city .rigidity_info .contModule .txt_wrap ul.rigidity_list li {color:#000; font-size:11px; line-height:20px;}
+.keyMsg_wrap .model_super-aero-city .rigidity_info .contModule .txt_wrap ul.rigidity_list li .num {padding-right:12px; font-family:'HyundaiSansHeadKRBold'; color:#1672A2; }
+
+/* Elec City */
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .txt_wrap .align_cont {padding:72px 0 0 0;}
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .txt_wrap {width:auto; max-width:780px; margin:0 auto;}/* 211101 modify */
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info {max-width:594px;margin:0 auto;padding-top:32px;}/* 190502 *//* 201127 modify */
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info ul li{margin-right:39px;}
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info ul li:last-child{margin-right:0;}
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info dl dt {font-size:11px; line-height:16px;}
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info dl dd {font-size:25px; line-height:27px;}
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .txt_wrap .txt {max-width:none}/* 211101 add */
+
+/* Universe */
+.keyMsg_wrap .model_universe {}
+.keyMsg_wrap .model_universe .contModule.h4titd1 .swipe_wrap {margin:0 -12px;}
+.keyMsg_wrap .model_universe .contModule.h4titd1 li.item {width:25%; padding:0 12px;}
+.keyMsg_wrap .model_universe .bus_model .list_wrap .list li.item {vertical-align: top;}
+.keyMsg_wrap .model_universe .contModule.h4titd1 li.item:last-child {float:right;}
+/* 200914 add */
+.cont_universe_info .contModule .module {padding:53px 0 58px;}
+.cont_universe_info .contModule .module .img_wrap {width:290px;}
+.cont_universe_info .contModule .module .h4_tit {font-size:16px;}
+.cont_universe_info .contModule .module .txt_wrap {width:auto;}
+.cont_universe_info .contModule .module .txt_wrap .align_cont {padding:0 15px 0 90px;}
+.cont_universe_info .contModule .module .txt_wrap .align_cont:before {top:0;left:0;width:66px;height:100%;background:url('/kr/images/product/cars/universe/bg-pictogram.png') no-repeat 0 0;background-size:cover;}
+.cont_universe_info .contModule .txt_wrap .bul_list .bul_circle dt {margin:28px 0 10px;font-size:16px;}
+.cont_universe_info .contModule .txt_wrap .bul_list .bul_circle dt:first-child {margin-top:10px;}
+.cont_universe_info .contModule .txt_wrap .bul_list .bul_circle dd {padding-left:10px;font-size:14px;line-height:18px;}
+.cont_universe_info .contModule .txt_wrap .bul_list .bul_circle dd:before {text-indent:-10px;font-size:14px;}
+/* //200914 add */
+
+/* H350 */
+.keyMsg_wrap .model_h350 {}
+.keyMsg_wrap .model_h350 .contModule.cont_h2 .txt_wrap .align_cont {padding-top:72px; padding-bottom:0;}
+.keyMsg_wrap .model_h350 .contModule.cont_h2 .txt_wrap .align_cont * {margin:0 auto;}
+.keyMsg_wrap .model_h350 .contModule.cont_h2 .txt_wrap .txt {padding-top:10px;}
+.keyMsg_wrap .model_h350 .contModule.cont_h2 .txt_wrap .txt.second {padding-top:16px;}
+
+/* 220106 add */
+.keyMsg_wrap .model_xcient_fuel .header .contModule.cont_h2 .txt_wrap {padding-top:60px;}
+.keyMsg_wrap .model_xcient_fuel .header .contModule.cont_h2 .txt_wrap .align_cont .txt {max-width:80%;}
+/* //220106 add */
+
+/* 쏠라티 */
+.contModule.cont_h2 .solati_mov {margin-top:48px;} /* 180718_추가 */
+.contModule.cont_h2 .solati_mov .txt_wrap .h2_tit{font-size: 32px; margin-bottom:20px;}
+.contModule.cont_h2 .solati_mov i.ico.video:after {background-position:-0px -355px;}
+.contModule.cont_h2 .solati_mov i.ico.video:hover:after,
+.contModule.cont_h2 .solati_mov i.ico.video:focus:after {background-position:-48px -355px;}
+
+/* Performance & Safety */
+/*
+#performance .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 24px;}
+#performance .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+#performance .cont_row:first-child .contModule.cont_h2 .txt {max-width:350px; padding-top:8px; font-size:16px; line-height:24px;}
+*/
+
+/* Convenience */
+/*
+#convenience .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 24px;}
+#convenience .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+#convenience .cont_row:first-child .contModule.cont_h2 .txt {max-width:350px; padding-top:8px; font-size:16px; line-height:24px;}
+*/
+
+/* Design */
+/*
+#design .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 24px;}
+#design .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+#design .cont_row:first-child .contModule.cont_h2 .txt {max-width:350px; padding-top:8px; font-size:16px; line-height:24px;}
+*/
+
+/* Line Up */
+
+/* Specification & e-Brochure Download */
+.contModule.eBrochure {}
+.contModule.eBrochure .module {padding:48px 0;}
+.contModule.eBrochure .module .btn_wrap .btn {width:276px;} /* 211229 add */
+.contModule.eBrochure .list_wrap .item .btn_wrap .btn {width:100%;} /* 211229 add */
+.contModule.eBrochure .list_wrap {width:auto; margin:0 24px;}
+.contModule.eBrochure .list {padding-top:24px;}
+.contModule.eBrochure .list_wrap .item {min-height:122px; padding:24px;}
+.contModule.eBrochure .list_wrap .item .btn_wrap .inner {width:276px;}
+.contModule.eBrochure .notice_wrap {max-width:none; margin:0 24px; padding-top:21px;}
+.contModule.eBrochure .notice_wrap .notice_txt {position:relative; padding-left:19px; color:#000;}
+.contModule.eBrochure .notice_wrap .notice_txt:after {content:''; position:absolute; top:50%; left:0; width:17px; height:17px; margin-top:-9px; background:url('/kr/images/product/ico_showroom_m.svg') no-repeat -330px 0;}
+
+/* Network */
+.prdDetail_wrap .btmCont_wrap .network_wrap {padding:48px 0 33px 0;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .header .txt {padding-top:4px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .location_info {padding-top:24px; font-size:14px; line-height:24px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .location_info .own_location {margin-left:4px; padding-left:24px; color:#000;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .location_info .own_location:before {width:24px; height:24px; background:url('/kr/images/common/icon_all_m.svg') no-repeat -486px 0;}
+
+.prdDetail_wrap .btmCont_wrap .network_wrap .item {display:inline-block; width:50%; padding:0 0 24px 0; vertical-align:top;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .item:nth-child(odd){
+padding-right:12px;
+}
+.prdDetail_wrap .btmCont_wrap .network_wrap .item:nth-child(even){
+padding-left:12px;
+}
+
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr {padding:43px 0 48px 0;min-height:300px; background:url('/kr/images/product/bg_map.png') no-repeat top center; background-size:cover;}
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr .header {text-align:center;}
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr .contModule{max-width:1200px;margin-top:24px;padding:34px 0;background:#fff;}
+/*.prdDetail_wrap .btmCont_wrap .network_wrap_kr .contModule .txt {padding-top:8px; color:#666;text-align:center;}*/
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr .contModule .txt {padding-top:4px; color:#666;text-align:center;font-size:14px;line-height:20px;} /* 180709_가이드 수정 */
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr .contModule .btn_wrap{text-align:center;}
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr .contModule .btn_wrap .btn{min-width:186px;}
+
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info {min-height:207px; padding:35px 14px 24px 14px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .flag {position:absolute; top:0; left:0; min-width:62px; height:20px; background-color:#35719E; color:#fff; font-family:'HyundaiSansTextKRBold'; font-size:10px; line-height:20px; text-align:center;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .h4_tit {margin-left:0; word-break:break-word;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info dl {clear:left; padding-top:16px; font-size:11px; line-height:16px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info dl:after {content:''; display:table; clear:both;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info dt {float:left; width:58px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info dd {margin-left:58px; color:#666; word-break:break-all;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .phone_info dd {}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .site_info dt {float:none;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .site_info dd {margin-left:0; padding-top:4px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .site_info a {color:#35719E; text-decoration:underline;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .btn_wrap .btn {min-width:216px;}
+
+/* 220112 add */
+/* Tire efficiency level */
+.contModule.tireLevel {}
+.contModule.tireLevel .module {padding:60px 0 60px 0;}
+.contModule.tireLevel .txt_wrap .txt {margin-bottom:25px;padding-top:4px;font-size:14px;}
+.contModule.tireLevel table {min-width:700px;}
+.contModule.tireLevel .list_dot {margin-top:10px;}
+.contModule.tireLevel .list_dot li {font-size:14px;}
+.contModule.tireLevel .list_dot + .h3_tit {margin-top:55px;}
+/* //220112 add */
+
+}
+
+/*Mobile */
+@media only screen and (max-width: 767px) {
+/* ?���?(차량 ?��?��) */
+.prdDetail_wrap {}
+.prdDetail_wrap .topCont_wrap {}
+
+/* Key Visual */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .img_wrap img {max-width:100%; width:100%;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap {top:40px; right:40px; left:40px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap dt {font-size:28px; line-height:33px;}
+/*.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap dd {padding-top:8px;}*/
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap dd {padding-top:4px;font-size:16px;line-height:21px;} /* 180711_수정 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap .btn_wrap {padding-top:28px;}
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow {width:20px; height:40px; margin-top:-20px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_prev .ico,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_next .ico {width:20px; height:40px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_prev .ico:after,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_next .ico:after {width:20px; height:40px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_prev .ico:after {background-position:-2px 0px; -ms-background-position-x:0px;}/*191002 modify*/
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_next .ico:after {background-position:-21px 0px;-ms-background-position-x:-20px;}/*191002 modify*/
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_prev:hover .ico:after,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_prev:focus .ico:after {background-position:-2px -40px;-ms-background-position-x:0px;}/*191002 modify*/
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_next:hover .ico:after,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .btn_arrow .btn_next:focus .ico:after {background-position:-21px -40px;-ms-background-position-x:-20px;}/*191002 modify*/
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap:hover .indicate,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap.hover .indicate {height:10px;}
+
+/* 롤링 배너 현재 위치 아이콘 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate li.active .indi span:before{height:10px;}
+
+/* 배너 롤링 컨트롤 버튼 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate .btn_control_wrap{bottom:14px;right:20px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate .btn_control_wrap button{height:24px;background:url('/kr/images/common/icon_control_s.png') no-repeat;background-size:129px 45.5px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate .btn_control_wrap button.play{width:60px;background-position:0 -20px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .indicate .btn_control_wrap button.pause{width:69px;background-position:-60px -20px;}
+/*.prdDetail_wrap .topCont_wrap .ui_carousel.dark .topVisual_wrap .indicate .btn_control_wrap button.play{width:46px;background-position:0 0;}
+.prdDetail_wrap .topCont_wrap .ui_carousel.dark .topVisual_wrap .indicate .btn_control_wrap button.pause{width:56px;background-position:-46px 0;}*/
+
+/* ?��?�� ????�� 배너 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .txt_wrap dd {padding-top:20px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .txt_wrap dd.txt {padding-top:8px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap {display:inline-block; font-size:0; line-height:0; text-align:center;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .spec_item {display:inline-block; padding:0 12px; vertical-align:top;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .spec_item:first-child {padding-left:0;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .img_wrap {width:40px; margin:0 auto;}
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .spec_item .img_wrap {width:40px; height:40px; margin:0 auto; background:url('/kr/images/product/ico_showroom_s.svg') no-repeat; background-size:250px 300px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .spec_item .img_wrap {background-position:0 -180px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .spec_item:last-child .img_wrap {background-position:-40px -180px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap.bus .spec_item .img_wrap {background-position:-80px -180px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap.bus .spec_item:last-child .img_wrap {background-position:-120px -180px;}
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .txt_wrap {padding:8px 0 0 0; font-size:12px; line-height:17px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec .list_wrap .txt_wrap span {display:block;}
+
+/* 갤러�? ????�� 배너 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_gallery {}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_gallery .btn_wrap a {display:block; width:67px; height:40px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_gallery .btn_wrap .ico {width:67px; height:40px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_gallery .btn_wrap .ico:after {width:67px; height:40px; margin-top:-20px; background:url('/kr/images/product/ico_showroom_s.svg') no-repeat; background-size:250px 300px;}
+
+/* 360VR ????�� 배너 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_360vr {}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_360vr .btn_wrap a {display:block; width:67px; height:40px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_360vr .btn_wrap .ico {width:67px; height:40px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_360vr .btn_wrap .ico:after {width:67px; height:40px; margin-top:-20px; background:url('/kr/images/product/ico_showroom_s.svg') no-repeat -67px 0; background-size:250px 300px;}
+
+/* ?��?��?�� ????�� 배너 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie {}
+/*190917 modify*/
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap { margin: -20px -22px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap a {display:block; width:40px; height:44px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap .ico {width:40px; height:44px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap .ico:after {display:block;width:40px;height:44px;margin-top:-20px;background: url('/kr/images/common/icon_all_s.svg') no-repeat -310px -288px;background-size:400px 400px;}/*190926 modify*/
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap a:hover .ico:after,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie .btn_wrap a:focus .ico:after {background-position:-269px -287px;-ms-background-position-x:-270px; }/*191002 modify*/
+/*//190917 modify*/
+
+/* ?��?��?�� 버전 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_gallery.dark .btn_wrap .ico:after {background-position:0 -40px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_360vr.dark .btn_wrap .ico:after {background-position:-67px -40px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie.dark .btn_wrap .ico:after {background-position:-310px -288px;}/* 201020 modify */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie.dark .btn_wrap a:hover .ico:after,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_movie.dark .btn_wrap a:focus .ico:after {background-position:-269px -287px;-ms-background-position-x:-270px;}/* 201020 modify */
+
+
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec.dark .list_wrap .spec_item .img_wrap {background-position:0 -220px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec.dark .list_wrap .spec_item:last-child .img_wrap {background-position:-40px -220px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec.dark .list_wrap.bus .spec_item .img_wrap {background-position:-80px -220px;}
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .prd_spec.dark .list_wrap.bus .spec_item:last-child .img_wrap {background-position:-120px -220px;}
+
+/* SNB */
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap {height:60px;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi {height:60px; -ms-transition:background-color 0.5s ease; -o-transition:background-color 0.5s ease; -moz-transition:background-color 0.5s ease; -webkit-transition:background-color 0.5s ease; transition:background-color 0.5s ease;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi_inner {max-width:none; width:auto; height:60px; margin:0; padding:0 20px; text-align:right;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi_inner .h1_tit {left:20px; width:40%; font-size:18px; line-height:60px; z-index:5; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi_inner .menu_wrap {position:absolute; top:0; right:0; left:0; z-index:5;}
+
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap {display:inline-block; left:0; width:100%;margin: 0; float: none;}/*191106 modify*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap.new .tab_wrap .tab {position:absolute;top:0;} /* 191213 add */
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap.new .tab_wrap { left: 0;  float: none;} /*191118 add*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap .btn_open .tab_open {width:55%; height:60px; padding:0 70px 0 0; border:0; text-align:right; line-height:60px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+/*.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap .btn_open .tab_open:after {right:20px; width:40px; height:40px; margin-top:-20px; background-position:-120px 0;}*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap .btn_open .tab_open:after {right:20px;width:40px;height:40px;margin-top:-20px;background-position: -120px 0;}/*190925 modify*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap .tab_depth1 {padding-bottom:40px; -ms-transition:all 0s ease; -o-transition:all 0s ease; -moz-transition:all 0s ease; -webkit-transition:all 0s ease; transition:all 0s ease;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap.new .tab_wrap {left:0;float:none;}/*191118 add*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap .tab_list {display: block; width:auto; padding:20px 0 0 0;  background-color:transparent;}/*191106 modify*/
+/*.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap .tab_link {height:auto; margin:0; padding:0; border:0; background-color:transparent; color:#5185AA; font-size:20px; font-family:'HyundaiSansTextKRBold'; line-height:25px;}*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap .tab_link {height:auto; margin:0; padding:0; border:0; background-color:transparent; color:#B5CBDB; font-size:20px; font-family:'HyundaiSansTextKRBold'; line-height:25px;} /* 1080718_웹접근성 수정 */
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .tab_wrap .tab_list.on .tab_link {color:#fff;}
+
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link {display:none; position:static; padding:0px 0 65px 0; background-color:#35719E; text-align:center;}/*191106 modify*/
+/* 191106 add*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap.new .etc_link {padding: 0 0 40px 0;}/*191118 modify*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap.new .etc_link .item { padding: 0; padding-right: 15px;}/*191118 modify*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item:last-child { padding-right: 0;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap.new .etc_link .item:first-child{padding-left:0;}/*191118 modify*/
+/* //191106 add*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .list_wrap {font-size:0; line-height:0;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item { display: inline-block; padding-right: 28px;} /*191106 modify*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item:first-child {padding-left:28px;} /*191118 add*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item a { padding-right: 18px; font-size:15px; color: #fff;}/*191106 modify*/
+/*.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item a:before {height:40px; background:url('/kr/images/product/ico_showroom_s.svg') no-repeat; background-size:250px 300px; opacity:0.5;}*/
+/* 191106  modify */
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item a:after { width: 40px; top: -10px; height:40px; background:url('/kr/images/product/ico_showroom_s.svg') no-repeat -174px -40px; background-size:250px 300px; opacity:1; background-position: -144px -125px;} /* 180718_웹접근성 수정 */
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item a:hover:after,
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item a:focus:after {opacity:1;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item .go_gallery:after {background-position:-173px 0;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item .go_brochure:after {background-position:-174px -40px;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item .vr360:after {background-position:-174px -80px;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .etc_link .item .go_newico:after { top: 14px; right: 0; width: 12px; background: url(/kr/images/product/ico-navi-m.png) no-repeat; background-size: 12px;}/*191106 add*/
+/* //191106 modify */
+/* ?��????�� ?�� */
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi.open .title {color:#fff;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi.open .menu_wrap {background-color:#35719E;}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi.open .tab_wrap.tab_open {}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi .tab_wrap.tab_open .btn_open .tab_open,
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi.open .tab_wrap .btn_open .tab_open {}
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi .tab_wrap.tab_open .btn_open .tab_open:after,
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi.open .tab_wrap .btn_open .tab_open:after {background-position:-160px -6px; margin-top: -15px;}/*191021 modify*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi .tab_wrap.tab_open .tab_depth1,
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi.open .tab_wrap .tab_depth1 {position:relative; display:block; top:0; width:100%; background-color:#35719E; opacity:1; visibility:visible;left: 0;margin-left: 0;} /*191021 modify*/
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi .tab_wrap.tab_open + .etc_link,
+.prdDetail_wrap .topCont_wrap .inpageNavi_wrap .inpageNavi.open .tab_wrap + .etc_link {display:block;}
+
+/* ?��메세�? */
+.keyMsg_wrap.kr .txt_wrap .align_cont,
+.keyMsg_wrap.kr .txt_wrap .align_cont.center{padding-bottom:36px !important;}
+.keyMsg_wrap.kr .txt_wrap .align_cont.pb0 {padding-bottom:0 !important;} /* 211229 add */
+
+.keyMsg_wrap {}
+.keyMsg_wrap .header {max-width:890px; margin:0 20px;}
+.keyMsg_wrap .header .h1_tit {font-size:28px; line-height:33px;}
+.keyMsg_wrap .header .txt {padding-top:12px;color:#000;} /* 190222 수정 */
+.keyMsg_wrap .img_wrap img {max-width:100%;}
+.keyMsg_wrap .txt_wrap.txt_overlap_pc {position:static;} /* 211229 add */
+
+/* ?��메세�? - admin ?���? */
+.keyMsg_wrap .basic_wrap {}
+.keyMsg_wrap .basic_wrap .module {position:relative;}
+.keyMsg_wrap .basic_wrap .txt_wrap {position:absolute; top:0; right:0; bottom:0; left:0;} /*191213 modify*/
+.keyMsg_wrap .basic_wrap .txt_wrap .inner {display:table; max-width:580px; height:100%; margin:0 auto;}
+.keyMsg_wrap .basic_wrap .txt_wrap .align_cont {display:table-cell;}
+.keyMsg_wrap .basic_wrap .txt_wrap .h2_tit {}
+.keyMsg_wrap .basic_wrap .txt_wrap .txt {}
+.keyMsg_wrap .basic_wrap .txt_wrap .btn_wrap {padding-top:18px;}
+.keyMsg_wrap .basic_wrap .txt_wrap .btn_wrap .btn {}
+
+.keyMsg_wrap .basic_wrap .img_wrap .align_cont.movie {position:relative;}
+.keyMsg_wrap .basic_wrap .img_wrap .align_cont.movie iframe {position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;}
+.keyMsg_wrap .basic_wrap .img_wrap .align_cont.movie:after {content:''; display:block; padding-bottom:31.25%;}
+.keyMsg_wrap .basic_wrap .img_wrap .align_cont.movie img {display:none;}
+.keyMsg_wrap .basic_wrap .txt_wrap .align_cont {padding-top:0; padding-bottom:0;}
+.keyMsg_wrap .basic_wrap .txt_wrap .align_cont .btn_wrap {padding-top:18px;}
+.keyMsg_wrap .basic_wrap .txt_wrap .align_cont .btn_wrap i.ico.ico.video:after {}
+
+/* ?��?��?�� 버전 */
+.keyMsg_wrap .basic_wrap .module.dark .txt_wrap .align_cont .btn_wrap i.ico.video:after {}
+
+/* HD36L */
+.keyMsg_wrap .model_hd36l {padding:72px 20px 0 20px;}
+.keyMsg_wrap .model_hd36l .img_wrap {padding:34px 0 0 0;}
+.keyMsg_wrap .model_hd36l .img_wrap img {display:block; margin:0 auto;}
+
+/* HD38~78 */
+.keyMsg_wrap .model_hd38-78 {padding:60px 0 20px 0;}
+.keyMsg_wrap .model_hd38-78 .car_list {max-width:none; margin:0 5px; padding-top:56px;}
+.keyMsg_wrap .model_hd38-78 .car_list .list {margin:0; font-size:0; line-height:0; text-align:center;}
+.keyMsg_wrap .model_hd38-78 .car_list .item {display:inline-block; width:50%; padding:0 5px; padding-bottom:40px; vertical-align:top;}
+.keyMsg_wrap .model_hd38-78 .car_list .item .txt_wrap {padding-top:12px;}
+.keyMsg_wrap .model_hd38-78 .car_list .item .txt_wrap .title {font-size:16px; font-family:'HyundaiSansTextKRBold'; line-height:21px;}
+.keyMsg_wrap .model_hd38-78 .car_list .item .txt_wrap .title span {display:block; color:#666; font-family:'HyundaiSansTextKRRegular';}
+.prdDetail_wrap .new_truck .tab_list{width:100%;}
+
+/* Mighty */
+.keyMsg_wrap .model_mighty {padding:60px 0 60px 0;}
+.keyMsg_wrap .model_mighty .header .txt dt {font-family:'HyundaiSansTextKRBold';}
+.keyMsg_wrap .model_mighty .header .txt dd {padding-top:19px;}
+
+.keyMsg_wrap .model_mighty .superCab_info {max-width:1200px; margin:0 auto; padding:40px 0 60px 0; text-align:center;}
+.keyMsg_wrap .model_mighty .superCab_info .h2_tit {font-size:28px; line-height:33px;}
+.keyMsg_wrap .model_mighty .superCab_info .txt {padding-top:6px; color:#666;}
+.keyMsg_wrap .model_mighty .superCab_info .superCab_list .list {padding-top:0;}
+.keyMsg_wrap .model_mighty .superCab_info .superCab_list .list:after {content:''; display:table; clear:both;}
+.keyMsg_wrap .model_mighty .superCab_info .superCab_list .item {float:none; width:100%; padding:28px 37px 0 37px;}
+.keyMsg_wrap .model_mighty .superCab_info .superCab_list img {max-width:100%;}
+
+.keyMsg_wrap .model_mighty .superCab_series {padding:60px 0; background-color:#f8f8f8;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list,
+.keyMsg_wrap .model_mighty .superCab_series .new_series {max-width:1200px; margin:0 auto;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .list {margin:0; font-size:0; line-height:0; text-align:center;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item {display:block; width:100%; padding:60px 30px 0 25px; text-align:left; vertical-align:top;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item:first-child {padding-top:0;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item dt {float:left; width:35.3333%; color:#999; font-size:40px; font-family:'HyundaiSansHeadKRBold'; line-height:42px;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item dt span {color:#000;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item dd {margin-left:35.3333%; padding-top:0; color:#666; font-size:16px; line-height:21px;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item.new_item {width:100%; padding-top:60px; text-align:center;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item.new_item dt {float:none; width:auto;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item.new_item dd {margin-left:0; padding-top:20px;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item.new_item .flag_wrap {padding-bottom:3px;}
+.keyMsg_wrap .model_mighty .superCab_series .series_list .item.new_item .flag_wrap .flag {display:inline-block; min-width:50px; margin:0 auto; background-color:#35719E; color:#fff; font-size:14px; font-family:'HyundaiSansHeadKRBold'; line-height:20px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series {padding:30px 25px 0 25px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap {padding-top:48px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap:after {content:''; display:table; clear:both;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap {float:none; width:100%;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap:first-child {padding:0;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap:last-child {padding:40px 0 0 0 ;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap .info {color:#35719E; font-size:40px; font-family:'HyundaiSansHeadKRBold'; line-height:45px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap .info em {font-size:21px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap .info span {display:block; padding-top:8px; color:#000; font-size:21px; font-family:'HyundaiSansTextKRBold'; line-height:26px;}
+.keyMsg_wrap .model_mighty .superCab_series .new_series .info_wrap .txt_wrap .txt {padding-top:9px; color:#666;}
+.keyMsg_wrap .model_mighty .superCab_info .superCab_list .superCab_tit {padding-top:6px; font-size:18px; line-height:24.5px;}
+.mighty_txt .align_cont .h6_tit{font-size: 28px; line-height: 37px; margin-bottom:0;}
+.mighty_txt .contModule.cont_h3tit .txt_wrap .align_cont{width: auto; margin: 0 auto; padding: 50px 47px 36px;}
+.mighty_txt .contModule .txt_wrap {position:absolute;} /* 210906 add */
+
+/* HD120 */
+.keyMsg_wrap .model_hd120 {}
+.keyMsg_wrap .model_hd120 .header {max-width:none;}
+.keyMsg_wrap .model_hd120 .header .contModule.cont_h2 .txt_wrap .align_cont {padding-top:60px;}
+.keyMsg_wrap .model_hd120 .keyMsg_body {padding:63px 0 74px 0;}
+.keyMsg_wrap .model_hd120 .keyMsg_body .contModule.cont_h2 {padding-top:50px;}
+.keyMsg_wrap .model_hd120 .keyMsg_body .contModule.cont_h2 .txt_wrap {position:static;}
+.keyMsg_wrap .model_hd120 .keyMsg_body .contModule.cont_h2 .txt_wrap .align_cont {padding:0;}
+.keyMsg_wrap .model_hd120 .keyMsg_body .contModule.cont_h2 .txt_wrap .align_cont .h2_tit {font-size:18px;; line-height:23px;}
+.keyMsg_wrap .model_hd120 .keyMsg_body .contModule.cont_h2 .img_wrap {padding-top:12px;}
+
+/* HD170~1000 */
+.keyMsg_wrap .model_hd170-1000 {}
+.keyMsg_wrap .model_hd170-1000 .header {max-width:none; margin:0;}
+.keyMsg_wrap .model_hd170-1000 .header .contModule.cont_h2 .txt_wrap {width:auto; margin:0 auto; padding-top:45px;}
+.keyMsg_wrap .model_hd170-1000 .header .contModule.cont_h2 .txt_wrap .align_cont {padding:0 41px 20px;}
+.keyMsg_wrap .model_hd170-1000 .keyMsg_body {padding:60px 0 60px 0;}
+.keyMsg_wrap .model_hd170-1000 .keyMsg_body .contModule.h4titc1 .swipe_wrap.cols2 {margin-left:0;}
+.keyMsg_wrap .model_hd170-1000 .keyMsg_body .contModule.h4titc1 .swipe_wrap.cols2 li.item {padding-top:60px;}
+.keyMsg_wrap .model_hd170-1000 .keyMsg_body .contModule.h4titc1 .swipe_wrap.cols2 li:first-child {padding-top:0;}
+.keyMsg_wrap .model_hd170-1000 .keyMsg_body .contModule.h4titc1 .swipe_wrap.cols2 li.item .txt_wrap {padding:28px 0 0 0; opacity:1; visibility:visible;}
+.keyMsg_wrap .model_hd170-1000 .keyMsg_body .contModule.h4titc1 .txt_wrap .txt {padding-top:8px;}
+
+/* Xcient */
+.keyMsg_wrap .model_xcient {padding-bottom:60px;}
+.keyMsg_wrap .model_xcient .header {max-width:none; margin:0;}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 {}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 .img_wrap .align_cont.movie {position:relative; padding-bottom:62.5%;}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 .img_wrap .align_cont.movie iframe {position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 .txt_wrap .align_cont {padding-top:0; padding-bottom:0;}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 .txt_wrap .align_cont .movie_cont {padding-top:12px;}
+.keyMsg_wrap .model_xcient .header .contModule.cont_h2 .txt_wrap .align_cont .movie_cont i.ico.video:after {margin-left:0;}
+
+.keyMsg_wrap .model_xcient .keyMsg_body .contModule.cont_h3tit {}
+.keyMsg_wrap .model_xcient .keyMsg_body .contModule.cont_h3tit .img_wrap {padding-top:26px;}
+
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap {padding-top:0;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .contModule.cont_h3tit .txt_wrap .align_cont {max-width:300px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .contModule.cont_h3tit .h3_tit {font-size:18px; line-height:24px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .contModule.cont_h3tit .txt {padding-top:12px;}
+
+.prdDetail_wrap .cont_h3engine .tab_wrap .xcient_tab .tab_list{width:100%;}/* 191220 modify */
+
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info {padding-top:22px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row {border:0; border-right:1px solid #222; border-bottom:1px solid #222; border-left:1px solid #222;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row th,
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row td {padding:10px 5px; border-color:#222; word-break:break-word;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row th {padding:10px 5px; font-size:10px; font-family:'HyundaiSansHeadKRBold'; line-height:13px; font-weight:normal;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row thead th {background-color:#222; color:#fff;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row tbody th {padding:10px 5px; border-right:1px solid #222;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .cabin_info .tb_row tbody td {border-left:0; font-size:9px; line-height:15px; text-align:center;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .list_wrap {padding-top:40px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .list_wrap .list {margin:0 -5px; font-size:0; line-height:0; overflow:hidden;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .list_wrap .item {display:inline-block; width:50%; padding:0 5px 40px 5px; vertical-align:top;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .list_wrap .txt_wrap {padding-top:12px;}
+.keyMsg_wrap .model_xcient .keyMsg_body .variant_wrap .list_wrap .txt_wrap .title {font-size:16px; font-family:'HyundaiSansHeadKRBold'; line-height:21px;}
+
+.prdDetail_wrap .contModule.cont_h2 .txt_wrap .align_cont .h2_tit {font-size:28px;line-height:37px;}
+
+/* County */
+.keyMsg_wrap .model_county {}
+.keyMsg_wrap .model_county .header {max-width:none; padding:60px 0 28px 0;}
+.keyMsg_wrap .model_county .header .txt {padding-top:12px;}
+.keyMsg_wrap .model_county .contModule.cont_h2 {}
+.keyMsg_wrap .model_county .contModule.cont_h2 .img_wrap .align_cont.movie {position:relative; padding-bottom:62.5%;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .img_wrap .align_cont.movie iframe {position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .txt_wrap .align_cont {padding-top:0; padding-bottom:0;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .txt_wrap .align_cont .h2_tit {max-width:350px; margin:0 auto; font-size:20px; line-height:25px;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .txt_wrap .align_cont .movie_cont {padding-top:12px;}
+.keyMsg_wrap .model_county .contModule.cont_h2 .txt_wrap .align_cont .movie_cont i.ico.video:after {margin-left:0; background-position:0 -135px;}
+.keyMsg_wrap .model_county .body_compare .contModule.cont_h2 .txt_wrap .align_cont {padding:60px 25px 30px 25px !important;}/* 201116 modify */
+.keyMsg_wrap .model_county .body_compare .contModule.cont_h2 .txt_wrap .align_cont .h2_tit {font-size:28px; line-height:33px;}
+.keyMsg_wrap .model_county .body_compare .contModule.cont_h2 .txt_wrap .align_cont .txt {padding-top:9px;}
+.keyMsg_wrap .model_county .body_compare .contModule.cont_h2 .txt_wrap .align_cont * {max-width:534px; margin:0 auto;}
+
+/* Town */
+.keyMsg_wrap .model_town {}
+.keyMsg_wrap .model_town .header {max-width:none; margin:0;}
+.keyMsg_wrap .model_town .header .contModule.cont_h2 .txt_wrap {width:auto; margin:0 auto;}
+.keyMsg_wrap .model_town .header .contModule.cont_h2 .txt_wrap .align_cont {padding:20px 19px;} /* 200914 modify */ 
+.keyMsg_wrap .model_town .header .contModule.cont_h2 .txt_wrap.txtPos {position: static;}/*220722 add*/
+.keyMsg_wrap .model_town .header .contModule.cont_h2 .img_wrap.imgPos {padding-top: 0;}/*220722 add*/ 
+
+
+.air_wrap .contModule.h4titb2 .txt_wrap .align_cont .list_wrap{float:left;clear:left;}
+.air_wrap .contModule.h4titb2 .txt_wrap .align_cont .h4_tit{float:left;}
+
+/* Super Aero City */
+.keyMsg_wrap .keyMsg_wrap .header {margin:0;}
+.keyMsg_wrap .model_super-aero-city .header .align_cont {padding:65px 17.5px 59px}
+.keyMsg_wrap .model_super-aero-city .rigidity_info .contModule .txt_wrap .align_cont {padding:24px 13.5px 24px}
+.keyMsg_wrap .model_super-aero-city .rigidity_info .contModule .txt_wrap ul.rigidity_list li {text-indent:-2em; padding-left:2em; color:#000; font-size:14px; line-height:24px;}
+.keyMsg_wrap .model_super-aero-city .rigidity_info .contModule .txt_wrap ul.rigidity_list li .num {padding-right:17.5px; font-family:'HyundaiSansHeadKRBold'; color:#1672A2; }
+
+/* Elec City */
+.keyMsg_wrap .model_elec-city .header {margin:0;} /* 211101 add */
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .txt_wrap {position:static;width:auto;margin:0 auto;}/* 211101 modify */
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .txt_wrap .align_cont {padding:56px 42.5px 20px;}
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info {max-width:350px; margin:0 auto; padding-top:32px;}
+/* 190502 */
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info ul {display:flex;} 
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info ul li {flex:1;}
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info ul li:first-child {width:117px; margin-right:20px;}
+/* //190502 */
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info ul li:nth-child(2) {margin-right:20px;}
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info dl dt {min-height:35px; font-size:14px; line-height:17.5px; letter-spacing:-0.8px;}
+.keyMsg_wrap .model_elec-city .header .contModule.cont_h2 .elec_info dl dd {font-size:20px; line-height:33px;}
+.contModule.elec_engine .module{ margin: 0 4px !important;}
+.contModule.elec_txt .txt_wrap .align_cont {width: auto;}
+.contModule.elec_txt_center .txt_wrap .align_cont {padding:60px 20px 60px 20px;text-align:center} /* 211101 add */
+
+/* Universe */
+.keyMsg_wrap .model_universe {}
+.keyMsg_wrap .model_universe:after {content:''; display:table; clear:both; }
+.keyMsg_wrap .model_universe .keyMsg_body {padding:0 0 80px 0;}
+.keyMsg_wrap .model_universe .contModule.cont_h3tit .txt_wrap .align_cont{padding: 60px 42.5px 28px 42.5px;}
+/*.model_universe .contModule.h4titd1 li.item {width:4.5%; margin-left: 10px;}*/
+.keyMsg_wrap .model_universe .contModule.h4titd1 .swipe_wrap {margin:0;}
+.keyMsg_wrap .model_universe .contModule.h4titd1 li.item {padding:0;}
+.keyMsg_wrap .model_universe .bus_model .list_wrap .list li.item {text-align: center; margin-left: 0; width:100%; padding-top:60px;}
+.keyMsg_wrap .model_universe .bus_model .list_wrap .list li.item:first-child {padding-top:0;}
+.keyMsg_wrap .model_universe .bus_model .list_wrap .list .h4_tit {padding-top: 16px; font-size:18px;}
+/* 200914 add */
+.cont_universe_info .contModule .module {padding:22px 10px 46px;}
+.cont_universe_info .contModule .module .img_wrap {width:100%;}
+.cont_universe_info .contModule .module .h4_tit {font-size:18px;}
+.cont_universe_info .contModule .module .txt_wrap {width:100%;}
+.cont_universe_info .contModule .module .txt_wrap .align_cont {padding:46px 0 0 103px;}
+.cont_universe_info .contModule .module .txt_wrap .align_cont:before {top:57px;left:19px;width:59px;height:349px;background:url('/kr/images/product/cars/universe/bg-pictogram-m.png') no-repeat 0 0;background-size:cover;}
+.cont_universe_info .contModule .txt_wrap .bul_list {padding-top:0;}
+.cont_universe_info .contModule .txt_wrap .bul_list .bul_circle dt {margin:31px 0 8px;font-size:16px;line-height:23px;}
+.cont_universe_info .contModule .txt_wrap .bul_list .bul_circle dt:first-child {margin-top:10px;}
+.cont_universe_info .contModule .txt_wrap .bul_list .bul_circle dd {padding-left:8px;font-size:14px;line-height:21px;}
+.cont_universe_info .contModule .txt_wrap .bul_list .bul_circle dd:before {text-indent:-8px;font-size:16px;}
+/* //200914 add */
+
+/* 210331 add */
+/* Elec City-Double */
+.keyMsg_wrap .model_eleccity-double .header {margin:0 !important; max-width:none; }
+/* //210331 add */
+
+/* H350 */
+.keyMsg_wrap .model_h350 {}
+.keyMsg_wrap .model_h350 .contModule.cont_h2 .txt_wrap .align_cont {padding-top:60px; padding-bottom:0;}
+.keyMsg_wrap .model_h350 .contModule.cont_h2 .txt_wrap .align_cont * {margin:0 auto;}
+.keyMsg_wrap .model_h350 .contModule.cont_h2 .txt_wrap .txt {padding-top:12px;}
+.keyMsg_wrap .model_h350 .contModule.cont_h2 .txt_wrap .txt.second {padding-top:19px;}
+
+/* 200928 add */
+.keyMsg_wrap .model_xcient_fuel .header {max-width:none;margin:0;}
+.keyMsg_wrap .model_xcient_fuel .header .contModule.cont_h2 .txt_wrap {padding:47px 20px 0;}
+.keyMsg_wrap .model_xcient_fuel .header .contModule.cont_h2 .txt_wrap .align_cont .h2_tit {font-size:28px;line-height:30px;}
+.keyMsg_wrap .model_xcient_fuel .header .contModule.cont_h2 .txt_wrap .align_cont .h2_tit + .txt {padding-top:10px;}/* 220106 modify */
+.keyMsg_wrap .model_xcient_fuel .header .contModule.cont_h2 .txt_wrap .align_cont .txt {margin-top:0;padding-top:23px;font-size:14px;}/* 201007 modify */
+/* //200928 add */
+
+/* s : 200825 add */
+/* model_eleccity-fuel-cell */
+.keyMsg_wrap .model_eleccity-fuel-cell .header {max-width:none;margin:0;}
+/* //e : 200825 add */
+
+.contModule.cont_h2 .solati_mov {margin-top:56px;} /* 180718_추가 */
+.contModule.cont_h2 .solati_mov i.ico.video:after {background-position:-230px -289px;}
+.contModule.cont_h2 .solati_mov i.ico.video:hover:after,
+.contModule.cont_h2 .solati_mov i.ico.video:focus:after {background-position:-269px -289px;}
+
+
+.prdDetail_wrap {}
+/* .prdDetail_wrap .contModule.cont_h2 .txt_wrap .align_cont {padding:20px;} */
+/*.prdDetail_wrap .contModule.cont_h2 .txt_wrap .align_cont .h2_tit {font-size:20px;}*/
+.prdDetail_wrap .contModule.cont_h2 .txt_wrap .align_cont .h2_tit {font-size:28px;line-height:37px; margin-bottom:0;}
+/*.prdDetail_wrap .contModule.cont_h2 .txt_wrap .align_cont .txt {padding-top:8px; font-size:13px; line-height:18px; opacity:0.8;}*/
+.prdDetail_wrap .contModule.cont_h2 .txt_wrap .align_cont .txt {padding-top:8px;font-size:14px;line-height:21px;opacity:1;}/* 190222 수정 */
+
+/* Performance & Safety */
+/*
+#performance .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:20px 20px 0 20px;}
+#performance .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:none; font-size:20px; line-height:25px;}
+#performance .cont_row:first-child .contModule.cont_h2 .txt {max-width:none; padding-top:8px; font-size:13px; line-height:18px;}
+*/
+
+/* Convenience */
+/*
+#convenience .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:20px 20px 0 20px;}
+#convenience .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:none; font-size:20px; line-height:25px;}
+#convenience .cont_row:first-child .contModule.cont_h2 .txt {max-width:none; padding-top:8px; font-size:13px; line-height:18px;}
+*/
+
+/* Design */
+/*
+#design .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:20px 20px 0 20px;}
+#design .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:none; font-size:20px; line-height:25px;}
+#design .cont_row:first-child .contModule.cont_h2 .txt {max-width:none; padding-top:8px; font-size:13px; line-height:18px;}
+*/
+
+/* Line Up */
+
+/* Specification & e-Brochure Download */
+.contModule.eBrochure {}
+.contModule.eBrochure .module {padding:60px 0;}
+.contModule.eBrochure .module .txt_wrap {padding:0 10px; word-wrap:break-word; word-break:break-word;}
+.contModule.eBrochure .module .btn_wrap .btn {width:auto;} /* 211229 add */
+.contModule.eBrochure .module .btn_wrap .btn + .btn {margin-top:8px;margin-left:0;}/* 211229 add */
+.contModule.eBrochure .list_wrap {width:auto; margin:0 10px;}
+.contModule.eBrochure .list {padding-top:28px;}
+.contModule.eBrochure .list_wrap .item {min-height:0; margin-top:8px; padding:28px 20px;}
+.contModule.eBrochure .list_wrap .item .txt_wrap {display:block; width:auto; padding:0;}
+.contModule.eBrochure .list_wrap .item .btn_wrap {display:block; width:auto;margin-top:0;padding-top:28px; text-align:left; vertical-align:middle;}
+.contModule.eBrochure .list_wrap .item .btn_wrap .inner {display:inline-block; width:100%;}
+.contModule.eBrochure .list_wrap .item .btn_wrap .btn {margin-top:8px;}
+.contModule.eBrochure .notice_wrap {max-width:none; margin:0 10px; padding-top:16px;}
+.contModule.eBrochure .notice_wrap .notice_txt {position:relative; padding-left:25px; color:#666;}
+.contModule.eBrochure .notice_wrap .notice_txt:after {content:''; position:absolute; top:1px; left:0; width:20px; height:20px; margin-top:0; background:url('/kr/images/product/ico_showroom_s.svg') no-repeat -214px 0; background-size:250px 300px;}
+
+/* Network */
+.prdDetail_wrap .btmCont_wrap .network_wrap {padding:60px 0 60px 0;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .header .txt {padding-top:4px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .location_info {padding-top:28px; font-size:16px; line-height:30px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .location_info .own_location {margin-left:8px; padding-left:15px; color:#35719E; font-family:'HyundaiSansHeadKRBold';}
+.prdDetail_wrap .btmCont_wrap .network_wrap .location_info .own_location:before {top:7px; width:15px; height:15px; background:url('/kr/images/common/icon_all_s.svg') no-repeat -385px 0; background-size:400px 400px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .list_wrap {padding-top:20px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .list {position:relative; font-size:0; line-height:0;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .item {display:inline-block; width:100%; padding-bottom:10px; vertical-align:top;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .item:nth-child(odd){
+padding-right:0;
+}
+.prdDetail_wrap .btmCont_wrap .network_wrap .item:nth-child(even){
+padding-left:0;
+position:static;
+}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info {height:auto; min-height:0; padding:58px 20px 24px 20px;}
+
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr {padding:60px 0;min-height:300px; background:url('/kr/images/product/bg_map.png') no-repeat top center; background-size:cover;}
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr .header {text-align:center;}
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr .contModule{max-width:1200px;margin-top:40px;padding:32px 0;background:#fff;}
+/*.prdDetail_wrap .btmCont_wrap .network_wrap_kr .contModule .txt {padding-top:8px; color:#666;text-align:center;}*/
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr .contModule .txt {padding:8px 25px 0; color:#666;text-align:center;font-size:16px;line-height:23px;} /* 180716_수정 */
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr .contModule .btn_wrap{text-align:center;}
+.prdDetail_wrap .btmCont_wrap .network_wrap_kr .contModule .btn_wrap .btn{min-width:180px;}
+
+/*
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .flag {float:left; width:50px; height:25px; margin:0px 18px 0 0; padding:0 5px; border:1px solid rgba(255, 255, 255, 1); font-size:12px; line-height:25px; text-align:center;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .h4_tit {margin-left:67px; font-size:16px; line-height:21px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info dl {padding-top:16px; font-size:14px; line-height:19px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info dt {float:left; width:67px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info dd {margin-left:67px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .phone_info dd {opacity:0.7;}
+*/
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .flag {position:absolute; top:0; left:0; min-width:72px; height:40px; background-color:#35719E; color:#fff; font-family:'HyundaiSansTextKRBold'; font-size:14px; line-height:40px; text-align:center;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .h4_tit {margin-left:0; word-break:break-word;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info dl {clear:left; padding-top:16px; font-size:16px; line-height:21px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info dl:after {content:''; display:table; clear:both;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info dt {float:left; width:67px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info dd {margin-left:67px; color:#666; word-break:break-all;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .phone_info dd {}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .site_info dt {float:none;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .site_info dd {margin-left:0; padding-top:4px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .network_info .site_info a {color:#35719E; text-decoration:underline;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .btn_wrap {padding-top:10px;}
+.prdDetail_wrap .btmCont_wrap .network_wrap .btn_wrap .btn {width:100%; min-width:0;}
+
+/* 220112 add */
+/* Tire efficiency level */
+.contModule.tireLevel {}
+.contModule.tireLevel .module {padding:60px 0 60px 0;}
+.contModule.tireLevel .txt_wrap .txt {margin-bottom:25px;padding-top:4px;font-size:14px;}
+.contModule.tireLevel .tb_row {display:block;overflow:scroll;}
+.contModule.tireLevel table {width:100%;min-width:470px;}
+.contModule.tireLevel .list_dot {margin-top:10px;}
+.contModule.tireLevel .list_dot li {font-size:16px;}
+.contModule.tireLevel .list_dot + .h3_tit {margin-top:55px;}
+/* //220112 add */
+
+}

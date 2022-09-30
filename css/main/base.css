@@ -1,0 +1,177 @@
+@charset "utf-8";
+/************************************************************************
+* filename : base.css
+* description : 공통 css
+************************************************************************/
+@font-face {
+font-family: "HyundaiSansHeadKRBold";
+src: url("../font/HyundaiSansHeadKRBold.eot");
+src: url("../font/HyundaiSansHeadKRBold.eot?#iefix") format("embedded-opentype"),
+url("../font/HyundaiSansHeadKRBold.woff2") format("woff2"),
+url("../font/HyundaiSansHeadKRBold.woff") format("woff"),
+url("../font/HyundaiSansHeadKRBold.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: "HyundaiSansTextKRBold";
+src: url("../font/HyundaiSansTextKRBold.eot");
+src: url("../font/HyundaiSansTextKRBold.eot?#iefix") format("embedded-opentype"),
+url("../font/HyundaiSansTextKRBold.woff2") format("woff2"),
+url("../font/HyundaiSansTextKRBold.woff") format("woff"),
+url("../font/HyundaiSansTextKRBold.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: "HyundaiSansHeadKRMedium";
+src: url("../font/HyundaiSansHeadKRMedium.eot");
+src: url("../font/HyundaiSansHeadKRMedium.eot?#iefix") format("embedded-opentype"),
+url("../font/HyundaiSansHeadKRMedium.woff2") format("woff2"),
+url("../font/HyundaiSansHeadKRMedium.woff") format("woff"),
+url("../font/HyundaiSansHeadKRMedium.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: "HyundaiSansTextKRRegular";
+src: url("../font/HyundaiSansTextKRRegular.eot");
+src: url("../font/HyundaiSansTextKRRegular.eot?#iefix") format("embedded-opentype"),
+url("../font/HyundaiSansTextKRRegular.woff2") format("woff2"),
+url("../font/HyundaiSansTextKRRegular.woff") format("woff"),
+url("../font/HyundaiSansTextKRRegular.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+
+#euro_7 .engine_wrap .module { float: left; width: 600px; }/* 220920 추가 */
+.tab_wrap.col4 .tab_list { width: 20%; } /* 220920 수정 */
+.engine_wrap .module .align_cont .pic{ width: 54%; right: -20px; top: -48px; } /* 220920 추가 */
+.contModule .txt:before, .contModule .txt:after {content:''; display:table; clear:both;} /* 220920 추가 */
+.contModule .h4_tit.sup_left{ float: right; } /* 220920 추가 */
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap{ top: 135px; left: 207px; }
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap dt,
+.prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap dd{ color: #030303; }
+.contModule.cont_h2 .module.dark .txt_wrap .align_cont *{ color: #030303; }
+.engine_wrap .module .align_cont { padding: 0; }
+.tab_wrap.new_power_truck .engine_wrap .module{ height: 434px; min-height: 434px; padding-top: 72px; }
+
+#euro_7 .engine_wrap .module{ padding: 24px 50px; }
+#euro_7 .engine_wrap .module.line_r::after{ 
+  content: '';
+  display: block;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  height: 375px;
+  border-right: 1px solid #e8e8e8; 
+}
+#euro_5 .pic{
+  width: 56%;
+  top: -62px;
+  right: -37px;
+}
+#euro_4 .pic{
+  width: 46%;
+  top: -38px;
+  right: 36px;
+}
+#euro_3 .pic{
+  width: 44%;
+  top: -28px;
+  right: 42px;
+}
+.contModule.h4titb1 .txt_wrap .align_cont * {
+  max-width: 700px;
+}
+.contModule.cont_h3tit .txt_wrap .align_cont{ padding: 80px 0; }
+#technology .h2_tit{ color: #fff; }
+.item { float: left; }
+
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+  .engine_wrap .cont_row.md{
+    width: auto;
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+  #euro_7 .engine_wrap .module{
+    width: 50%;
+    padding-bottom: 30px;
+  }
+  .tab_wrap.new_power_truck .engine_wrap .module{
+    width: 100%;
+    padding-top: 13px;
+    height: auto;
+    min-height: 209px;
+  }
+  #euro_7 .engine_wrap .module.line_r::after{
+    top: 10%;
+    height: 80%;
+  }
+  #uiEngineTab .engine_wrap .module .align_cont .pic{
+    width: 329px;
+  }
+  .engine_wrap .module .img_wrap{ height: auto; }
+  #uiEngineTab #euro_5 .pic{
+    top: -19px;
+    right: -16px;
+  }
+  #uiEngineTab #euro_6 .pic{
+    top: -17px;
+    right: -16px;
+  }
+  #uiEngineTab #euro_4 .pic{
+    top: -17px;
+    right: -10px;
+  }
+  #uiEngineTab #euro_3 .pic{
+    top: -16px;
+    right: -12px;
+  }
+  /* .contModule.h4titd2 .btn_arrow{top: 43%;} */
+}
+
+
+
+
+@media screen and (max-width: 767px){
+  .engine_wrap .module .align_cont{ width: 100%; }
+  .tab_wrap .tab_depth1 .tab_list{ width: 100%; }
+  .contModule.h4titd1 .swipe_wrap{ margin-left: 0; }
+  .contModule.h4titb2 .txt_wrap .align_cont{ float: left; }
+  .contModule.h4titd1 ul.swipe_cont{ width: 20000px !important; }
+  .ui_carousel_hidden{ display: block; }
+  .prdDetail_wrap .topCont_wrap .topVisual_wrap .item .txt_wrap{ top: 40px; left: 40px; }
+  .prdDetail_wrap .topCont_wrap .inpageNavi_wrap.new .etc_link .item{float: none;}
+  #euro_7 .engine_wrap .module{ width: auto; padding: 40px 21px; float: none;}
+  .contModule.cont_h3engine .module{ width: auto; }
+  .engine_wrap .module .align_cont .spec_summary{ margin-top: inherit;}
+  .tab_wrap.new_power_truck .engine_wrap .module{ height: auto; min-height: auto; padding-top: 40px; }
+  #euro_7 .engine_wrap .module.line_r::after{
+    top: auto;
+    right: auto;
+    bottom: 0;
+    left: 8%;
+    width: 84%;
+    height: 1px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  #euro_7 .engine_wrap .module + .module{ margin-top: 0 !important; }
+  .contModule.cont_h3tit .txt_wrap .align_cont{ padding: 6.933vw 0; }
+  .contModule.h4titb1 .txt_wrap .align_cont *{ max-width: 560px; }
+  .contModule .h4_tit{ margin-bottom: 0;}
+  .engine_wrap .module .align_cont .h4_tit{ margin-bottom: 0; }
+  .contModule.h4titd1 .swipe_wrap{ margin-left: -30px; }
+  .cont_row.mt80{ margin-top: 0;}
+  .engine_wrap .module .align_cont .pic{
+    position: static;
+    margin-top: 40px;
+  }
+  #uiEngineTab .engine_wrap .module .align_cont .pic{
+    width: 100%;
+  }
+}

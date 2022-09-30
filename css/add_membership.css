@@ -1,0 +1,367 @@
+@charset "utf-8";
+/************************************************************************
+* filename : add_membership.css
+* description : 2019 상용 고도화 상용 멤버십 css
+************************************************************************/
+
+/* 상용 멤버십 공통 */
+.area_membership {margin-bottom:120px;}
+.area_membership .h2_tit {font-size:64px; line-height:80px;}
+.area_membership .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.area_membership .contModule.cont_h2 .txt_wrap .align_cont * {max-width:100%; color:#fff; text-shadow:0 0 2px #222;}
+.area_membership .contModule.cont_h2 .txt_wrap .txt {font-size:22px; line-height:32px;}
+
+/* 멤버십 안내 */
+.membership_guide {}
+.mebership_able .contModule.cont_h3tit .txt_wrap .align_cont {width:100%; padding:72px 0 48px;}
+.mebership_able .contModule.cont_h3tit .img_wrap + .txt_wrap .align_cont {width:100%; padding:26px 0 76px;}
+.mebership_able .able_list {float:left; width:50%; padding-left:24px; box-sizing:border-box;}
+.mebership_able .able_list:nth-child(odd) {padding-left:0;}
+.mebership_able .able_list h4.tit {font-size:24px; line-height:36px;}
+.mebership_able .able_list ul {margin-top:18px;}
+.mebership_able .able_list ul li .sub {color:#666; font-size:16px; margin-left:14px;}
+/* 200723 add */
+.membership_process {max-width:1200px; margin:0 auto; color:#000;}
+.membership_process .membership_cate{border-bottom:1px solid #e0e0e0; margin-bottom: 80px; padding-bottom: 32px;}
+.membership_process .membership_cate:last-child {border:0;margin-bottom:0;padding-bottom:0;}
+.membership_process .membership_cate .membership_category {margin-bottom:50px;}
+.membership_process .membership_category h4{position:relative; font-size:24px; padding-left:40px;}
+.membership_process .membership_category h4:before{content:'';position:absolute;top:0;left:0;background:url('/kr/images/membership/membership-check.png');width: 31px;height: 31px;}
+/* //200723 add */
+.membership_process .align_cont {padding:72px 0 48px}
+.membership_process .step_list {overflow:hidden; margin-top:-68px;}
+.membership_process .step_list:after {content:''; display:block; clear:both;}
+.membership_process .step_list li {position:relative; float:left; padding-top:89px; background-repeat:no-repeat; background-position:center 0; text-align:center;}
+.membership_process .step_list li.step1 {width:142px; margin-left:0; background-image:url('/kr/images/membership/membership_process_step1.png')}
+.membership_process .step_list li.step2 {width:186px; margin-left:52px; background-image:url('/kr/images/membership/membership_process_step2.png')}
+.membership_process .step_list li.step3 {width:186px; margin-left:20px; background-image:url('/kr/images/membership/membership_process_step3.png')}
+.membership_process .step_list li.step4 {width:186px; margin-left:23px; background-image:url('/kr/images/membership/membership_process_step4.png')}
+.membership_process .step_list li.step5 {width:189px; margin-left:24px; background-image:url('/kr/images/membership/membership_process_step5.png')}
+.membership_process .step_list li.step6 {width:153px; margin-left:39px; background-image:url('/kr/images/membership/membership_process_step6.png')}
+.membership_process .step_list li:after {content:''; display:block; position:absolute; top:110px; left:-17px; width:11px; height:20px; background:url('/kr/images/membership/bl_process_next.png') no-repeat 0 0;}
+.membership_process .step_list li .btn_wrap {padding-top:5px;}
+.membership_process .step_list li .btn {width:100%; min-width:0; max-width:160px; height:40px; font-size:16px; font-family:'HyundaiSansTextKRRegular'; line-height:40px;} /* 200723 modify */
+.membership_process .step_list li .tit {margin-top:15px; color:#35719e; font-size:20px;}
+.membership_process .step_list li .txt {padding-top:0; font-size:18px;}
+.membership_benefit .benefit_list {}
+/* 200723 add */
+.membership_process .step_list2 li.step1 {background-image:url('/kr/images/membership/membership_guide-1.png') !important;}
+.membership_process .step_list2 li.step2 {background-image:url('/kr/images/membership/membership_guide-2.png') !important;}
+.membership_process .step_list2 li.step3 {background-image:url('/kr/images/membership/membership_guide-3.png') !important;}
+.membership_process .step_list2 li.step4 {background-image:url('/kr/images/membership/membership_guide-4.png') !important;}
+.membership_process .step_list2 li {width:20% !important; margin-left:0 !important; margin-right: 6.6%;}
+.membership_process .step_list2 li:last-child{margin-right:0;}
+.membership_process .step_list2 li::after {left:-25px;}
+.membership_process .step_list2 li:first-child::after {content:none;}
+.membership_process .step_list2 li .btn {max-width:160px; max-height:40px;}
+/* //200723 add */
+.contModule.cont_h3tit .membership_benefit .txt_wrap .align_cont {width:1200px; padding:0 0 0;} /* 200723 modify */
+/* 200723 add */
+.contModule.cont_h3tit .membership_benefit .h3_tit {padding-top:72px;}
+.contModule.cont_h3tit .membership_benefit.sale .h3_tit {padding:100px 0 60px;}
+.membership_benefit{ padding-bottom:20px; }
+.membership_benefit .bf_h {position:relative; padding-left:15px;}
+.membership_benefit .bf_h:before {content:'-'; position: absolute;  margin-left:-13px;}
+/* //200723 add */
+.membership_benefit .benefit_list li {position:relative;}
+.membership_benefit .benefit_list li img {width:100%;} /* 200723 add */
+.membership_benefit .benefit_list > li + li {margin-top:18px;}
+.membership_benefit .benefit_list > li > h4.tit {margin-top:50px; margin-bottom:22px; font-size:24px; line-height:36px;}
+.membership_benefit .benefit_list .depth2 > li + li {margin-top:36px;}
+.membership_benefit .benefit_list .depth3 {padding-left:0;} /* 200723 modify */
+.membership_benefit .benefit_list .depth3.nogab {padding-left:0;}
+.membership_benefit .benefit_list .depth3 li {color:#666;}
+/* 200723 add */
+.membership_benefit .benefit_list .depth3 li.add {font-size:16px;}
+.membership_benefit .benefit_list .depth3 li.black {color:#000;}
+/* //200723 add */
+.membership_benefit .benefit_list li .tit strong {color:#35719e; font-weight:normal}
+.membership_benefit .benefit_list li .sub {margin-left:12px;}
+.membership_benefit .benefit_list li .txt {padding-top:0; color:#666; font-size:18px !important;}
+.membership_benefit .benefit_list li .btn_wrap {padding-top:54px; padding-bottom:5px; text-align:left;} /* 200723 modify */
+.membership_benefit .benefit_list li .btn_wrap .btn {width:310px;}
+.membership_benefit .benefit_list .doted > li {padding-left:13px;}
+.membership_benefit .benefit_list .doted > li:after {content:''; display:block; position:absolute; top:11px; left:1px; width:3px; height:3px; border-radius:50%; background:#666;}
+
+.membership_guide .info_warp{padding:0 0 80px}
+.membership_guide .membership_info {position: relative; background:#f8f8f8; padding:50px 56px 52px 56px}
+.membership_guide .membership_info .h4_tit{margin-bottom:8px}
+.membership_guide .membership_info .txt_wrap li {color:#666}
+.membership_guide .membership_info .txt_wrap li.txt_big {font-family:'HyundaiSansTextKRbold';font-size:23px;line-height:33px}
+.membership_guide .membership_info .txt_wrap li img{display:block}
+.membership_guide .membership_info .membership_info_list li {margin-left:15px; font-size:16px;}
+.membership_guide .membership_info .membership_info_list li span {margin-left:-15px}
+
+.mobis_parts_menual {display:none; position:relative; width:900px; padding:66px 60px 60px; background-color:#fff; box-shadow:0 4px 10px 0 rgba(0, 0, 0, 0.50);}
+.mobis_parts_menual .h5_tit {margin-bottom:20px; font-size:36px; line-height:44px; text-align:center;}
+.mobis_parts_menual .mobis_parts_menual_wrap {overflow:hidden; overflow-y:auto;}
+.mobis_parts_menual .mobis_parts_menual_wrap .tit {margin:20px 0; color:#35719e; font-size:24px; font-family:'HyundaiSansTextKRbold'; line-height:36px;}
+.mobis_parts_menual .mobis_parts_menual_wrap .tit2 {margin:10px 0; font-size:24px; font-family:'HyundaiSansTextKRbold'; line-height:36px;}
+.mobis_parts_menual .mobis_parts_menual_wrap .tit + .tit2 {margin-top:-10px;}
+.mobis_parts_menual .mobis_parts_menual_wrap .list {border-bottom:1px solid #f8f8f8;}
+.mobis_parts_menual .mobis_parts_menual_wrap .list li {position:relative; height:194px; padding-left:234px; border-top:1px solid #f8f8f8; line-height:194px; background-repeat:no-repeat; background-position:60px center;}
+.mobis_parts_menual .mobis_parts_menual_wrap .list li span {display:inline-block; vertical-align:middle; line-height:30px;}
+.mobis_parts_menual .mobis_parts_menual_wrap .list li.step1_1 {background-image:url('/kr/images/membership/mobis_parts_menual_1_1.png');}
+.mobis_parts_menual .mobis_parts_menual_wrap .list li.step1_2 {background-image:url('/kr/images/membership/mobis_parts_menual_1_2.png');}
+.mobis_parts_menual .mobis_parts_menual_wrap .list li.step1_3 {background-image:url('/kr/images/membership/mobis_parts_menual_1_3.png');}
+.mobis_parts_menual .mobis_parts_menual_wrap .list li.step1_4 {background-image:url('/kr/images/membership/mobis_parts_menual_1_4.png');}
+.mobis_parts_menual .mobis_parts_menual_wrap .list li.step1_5 {background-image:url('/kr/images/membership/mobis_parts_menual_1_5.png');}
+.mobis_parts_menual .mobis_parts_menual_wrap .list li.step2_1 {background-image:url('/kr/images/membership/mobis_parts_menual_2_1.png');}
+.mobis_parts_menual .mobis_parts_menual_wrap .list li.step2_2 {background-image:url('/kr/images/membership/mobis_parts_menual_2_2.png');}
+.mobis_parts_menual .mobis_parts_menual_wrap .list li.step2_3 {background-image:url('/kr/images/membership/mobis_parts_menual_2_3.png');}
+.mobis_parts_menual .mobis_parts_menual_wrap .list li:after {content:''; display:block; position:absolute; top:-21px; left:50%; margin-left:21px; width:42px; height:42px; background:url('/kr/images/membership/mobis_parts_menual_next.png') no-repeat 0 0;}
+.mobis_parts_menual .mobis_parts_menual_wrap .list li:first-child:after{display:none;}
+.mobis_parts_menual .btn_close {position:absolute; top:0; right:0; width:80px; height:80px;}
+.mobis_parts_menual .btn_close button {position:relative; width:80px; height:80px;}
+.mobis_parts_menual .btn_close button:after {content:''; position:absolute; top:0; left:0; width:80px; height:80px; background:url('/kr/images/common/img_footer.svg') no-repeat 0 -58px;}
+
+
+/* 카드신청 */
+.card_order {}
+.card_order .contModule.cont_h3tit .txt_wrap .align_cont {width:1200px; padding:127px 0 68px}
+.card_order .contModule.cont_h3tit .txt_wrap .align_cont .btn_wrap {padding-top:0; margin-top:-50px;}
+.card_order .contModule.cont_h3tit .txt_wrap .align_cont .btn_wrap ul:after {content:''; display:block; clear:both;}
+.card_order .contModule.cont_h3tit .txt_wrap .align_cont .btn_wrap li {float:left; width:389px; margin-left:16px;}
+.card_order .contModule.cont_h3tit .txt_wrap .align_cont .btn_wrap li:first-child {width:389px; margin-left:0;}
+.card_order .contModule.cont_h3tit .txt_wrap .align_cont .btn_wrap li:last-child {margin-left:17px;}
+.card_order .contModule.cont_h3tit .txt_wrap .align_cont .btn_wrap li a {display:block;}
+.card_order .contModule.cont_h3tit .txt_wrap .align_cont .notice_wrap {clear:both; margin-bottom:60px;}
+.card_order .contModule.cont_h3tit .txt_wrap .align_cont .notice_wrap ul {margin-top:16px; text-align:left;}
+.card_order .contModule.cont_h3tit .txt_wrap .align_cont .notice_wrap li {position:relative; color:#666; font-size:18px; line-height:30px;}
+.card_order .contModule.cont_h3tit .txt_wrap .align_cont .notice_wrap li:before {content:''; display:inline-block; width:20px; height:20px; margin-right:5px; background:url('/kr/images/membership/bl_noti_2.png') no-repeat 0 0; background-size:cover; vertical-align:middle;}
+.card_order .contModule.cont_h3tit .txt_wrap .align_cont .notice_wrap li:first-child {color:#35719e;}
+.card_order .contModule.cont_h3tit .txt_wrap .align_cont .notice_wrap li:first-child:before {background:url('/kr/images/membership/bl_noti_1.png') no-repeat 0 0; background-size:cover;}
+
+/* 가입 선물 안내 */
+.gift_guide .landing_list .header .h_desc {font-size:22px; line-height:32px;}
+.gift_guide .landing_list .header .h_desc .sub_desc {font-size:18px;}
+.gift_guide .landing_list .item .txt_wrap .align_cont {padding-top:15%;}
+.gift_guide .landing_list .item .txt_wrap .align_cont dt,
+.gift_guide .landing_list .item .txt_wrap .align_cont dd {text-shadow:none;}
+.gift_guide .landing_list .item .txt_wrap .align_cont .btn_wrap .btn {min-width:310px;}
+.gift_guide .notice_wrap {width:1000px; margin:5px auto 0 auto;}
+.gift_guide .notice_wrap .tit {margin-top:50px; color:#35719e; font-size:24px; line-height:36px;}
+.gift_guide .notice_wrap > ul {margin-top:5px;}
+.gift_guide .notice_wrap > ul > li {position:relative; padding-left:13px;}
+.gift_guide .notice_wrap > ul > li:before {display:none;}
+.gift_guide .notice_wrap > ul > li:after {content:''; display:block; position:absolute; top:11px; left:1px; width:3px; height:3px; border-radius:50%; background:#666;}
+.gift_guide .notice_wrap li > ul {margin-bottom:0}
+.gift_guide .notice_wrap li > ul li {padding-left:12px; text-indent:-12px;}
+.gift_guide .notice_wrap li > ul li:before {display:none;}
+.gift_guide .notice_wrap li strong {color:#35719e; font-weight:normal;}
+
+.gift_guide_layer {display:none; opacity:1 !important; position:relative; width:900px; padding:66px 60px 60px; background-color:#fff; box-shadow:0 4px 10px 0 rgba(0, 0, 0, 0.50);}
+.gift_guide_layer .h5_tit {display:none; margin-bottom:20px; font-size:36px; line-height:44px; text-align:center;}
+.gift_guide_layer .gift_guide_layer_wrap {}
+.gift_guide_layer .gift_guide_layer_wrap .tit {font-size:24px; font-family:'HyundaiSansTextKRbold'; line-height:36px;}
+.gift_guide_layer .gift_guide_layer_wrap .txt {color:#444; font-size:18px; line-height:28px;}
+.gift_guide_layer .gift_guide_layer_wrap .tab_wrap {margin-bottom:54px; }
+.gift_guide_layer .gift_guide_layer_wrap .tab {margin:34px 0 40px 0;}
+.gift_guide_layer .gift_guide_layer_wrap .tab_cont img {width:100%; height:auto;}
+.gift_guide_layer .btn_close {position:absolute; top:0; right:0; width:80px; height:80px;}
+.gift_guide_layer .btn_close button {position:relative; width:80px; height:80px;}
+.gift_guide_layer .btn_close button:after {content:''; position:absolute; top:0; left:0; width:80px; height:80px; background:url('/kr/images/common/img_footer.svg') no-repeat 0 -58px;}
+
+/* Tablet */
+@media only screen and (min-width:768px) and (max-width: 1279px) {
+  /* 상용 멤버십 공통 */
+  .area_membership {}
+  .area_membership .h2_tit {font-size:32px; line-height:37px;}
+  .area_membership .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+  .area_membership .contModule.cont_h2 .txt_wrap .txt {font-size:18px; line-height:28px;}
+
+  /* 멤버십 안내 */
+  .membership_process .step_list li {background-size:contain; }
+  .membership_process .step_list li.step1 {width:11.834%; margin-left:0; background-image:url('/kr/images/membership/membership_process_step1.png')}
+  .membership_process .step_list li.step2 {width:15.5%; margin-left:3.334%; background-image:url('/kr/images/membership/membership_process_step2.png')}
+  .membership_process .step_list li.step3 {width:15.5%; margin-left:2%; background-image:url('/kr/images/membership/membership_process_step3.png')}
+  .membership_process .step_list li.step4 {width:15.5%; margin-left:2%; background-image:url('/kr/images/membership/membership_process_step4.png')}
+  .membership_process .step_list li.step5 {width:15.834%; margin-left:2%; background-image:url('/kr/images/membership/membership_process_step5.png')}
+  .membership_process .step_list li.step6 {width:12.667%; margin-left:3.334%; background-image:url('/kr/images/membership/membership_process_step6.png')}
+  .contModule.cont_h3tit .membership_benefit .txt_wrap .align_cont {width:100%; padding:0 30px 48px;}
+  /* 200723 add */
+  .membership_process .membership_cate{width: 100%;padding: 0 30px 48px;}
+  .membership_process .step_list2 li {width:20% !important; margin-right:6%; background-size:45% !important;}  
+  /* //200723 add */
+  /* 카드신청 */
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont {width:100%;}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .btn_wrap {padding-top:0; margin:0 20px; margin-top:-50px;}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .btn_wrap li {float:left; width:32%; margin-left:2%;}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .btn_wrap li:first-child {width:32%; margin-left:0;}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .btn_wrap li:last-child {width:32%; margin-left:2%;}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .notice_wrap {margin:0 20px;}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .notice_wrap li {position:relative; color:#666; font-size:16px; line-height:23px;}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .notice_wrap li:before {width:18px; height:18px; margin-right:4px; background-image:url('/kr/images/membership/bl_noti_2-m.png');}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .notice_wrap li:first-child:before {background-image:url('/kr/images/membership/bl_noti_1-m.png');}
+
+  /* 가입 선물 안내 */
+  .gift_guide .landing_list .header .h_desc {font-size:16px; line-height:28px;}
+  .gift_guide .landing_list .header .h_desc .sub_desc {font-size:16px;}
+  .gift_guide .landing_list .item .txt_wrap .align_cont {padding-top:15%;}
+  .gift_guide .landing_list .item .txt_wrap .align_cont dt,
+  .gift_guide .landing_list .item .txt_wrap .align_cont dd {text-shadow:none;}
+  .gift_guide .landing_list .item .txt_wrap .align_cont .btn_wrap .btn {min-width:144px;}
+  .gift_guide .notice_wrap {width:100%; margin:5px auto 0 auto; padding:0 50px;}
+  .gift_guide .notice_wrap .tit {margin-top:50px; color:#35719e; font-size:24px; line-height:36px;}
+  .gift_guide .notice_wrap > ul {margin-top:5px;}
+  .gift_guide .notice_wrap > ul > li {position:relative; padding-left:13px;}
+  .gift_guide .notice_wrap > ul > li:after {content:''; display:block; position:absolute; top:11px; left:1px; width:3px; height:3px; border-radius:50%; background:#666;}
+  .gift_guide .notice_wrap li > ul {margin-bottom:30px}
+  .gift_guide .notice_wrap li strong {color:#35719e; font-weight:normal;}
+
+  .gift_guide_layer {display:none; left:50% !important; margin-left:0 !important; transform:translateX(-50%); opacity:1 !important; position:relative; width:96%; max-width:900px; padding:66px 60px 60px; background-color:#fff; box-shadow:0 4px 10px 0 rgba(0, 0, 0, 0.50);}
+  .gift_guide_layer .scroll_wrap {overflow:hidden; overflow-y:auto;}
+  .gift_guide_layer .h5_tit {font-size:28px; line-height:36px; text-align:center;}
+  .gift_guide_layer .btn_close {position:absolute; top:0; right:0; width:48px; height:48px;}
+  .gift_guide_layer .btn_close button {position:relative; width:48px; height:48px;}
+  .gift_guide_layer .btn_close button:after {content:''; position:absolute; top:0; left:0; width:48px; height:48px; background:url('/kr/images/common/img_footer_m.svg') no-repeat 0 -35px;}
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  /* 상용 멤버십 공통 */
+  .area_membership {}
+  .area_membership .h2_tit {font-size:28px; line-height:33px;}
+  .area_membership .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+  .area_membership .contModule.cont_h2 .txt_wrap .txt {font-size:16px; line-height:23px;}
+  .area_membership.membership_guide .h3_tit{font-size:28px;} /* 200723 add */
+  /* 멤버십 안내 */
+  .membership_guide {}
+  .mebership_able .contModule.cont_h3tit .txt_wrap .align_cont {width:100%; padding:55px 0 41px;} /* 200723 modify */
+  .mebership_able .contModule.cont_h3tit .img_wrap + .txt_wrap .align_cont {width:100%; padding:26px 0 76px;}
+  .mebership_able .able_list {float:none; width:100%; padding-left:11px; box-sizing:border-box;}
+  .mebership_able .able_list:nth-child(odd) {padding-left:11px;}
+  .mebership_able .able_list h4.tit {margin-top:18px; font-size:18px; line-height:25px;}
+  .mebership_able .able_list ul {margin-top:4px; font-size:16px;}
+  .mebership_able .able_list ul li .sub {color:#666; font-size:16px; margin-left:12px;}
+  .membership_process .align_cont {padding:54px 0 46px} /* 200723 modify */
+  .membership_process .step_list {overflow:hidden; margin-top:-68px;}
+  .membership_process .step_list:after {content:''; display:block; clear:both;}
+  .membership_process .step_list li {position:relative; float:left; width:100% !important; margin-bottom:90px; margin-left:0 !important; padding-top:0; padding-left:124px; background-repeat:no-repeat; background-position:20px center; background-size:70px auto; text-align:left;}
+  .membership_process .step_list li.step1 {background-image:url('/kr/images/membership/membership_process_step1-m.png')}
+  .membership_process .step_list li.step2 {background-image:url('/kr/images/membership/membership_process_step2-m.png')}
+  .membership_process .step_list li.step3 {background-image:url('/kr/images/membership/membership_process_step3-m.png')}
+  .membership_process .step_list li.step4 {background-image:url('/kr/images/membership/membership_process_step4-m.png')}
+  .membership_process .step_list li.step5 {background-image:url('/kr/images/membership/membership_process_step5-m.png')}
+  .membership_process .step_list li.step6 {background-image:url('/kr/images/membership/membership_process_step6-m.png')}
+  .membership_process .step_list li:after {content:''; display:block; position:absolute; top:auto; bottom:-50px; left:50%; width:20px; height:12px; margin-left:-10px; background:url('/kr/images/membership/bl_process_next-m.png') no-repeat 0 0; background-size:20px auto;}
+  .membership_process .step_list li:last-child:after {display:none;}
+  .membership_process .step_list li .btn_wrap {padding-top:5px;}
+  .membership_process .step_list li .btn {width:auto; font-size:14px; width: 135px; height: 38px;} /* 200723 modify */
+  .membership_process .step_list li .tit {margin-top:0; color:#35719e; font-size:16px;}
+  .membership_process .step_list li .txt {padding-top:0; font-size:14px;}
+  .membership_process .step_list li .br {display:none;}
+  .membership_process .step_list li .mobr {display:block;}
+  /* 200723 add */ 
+  .membership_process {padding:0 10px;} 
+  .membership_process .step_list2 li.step1 {background-image: url('/kr/images/membership/membership_guide-1-m.png') !important; }
+  .membership_process .step_list2 li.step2 {background-image: url('/kr/images/membership/membership_guide-2-m.png') !important; }
+  .membership_process .step_list2 li.step3 {background-image: url('/kr/images/membership/membership_guide-3-m.png') !important; }
+  .membership_process .step_list2 li.step4 {background-image: url('/kr/images/membership/membership_guide-4-m.png') !important; }
+  .membership_process .step_list li:last-child {margin-bottom:10px;}
+  .membership_process .membership_category h4 {font-size:18px; margin-bottom:45px;}
+  .membership_process .membership_category h4::before {background-repeat: no-repeat; background-size:25px; background-position:10px 2px;}
+  .membership_process .membership_cate {padding-bottom:0;margin-bottom:50px;}
+
+  .contModule.cont_h3tit .membership_benefit.sale .h3_tit {padding:50px 0 0;}
+  .contModule.cont_h3tit .membership_benefit.sale .align_cont {padding-bottom:60px;}
+  .contModule.cont_h3tit .membership_benefit .h3_tit {padding-top:60px;} 
+  .membership_process .step_list2 li:first-child::after {content:'';}
+  .membership_benefit .benefit_list li img {padding:0 10px;}
+  .membership_benefit .bf_h {padding-left:0;}
+  .membership_benefit .bf_h::before {margin-left:-10px;}
+  .membership_benefit .benefit_list li .tit strong {display:block;} 
+  /* //200723 add */
+  .membership_benefit .benefit_list {margin:0 10px}
+  .contModule.cont_h3tit .membership_benefit .txt_wrap .align_cont {width:100%; padding:0 0 40px;} /* 200723 modify */
+  .contModule.cont_h3tit .membership_benefit .img_wrap .align_cont {padding:0 0 16px;}
+  .membership_benefit .benefit_list li {position:relative;}
+  .membership_benefit .benefit_list > li + li {margin-top:18px;}
+  .membership_benefit .benefit_list > li > h4.tit {margin-top:0px; margin-bottom:16px; margin-right:11px; margin-left:10px; font-size:18px; line-height:25px;} /* 200723 modify */
+  .membership_benefit .benefit_list .depth2 {margin:0 11px;}
+  .membership_benefit .benefit_list .depth2 > li + li {margin-top:36px;}
+  .membership_benefit .benefit_list .depth3 {padding-left:11px;}
+  .membership_benefit .benefit_list .depth3.nogab {padding-left:0;}
+  .membership_benefit .benefit_list .depth3 li {color:#666; font-size:16px;}
+  .membership_benefit .benefit_list li .sub {margin-left:12px;}
+  .membership_benefit .benefit_list li .tit {font-size:16px;}
+  .membership_benefit .benefit_list li .txt {padding-top:0; color:#666; font-size:16px !important;}
+  .membership_benefit .benefit_list li .btn_wrap {padding-top:54px; padding-bottom:5px; text-align:center;}
+  .membership_benefit .benefit_list li .btn_wrap .btn {width:100%;} /* 200723 modify */
+  .membership_benefit .benefit_list .doted {margin:0 11px;}
+  .membership_benefit .benefit_list .doted > li {padding-left:13px; font-size:16px;}
+  .membership_benefit .benefit_list .doted > li:after {content:''; display:block; position:absolute; top:9px; left:1px; width:3px; height:3px; border-radius:50%; background:#666;}
+
+  .membership_guide .info_warp{padding:0 0 80px}
+  .membership_guide .membership_info .txt_wrap li img{display: none}
+    .membership_guide .more_btn .txt_wrap .align_cont {padding: 0 10px 60px 10px}
+    .membership_guide .info_warp {background:#f8f8f8; margin-left:0; margin-right:0; padding:28px 0}
+    .membership_guide .membership_info{padding:28px 20px}
+    .membership_guide .membership_info .txt_wrap li.txt_big {font-family:'HyundaiSansTextKRbold';font-size:19px;line-height:26px}
+
+  .mobis_parts_menual {position:fixed; top:0; left:0; width:94%; margin:0; padding:60px 0 0 0; background-color:#fff; visibility:visible;}
+  .mobis_parts_menual .scroll_wrap {height:487px; overflow:hidden; overflow-y:auto;}
+  .mobis_parts_menual .h5_tit {font-size:28px; line-height:33px; text-align:center;}
+  .mobis_parts_menual .mobis_parts_menual_wrap {margin:0 20px;}
+  .mobis_parts_menual .mobis_parts_menual_wrap .tit {margin:10px 0; color:#35719e; font-size:20px; font-family:'HyundaiSansTextKRbold'; line-height:29px;}
+  .mobis_parts_menual .mobis_parts_menual_wrap .tit2 {margin:5px 0; font-size:20px; font-family:'HyundaiSansTextKRbold'; line-height:29px;}
+  .mobis_parts_menual .mobis_parts_menual_wrap .tit + .tit2 {margin-top:-10px;}
+  .mobis_parts_menual .mobis_parts_menual_wrap .list {border-bottom:1px solid #f2f2f2;}
+  .mobis_parts_menual .mobis_parts_menual_wrap .list li {position:relative; height:120px; padding-left:106px; border-top:1px solid #f2f2f2; line-height:120px; background-repeat:no-repeat; background-position:27px center; background-size:64px auto;}
+  .mobis_parts_menual .mobis_parts_menual_wrap .list li span {display:inline-block; vertical-align:middle; line-height:21px;}
+  .mobis_parts_menual .mobis_parts_menual_wrap .list li.step1_1 {background-image:url('/kr/images/membership/mobis_parts_menual_1_1-m.png');}
+  .mobis_parts_menual .mobis_parts_menual_wrap .list li.step1_2 {background-image:url('/kr/images/membership/mobis_parts_menual_1_2-m.png');}
+  .mobis_parts_menual .mobis_parts_menual_wrap .list li.step1_3 {background-image:url('/kr/images/membership/mobis_parts_menual_1_3-m.png');}
+  .mobis_parts_menual .mobis_parts_menual_wrap .list li.step1_4 {background-image:url('/kr/images/membership/mobis_parts_menual_1_4-m.png');}
+  .mobis_parts_menual .mobis_parts_menual_wrap .list li.step1_5 {background-image:url('/kr/images/membership/mobis_parts_menual_1_5-m.png');}
+  .mobis_parts_menual .mobis_parts_menual_wrap .list li.step2_1 {background-image:url('/kr/images/membership/mobis_parts_menual_2_1-m.png');}
+  .mobis_parts_menual .mobis_parts_menual_wrap .list li.step2_2 {background-image:url('/kr/images/membership/mobis_parts_menual_2_2-m.png');}
+  .mobis_parts_menual .mobis_parts_menual_wrap .list li.step2_3 {background-image:url('/kr/images/membership/mobis_parts_menual_2_3-m.png');}
+  .mobis_parts_menual .mobis_parts_menual_wrap .list li:after {content:''; display:block; position:absolute; top:0; left:50%; width:25px; height:25px; transform:translate(-50%, -50%); background:url('/kr/images/membership/mobis_parts_menual_next-m.png') no-repeat 0 0; background-size:cover;}
+  .mobis_parts_menual .mobis_parts_menual_wrap .list li:first-child:after{display:none;}
+  .mobis_parts_menual .btn_close {position:absolute; top:0; right:0; width:40px; height:40px;}
+    .mobis_parts_menual .btn_close button {position:relative; width:40px; height:40px;}
+    .mobis_parts_menual .btn_close button:after {content:''; position:absolute; top:0; left:0; width:40px; height:40px; background:url('/kr/images/common/img_footer_s.svg') no-repeat -36px 6px; background-size:400px 400px;}
+
+  /* 카드신청 */
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont {width:100%; padding:50px 0 50px}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .btn_wrap {padding-top:0; margin:0 20px; margin-top:-22px;}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .btn_wrap li {float:left; width:100%; margin-left:0;}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .btn_wrap li:first-child {width:100%; margin-left:0;}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .btn_wrap li:last-child {width:100%; margin-left:0;}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .btn_wrap li + li {margin-top:10px;}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .btn_wrap li .btn {height:40px; line-height:40px;}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .notice_wrap {margin:0 20px; margin-bottom:10px;}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .notice_wrap li {position:relative; color:#666; font-size:16px; line-height:23px;}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .notice_wrap li:before {width:18px; height:18px; margin-right:4px; background-image:url('/kr/images/membership/bl_noti_2-m.png');}
+  .card_order .contModule.cont_h3tit .txt_wrap .align_cont .notice_wrap li:first-child:before {background-image:url('/kr/images/membership/bl_noti_1-m.png');}
+
+  /* 가입 선물 안내 */
+  .gift_guide .landing_list .header .h_desc {font-size:14px; line-height:21px;}
+  .gift_guide .landing_list .header .h_desc .sub_desc {font-size:12px;}
+  .gift_guide .landing_list .item .txt_wrap .align_cont {padding-top:15%;}
+  .gift_guide .landing_list .item .txt_wrap .align_cont dt {line-height:27px;}
+  .gift_guide .landing_list .item .txt_wrap .align_cont .btn_wrap .btn {min-width:auto;}
+  .gift_guide .notice_wrap {width:100%; margin:5px auto 50px auto; padding:0 20px;}
+  .gift_guide .notice_wrap .tit {margin-top:25px; color:#35719e; font-size:20px; line-height:25px;}
+  .gift_guide .notice_wrap > ul {margin-top:2px;}
+  .gift_guide .notice_wrap > ul > li {position:relative; margin-bottom:10px; padding-left:11px;}
+  .gift_guide .notice_wrap > ul > li:after {content:''; display:block; position:absolute; top:8px; left:1px; width:3px; height:3px; border-radius:50%; background:#666;}
+  .gift_guide .notice_wrap li > ul {margin-bottom:0}
+  .gift_guide .notice_wrap li {color:#666;}
+  .gift_guide .notice_wrap li strong {color:#35719e; font-weight:normal;}
+
+  .gift_guide_layer {position:fixed; top:0; left:0; width:94%; margin:0; padding:60px 0 0 0; background-color:#fff; visibility:visible;}
+  .gift_guide_layer .scroll_wrap {height:487px; overflow:hidden; overflow-y:auto;}
+  .gift_guide_layer .h5_tit {font-size:28px; line-height:33px; text-align:center;}
+  .gift_guide_layer .gift_guide_layer_wrap {margin:0 20px;}
+  .gift_guide_layer .gift_guide_layer_wrap .tit {font-size:19px; line-height:21px;}
+  .gift_guide_layer .gift_guide_layer_wrap .txt {color:#444; font-size:14px; line-height:21px; letter-spacing:-0.01em;}
+  .gift_guide_layer .gift_guide_layer_wrap .tab_wrap {margin-top:6px; margin-bottom:34px;}
+  .gift_guide_layer .gift_guide_layer_wrap .tab {margin:34px 0 40px 0;}
+  .gift_guide_layer .gift_guide_layer_wrap .tab_cont {margin-top:16px;}
+  .gift_guide_layer .gift_guide_layer_wrap .tab_cont img {width:100%; height:auto;}
+  .gift_guide_layer .btn_close {position:absolute; top:0; right:0; width:40px; height:40px;}
+    .gift_guide_layer .btn_close button {position:relative; width:40px; height:40px;}
+    .gift_guide_layer .btn_close button:after {content:''; position:absolute; top:0; left:0; width:40px; height:40px; background:url('/kr/images/common/img_footer_s.svg') no-repeat -36px 6px; background-size:400px 400px;}
+}

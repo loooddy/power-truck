@@ -1,0 +1,463 @@
+@charset "utf-8";
+/************************************************************************
+* filename : experience.css
+* description : Experience css
+************************************************************************/
+
+/* 공통 */
+.experience_wrap {}
+.experience_wrap .cont_row:first-child .contModule.cont_h2 {}
+.experience_wrap .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.experience_wrap .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:72px;}
+.experience_wrap .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+.experience_wrap .contModule.h4titb1 .img_wrap {position:relative;}
+
+.experience_wrap .contModule.experience_slider .img_wrap .inner p {display:none; position:relative; overflow:hidden;}
+.experience_wrap .contModule.experience_slider .img_wrap .inner p:nth-child(1){
+    display:block;
+}
+.experience_wrap .contModule.experience_slider .ui_carousel_initialized .inner p {
+    display:block;
+}
+.experience_wrap .contModule.experience_slider .img_wrap .inner {position:relative;}
+
+.experience_wrap .contModule.experience_slider .btn_arrow {position:absolute; top:50%; width:40px; height:80px; margin-top:-40px;}
+.experience_wrap .contModule.experience_slider .btn_arrow.prev {left:0;}
+.experience_wrap .contModule.experience_slider .btn_arrow.next {right:0;}
+.experience_wrap .contModule.experience_slider .btn_arrow .btn_prev .ico,
+.experience_wrap .contModule.experience_slider .btn_arrow .btn_next .ico {width:40px; height:80px;}
+.experience_wrap .contModule.experience_slider .btn_arrow .btn_prev .ico:after,
+.experience_wrap .contModule.experience_slider .btn_arrow .btn_next .ico:after {top:0; width:40px; height:80px; margin:0;}
+.experience_wrap .contModule.experience_slider .btn_arrow .btn_prev .ico:after {background-position:0 0;}
+.experience_wrap .contModule.experience_slider .btn_arrow .btn_next .ico:after {background-position:-40px 0;}
+
+.experience_wrap .contModule.experience_slider .btn_arrow .btn_prev:hover .ico:after,
+.experience_wrap .contModule.experience_slider .btn_arrow .btn_prev:focus .ico:after {background-position:0 -80px;}
+.experience_wrap .contModule.experience_slider .btn_arrow .btn_next:hover .ico:after,
+.experience_wrap .contModule.experience_slider .btn_arrow .btn_next:focus .ico:after {background-position:-40px -80px;}
+
+.experience_wrap .contModule.experience_slider .indicate {position:absolute; right:0; bottom:0; left:0; height:4px; -ms-transition:height 0.5s ease; -o-transition:height 0.5s ease; -moz-transition:height 0.5s ease; -webkit-transition:height 0.5s ease; transition:height 0.5s ease;}
+.experience_wrap .contModule.experience_slider .indicate ul {height:100%; font-size:0; line-height:0;}
+.experience_wrap .contModule.experience_slider .indicate li {display:inline-block; width:100%; height:100%;}
+.experience_wrap .contModule.experience_slider .indicate li .indi {display:block; margin-left:1px; height:100%; background-color:rgba(0, 0, 0, 0.5);}
+.experience_wrap .contModule.experience_slider .indicate li .indi span {display:block; height:100%; background-color:#35719E;}
+.experience_wrap .contModule.experience_slider .indicate li:first-child .indi {margin-left:0;}
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(2),
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(2) ~ li {
+    width:50%;
+}
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(3),
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(3) ~ li {
+    width:33.33333333%;
+}
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(4),
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(4) ~ li {
+    width:25%;
+}
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(5),
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(5) ~ li {
+    width:20%;
+}
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(6),
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(6) ~ li {
+    width:16.66666666%;
+}
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(7),
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(7) ~ li {
+    width:14.28571428%;
+}
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(8),
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(8) ~ li {
+    width:12.5%;
+}
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(9),
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(9) ~ li {
+    width:11.11111111%;
+}
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(10),
+.experience_wrap .contModule.experience_slider .indicate li:nth-child(1):nth-last-child(10) ~ li {
+    width:10%;
+}
+.experience_wrap .contModule.experience_slider:hover .indicate,
+.experience_wrap .contModule.experience_slider.hover .indicate {height:20px;}
+
+/* LT Launching Event */
+.lanuchingEvent {}
+.lanuchingEvent .contModule.experience_slider {padding:0 0 120px 0;}
+
+/* Elec City Coming Soon */
+.eleccity_coming {}
+
+/* Mega Fair 상세보기  */
+.mega_fair {}
+
+/* Xcient Fuel Consumption Contest */
+.xcientFuel .cont_row .result_wrap {font-size:0; line-height:0; text-align:center;}
+.xcientFuel .cont_row .result_wrap li:first-child {float:left;}
+.xcientFuel .cont_row .result_wrap li:last-child {float:right;}
+.xcientFuel .cont_row .result_wrap li {display:inline-block;}
+.xcientFuel .cont_row .average_wrap {padding: 80px 0 0;}
+.xcientFuel .cont_row .average_wrap h4.sub_tit {padding-bottom:15px; font-family:'HyundaiSansTextKRRegular'; color:#666; font-size:24px; line-height:30px;}
+.xcientFuel .cont_row .average_wrap p.txt {font-family:'HyundaiSansHeadKRBold'; font-size:64px; color:#35719E; line-height:64px;}
+.xcientFuel .cont_row .average_wrap li {display:inline-block;}
+.xcientFuel .cont_row .graph_bg {background:url("/kr/images/experience/xcient-fuel-consumption-contest-line.png") no-repeat bottom; background-size:100%; padding:20px 0 80px 0;}
+.xcientFuel .cont_row .victory_wrap {padding-bottom:80px; background:url("/kr/images/experience/victory-speach-bg.jpg") no-repeat top center; background-size: cover;}
+.xcientFuel .cont_row .victory_wrap .contModule .sub_tit {font-family:'HyundaiSansHeadKRBold'; font-size:58px; line-height:58px;}
+.xcientFuel .cont_row .victory_wrap .contModule .sub_tit2 {font-size:33px;}
+
+/* Solati Moving Studio */
+.solati .cont_row .motor_andSm .contModule p {max-width:1160px;}
+.solati .cont_row .entertainment .btn_wrap {padding:79px 50px 72px;}
+
+/* H:EAR-O Invitational */
+.hearInvit {}
+
+/* H:EAR-O Tour */
+.hearTour {}
+
+/* Overseas Distributors Convention */
+.overs_convention {}
+
+/* Owner Interview */
+.ownerInterview {}
+.ownerInterview .contModule.cont_h2 .movie_wrap .align_cont {padding: 0 50px 0 50px;}
+.ownerInterview i.ico.video:after {background-position:-357px -600px;}
+
+/* 190531 add */
+/* 엑시언트 스페이스*/
+.space_wrap_wrap {}
+.space_wrap_wrap .cont_row:first-child .contModule.cont_h2 {}
+.space_wrap_wrap .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.space_wrap_wrap .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:72px;}
+.space_wrap_wrap .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px;} /* 180709_가이드 수정 */
+.space_wrap_wrap .contModule.cont_h2.eco_md .txt_wrap .align_cont.center * {margin:0 auto;}
+.space_wrap_wrap .eco_tech .eco_bg .module {padding:80px 0}
+.space_wrap_wrap .eco_tech > .eco_bg {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/future-vision-of-hyundai-commercial-vehicle.jpg') no-repeat top; background-size:cover;}
+.space_wrap_wrap .eco_tech .tab_eco {width:1812px;margin:0 auto;padding:32px 0 120px;text-align:center;}/* 201123 modify */
+.space_wrap_wrap .eco_tech .tab_eco .tab {font-size:0; line-height:0; overflow:hidden;}
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list {display:inline-block; padding:0 13px;}
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list:first-child {padding-left:0;}
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list:last-child {padding-right:0;}
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a i.eco_ico {display:block; width:138px; height:136px; margin:0 auto;}
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a i.ico1 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/jecheon-off.png') no-repeat center;}
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.ico1,
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:focus i.ico1 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/jecheon-on.png') no-repeat center;}
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a i.ico2 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/jeonju-off.png') no-repeat center; }
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.ico2,
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:focus i.ico2 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/jeonju-on.png') no-repeat center;}
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a i.ico3 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/busan-off.png') no-repeat center;}
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.ico3,
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:focus i.ico3 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/busan-on.png') no-repeat center;}
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a i.ico4 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/ulsan-off.png') no-repeat center;}
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.ico4,
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:focus i.ico4 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/ulsan-on.png') no-repeat center;}
+
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a i.ico5 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/asan-off.png') no-repeat center;}
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.ico5,
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:focus i.ico5 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/asan-on.png') no-repeat center;}
+/* 201123 add */
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a i.ico6 {background:url('/kr/images/experience/jeju-off.png') no-repeat center;}
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.ico6,
+.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:focus i.ico6 {background:url('/kr/images/experience/jeju-on.png') no-repeat center;}
+/* //201123 add */
+.space_wrap_wrap .eco_tech .tab_eco .tab_link {display:block; width:280px; height:280px; padding-top:45px; background-color:#fff; border:none; border-radius:280px;}
+.space_wrap_wrap .eco_tech .tab_eco .tab_link .txt1 {display:block; padding-top:3px; font-size:24px; line-height:1; font-family:'HyundaiSansTextKRbold';}
+.space_wrap_wrap .eco_tech .tab_eco .tab_link .txt2 {display:block; padding-top:2px; font-size:16px; font-family:'HyundaiSansTextKRRegular'; line-height:1;}
+.space_wrap_wrap .eco_tech .tab_eco .tab_link:hover,#content .cont_row .tab_eco .tab_link:focus,
+.space_wrap_wrap .eco_tech .tab_eco .tab_list.on .tab_link {background-color:#35719E; text-decoration:none; color:#fff;}
+
+.space_wrap_wrap #jeonju_cont .txt_wrap,
+.space_wrap_wrap #cng_cont .txt_wrap,
+.space_wrap_wrap #ulsan_cont .txt_wrap,
+.space_wrap_wrap #busan_cont .txt_wrap,
+.space_wrap_wrap #asan_cont .txt_wrap {position:static; width:890px; margin:0 auto;}
+.space_wrap_wrap #jeju_cont .txt_wrap {position:static;width:100%;margin:0 auto;}/* 201123 add */
+.space_wrap_wrap #jeonju_cont .txt_wrap .align_cont,
+.space_wrap_wrap #cng_cont .txt_wrap .align_cont,
+.space_wrap_wrap #ulsan_cont .txt_wrap .align_cont,
+.space_wrap_wrap #busan_cont .txt_wrap .align_cont,
+.space_wrap_wrap #jeju_cont .txt_wrap .align_cont,/* 201123 add */
+.space_wrap_wrap #asan_cont .txt_wrap .align_cont {padding:72px 48px;}
+.space_wrap_wrap #cng_cont  {}
+
+.space_wrap_wrap .visit_info span{font-weight:bold;}
+/* //190531 add */
+
+/* 신차스토리 */
+.new_car {}
+.new_car .cont_row:first-child .contModule.cont_h2 {}
+.new_car .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.new_car .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:72px;}
+/*.new_car .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}*/
+.new_car .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px;} /* 180709_가이드 수정 */
+.new_car .contModule.cont_h2 .img_wrap .align_cont.movie {position:relative; padding-top:31.25%;}
+.new_car .contModule.cont_h2 .img_wrap .align_cont.movie iframe {position:absolute; top:0; right:0; bottom:0; left:0; z-index:10;}
+.new_car .contModule.cont_h2 .img_wrap .align_cont.movie img {display:none;}
+.new_car .contModule.cont_h2 .movie_wrap .align_cont {padding: 0 50px 0 50px;}
+.new_car .movie_cont {margin-top:40px;}
+.new_car .history span{font-weight:bold;}
+
+@media only screen and (min-width:1280px) and (max-width: 1919px) {
+    /* 공통 */
+    .experience_wrap .cont_row:first-child .contModule.cont_h2 {}
+    .experience_wrap .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont,
+    .space_wrap_wrap .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont,
+    .new_car .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont{padding:64px 0 0 80px;}
+    .experience_wrap .cont_row:first-child .contModule.cont_h2 .h2_tit,
+    .space_wrap_wrap .cont_row:first-child .contModule.cont_h2 .h2_tit,
+    .new_car .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:735px; font-size:42px; line-height:46px;}
+    .experience_wrap .cont_row:first-child .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+}
+
+/* 190531 add */
+@media only screen and (min-width:1280px) and (max-width: 1650px) {
+    .space_wrap_wrap .eco_tech .tab_eco {width:100%;}
+	.space_wrap_wrap .eco_tech .tab_eco .tab_link {width:190px;height:190px;}/* 201123 modify */
+	.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a i.eco_ico,.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.eco_ico {width:82px; height:67px; background-size:cover;}/* 201123 modify */
+    .space_wrap_wrap .eco_tech .tab_eco .tab_link .txt1 {padding-top:14px; font-size:20px;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab_link .txt2 {font-size:14px;}
+}
+/* //190531 add */
+
+/* Tablet */
+@media only screen and (min-width:768px) and (max-width: 1279px) {
+    /* 공통 */
+    .experience_wrap {}
+    .experience_wrap .cont_row:first-child .contModule.cont_h2 {}
+    .experience_wrap .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+    .experience_wrap .cont_row:first-child .contModule.cont_h2 .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+    .experience_wrap .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:8px; font-size:16px; line-height:24px;}
+    .experience_wrap .contModule.experience_slider .btn_arrow {width:24px; height:48px; margin-top:-24px;}
+    .experience_wrap .contModule.experience_slider .btn_arrow.prev {left:0;}
+    .experience_wrap .contModule.experience_slider .btn_arrow.next {right:0;}
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_prev .ico,
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_next .ico {width:24px; height:48px;}
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_prev .ico:after,
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_next .ico:after {width:24px; height:48px;}
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_prev .ico:after {background-position:0 0;}
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_next .ico:after {background-position:-24px 0;}
+
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_prev:hover .ico:after,
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_prev:focus .ico:after {background-position:0 -48px;}
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_next:hover .ico:after,
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_next:focus .ico:after {background-position:-24px -48px;}
+
+    .experience_wrap .contModule.experience_slider:hover .indicate,
+    .experience_wrap .contModule.experience_slider.hover .indicate {height:14px;}
+
+    /* LT Launching Event */
+    .lanuchingEvent {}
+
+    /* Elec City Coming Soon */
+    .eleccity_coming {}
+
+    /* Mega Fair 상세보기  */
+    .mega_fair {}
+
+    /* Xcient Fuel Consumption Contest */
+    .xcientFuel .cont_row .result_wrap li:first-child {float:none;}
+    .xcientFuel .cont_row .result_wrap li:nth-child(2) {padding:0;}
+    .xcientFuel .cont_row .result_wrap li:last-child {float:none;}
+    .xcientFuel .cont_row .average_wrap li:nth-child(2) {padding:0 60px;}
+    .xcientFuel .cont_row .victory_wrap .contModule .sub_tit {font-size:38px; line-height:38px;}
+    .xcientFuel .cont_row .victory_wrap .contModule .sub_tit2 {font-size:20px;}
+
+    /* Solati Moving Studio */
+    .solati {}
+
+    /* H:EAR-O Invitational */
+    .hearInvit {}
+
+    /* H:EAR-O Tour */
+    .hearTour {}
+
+    /* Overseas Distributors Convention */
+    .overs_convention {}
+
+    /* Owner Interview */
+    .ownerInterview .movie_wrap {text-align:center; color:#fff;}
+    .ownerInterview .contModule.cont_h2 .movie_wrap .align_cont {padding: 0 25px 0 25px;}
+    .ownerInterview i.ico.video:after {background-position:0 -355px;}
+
+    /* 190531 add */
+    /* 엑시언트 스페이스*/
+    .space_wrap_wrap {}
+    .space_wrap_wrap .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+    .space_wrap_wrap .cont_row:first-child .contModule.cont_h2  .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+    /*.space_wrap_wrap .cont_row:first-child .contModule.cont_h2  .txt {max-width:400px; padding-top:8px; font-size:16px; line-height:24px;}*/
+    .space_wrap_wrap .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px;} /* 180709_가이드 수정 */
+    .space_wrap_wrap .eco_tech .tab_eco {width:auto; margin:0 24px;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list {padding:0 10px;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a i.eco_ico {width:82px; height:67px; background-size: cover;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.eco_ico,
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:focus i.eco_ico {background-size: cover;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab_link {width:161px; height:161px; padding:25px 15px 0 20px;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab_link img {width:100px;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab_link .txt1 {padding-top:11px; font-size:18px; line-height:24px;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab_link .txt2 {padding-top:3px; font-size:8px;}
+
+    .space_wrap_wrap #jeonju_cont .txt_wrap,
+    .space_wrap_wrap #cng_cont .txt_wrap,
+    .space_wrap_wrap #busan_cont .txt_wrap,
+    .space_wrap_wrap #ulsan_cont .txt_wrap,
+    .space_wrap_wrap #asan_cont .txt_wrap {position:static; width:100%;}
+    .space_wrap_wrap #jeonju_cont .txt_wrap .align_cont ,
+    .space_wrap_wrap #cng_cont .txt_wrap .align_cont ,
+    .space_wrap_wrap #busan_cont .txt_wrap .align_cont,
+    .space_wrap_wrap #ulsan_cont .txt_wrap .align_cont,
+    .space_wrap_wrap #asan_cont .txt_wrap .align_cont {padding:72px 200px 16px;}
+    /* .space_wrap_wrap #cng_cont  {background-color:#E3EEF7;}
+    .space_wrap_wrap #busan_cont  {background-color:#F4EFEF;} */
+    /* //190531 add */
+
+    /* 신차스토리 */
+    .new_car {}
+    .new_car .cont_row:first-child .contModule.cont_h2 {}
+    .new_car .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+    .new_car .cont_row:first-child .contModule.cont_h2  .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+    /*.new_car .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px; padding-top:8px; font-size:16px; line-height:24px;}*/
+    .new_car .cont_row:first-child .contModule.cont_h2 .txt {max-width:400px;}/* 180709_가이드 수정 */
+    .new_car .movie_wrap {text-align:center; color:#fff;}
+    .new_car .contModule.cont_h2 .movie_wrap .align_cont {padding: 0 25px 0 25px;}
+    .new_car .movie_cont {margin-top:20px;}
+    .new_car i.ico.video:after {margin-left:0;}
+
+}
+/*Mobile */
+@media only screen and (max-width: 767px) {
+    /* 공통 */
+    .experience_wrap {}
+    .experience_wrap .cont_row:first-child .contModule.cont_h2 {}
+    .experience_wrap .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+    .experience_wrap .cont_row:first-child .contModule.cont_h2  .h2_tit {max-width:none; font-size:28px; line-height:33px;}
+    .experience_wrap .cont_row:first-child .contModule.cont_h2  .txt {max-width:none; padding-top:8px;}
+    .experience_wrap .contModule.experience_slider .btn_arrow {width:20px; height:40px; margin-top:-20px;}
+    .experience_wrap .contModule.experience_slider .btn_arrow.prev {left:0;}
+    .experience_wrap .contModule.experience_slider .btn_arrow.next {right:0;}
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_prev .ico,
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_next .ico {width:20px; height:40px;}
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_prev .ico:after,
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_next .ico:after {width:20px; height:40px;}
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_prev .ico:after {background-position:0 0;}
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_next .ico:after {background-position:-20px 0;}
+
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_prev:hover .ico:after,
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_prev:focus .ico:after {background-position:0 -40px;}
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_next:hover .ico:after,
+    .experience_wrap .contModule.experience_slider .btn_arrow .btn_next:focus .ico:after {background-position:-20px -40px;}
+
+    .experience_wrap .contModule.experience_slider:hover .indicate,
+    .experience_wrap .contModule.experience_slider.hover .indicate {height:10px;}
+
+    /* LT Launching Event */
+    .lanuchingEvent {}
+
+    /* Elec City Coming Soon */
+    .eleccity_coming {}
+
+    /* Mega Fair 상세보기  */
+    .mega_fair {}
+
+    /* Xcient Fuel Consumption Contest */
+    .xcientFuel .cont_row .result_wrap {padding:30px 0 40px;}
+    .xcientFuel .cont_row .result_wrap li:first-child {float:none; padding-bottom:60px;}
+    .xcientFuel .cont_row .result_wrap li:nth-child(2) {padding-left:0; padding-right:0; padding-bottom:60px;}
+    .xcientFuel .cont_row .result_wrap li:last-child {float:none;}
+    .xcientFuel .cont_row .result_wrap li {width:100%;}
+    .xcientFuel .cont_row .average_wrap li {width:100%;}
+    .xcientFuel .cont_row .average_wrap li:first-child {padding-bottom:45px;}
+    .xcientFuel .cont_row .average_wrap li:last-child {padding-bottom:0;}
+    .xcientFuel .cont_row .average_wrap li {width:100%;}
+    .xcientFuel .cont_row .average_wrap h4.sub_tit {font-size:16px;}
+    .xcientFuel .cont_row .average_wrap p.txt {font-size:36px; line-height:44px;}
+    .xcientFuel .cont_row .graph_bg {background:url("/kr/images/experience/xcient-fuel-consumption-contest-line-m.png") no-repeat bottom; background-size:100%;}
+    .xcientFuel .cont_row .victory_wrap .contModule .sub_tit {font-size:35px; line-height:35px;}
+    .xcientFuel .cont_row .victory_wrap .contModule .sub_tit2 {font-size:20px;}
+
+    /* Solati Moving Studio */
+    .solati {}
+    .solati .cont_row .entertainment .btn_wrap {padding:29px 10px 29px;}
+    /* H:EAR-O Invitational */
+    .hearInvit {}
+
+    /* H:EAR-O Tour */
+    .hearTour {}
+
+    /* Overseas Distributors Convention */
+    .overs_convention {}
+
+    /* Owner Interview */
+    .ownerInterview .contModule.cont_h2 .movie_wrap {text-align:center; color:#fff;}
+    .ownerInterview .contModule.cont_h2 .movie_wrap .align_cont {padding: 0 25px 0 25px;}
+    .ownerInterview i.ico.video:after {background-position:-230px -290px;}
+
+    /* 190531 add */
+    /* 엑시언트 스페이스 */
+    .space_wrap_wrap .cont_row:first-child .contModule.cont_h2 {}
+    .space_wrap_wrap .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+    .space_wrap_wrap .cont_row:first-child .contModule.cont_h2  .h2_tit {max-width:none; font-size:28px; line-height:33px;}
+    .space_wrap_wrap .cont_row:first-child .contModule.cont_h2  .txt {max-width:none; padding-top:8px;}
+    .space_wrap_wrap .eco_tech > .eco_bg {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/future-vision-of-hyundai-commercial-vehicle-m.jpg') no-repeat center; background-size:cover;}
+	.space_wrap_wrap .eco_tech .contModule.cont_h3tit .txt_wrap .align_cont {padding:56px 10px 40px 10px;}/* 201123 add */
+	.space_wrap_wrap .eco_tech .tab_eco {width:auto;margin-top:0;padding:32px 0 60px} /* 201123 modify */
+    .space_wrap_wrap .eco_tech .tab_eco ul {-webkit-display:flex;-ms-display:flex;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-align-content:flex-start;-ms-align-content:flex-start;align-content:flex-start;max-width:350px;width:100%;margin:0 auto;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list {-webkit-flex:1; -ms-flex:1; flex:1; width:50%; margin-bottom:32px; padding:0;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a i.eco_ico {width:86px; height:72px;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab_link {width:160px;height:160px; margin:0 auto; padding-top:28px;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab_link img {width:50px;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab_link .txt1 {font-size:16px; padding-top:10px;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab_link .txt2 {width:120px; margin:0 auto; padding-top:2.5px; font-size:12px;}
+
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a i.ico1 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/jecheon-off-2.png') no-repeat center; background-size:cover;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.ico1,
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:focus i.ico1 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/jecheon-on-2.png') no-repeat center; background-size:cover;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a i.ico2 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/jeonju-off-2.png') no-repeat center; background-size:cover;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.ico2,
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:focus i.ico2 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/jeonju-on-2.png') no-repeat center; background-size:cover;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a i.ico3 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/busan-off-2.png') no-repeat center; background-size:cover;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.ico3,
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:focus i.ico3 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/busan-on-2.png') no-repeat center; background-size:cover;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a i.ico4 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/ulsan-off-2.png') no-repeat center; background-size:cover;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.ico4,
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:focus i.ico4 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/ulsan-on-2.png') no-repeat center; background-size:cover;}
+    
+	.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list:first-child {-webkit-flex-basis:50%;-ms-flex-basis:50%; flex-basis:50%;width:50%;margin-right:0;} /* 201123 modify */
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list:first-child .tab_link {margin:0 auto;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a i.ico5 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/asan-off-2.png') no-repeat center; background-size:cover;}
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.ico5,
+    .space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:focus i.ico5 {background:url('https://www-trucknbus.hyundai.com/kr/images/experience/asan-on-2.png') no-repeat center; background-size:cover;}
+    /* 201123 add */
+	.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a i.ico6 {background:url('/kr/images/experience/jeju-off-2.png') no-repeat center;background-size:cover;}
+	.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:hover i.ico6,
+	.space_wrap_wrap .eco_tech .tab_eco .tab .tab_list a:focus i.ico6 {background:url('/kr/images/experience/jeju-on-2.png') no-repeat center;background-size:cover;}
+	/* //201123 add */
+
+    .space_wrap_wrap #jeonju_cont .txt_wrap,
+    .space_wrap_wrap #cng_cont .txt_wrap,
+    .space_wrap_wrap #ulsan_cont .txt_wrap,
+    .space_wrap_wrap #busan_cont .txt_wrap,
+    .space_wrap_wrap #asan_cont .txt_wrap {position:static; width:100%;}
+    .space_wrap_wrap #jeonju_cont .txt_wrap .align_cont ,
+    .space_wrap_wrap #cng_cont .txt_wrap .align_cont ,
+    .space_wrap_wrap #busan_cont .txt_wrap .align_cont,
+    .space_wrap_wrap #ulsan_cont .txt_wrap .align_cont,
+	.space_wrap_wrap #jeju_cont .txt_wrap .align_cont,/* 201123 add */
+    .space_wrap_wrap #asan_cont .txt_wrap .align_cont {padding:56px 20px;}
+    /* //190531 add */
+    
+    /* 신차스토리 */
+    .new_car {}
+    .new_car .cont_row:first-child .contModule.cont_h2 {}
+    .new_car .cont_row:first-child .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+    .new_car .cont_row:first-child .contModule.cont_h2  .h2_tit {max-width:none; font-size:28px; line-height:33px;}
+    .new_car .cont_row:first-child .contModule.cont_h2  .txt {max-width:none; padding-top:8px;}
+    .new_car .contModule.cont_h2 .img_wrap .align_cont.movie {position:relative; padding-top:61.7283%;}
+    .new_car .contModule.cont_h2 .movie_wrap {text-align:center; color:#fff;}
+    .new_car .contModule.cont_h2 .movie_wrap .align_cont {padding: 0 25px 0 25px;}
+    .new_car .contModule.cont_h2 .movie_wrap .h2_tit {font-size: 20px; line-height:25px;}
+    .new_car .contModule.cont_h2 .movie_wrap .txt {font-size:14px; line-height:19px;}
+    .new_car .contModule.cont_h2 .movie_wrap .movie_cont {margin-top:20px;}
+    /*.new_car i.ico.video {width:40px; height:40px;}
+    .new_car i.ico.video:after {width:40px; height:40px; margin:-20px 0 0 0;}*/
+    .new_car i.ico.video:after{margin-left:0;}
+}

@@ -1,0 +1,380 @@
+@charset "utf-8";
+/************************************************************************
+* filename : about.css
+* description : About css
+************************************************************************/
+
+/* Corporate Philosophy */
+.philosophy {}
+.philosophy .contModule.cont_h2 {}
+.philosophy .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.philosophy .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:74px;}
+.philosophy .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+.philosophy .corpphilosophy_wrap {}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list {max-width:1200px; margin:0 auto;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list dt {position:relative; padding-bottom:32px;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list dt:after {content:''; position:absolute; bottom:0; left:50%; width:2px; height:32px; background-color:#35719E;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list dt .txt_wrap {width:373px; height:373px; margin:0 auto; padding:0 20px; border-radius:50%; background-color:#35719E;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list dt .txt_wrap .inner {display:table; width:100%; height:100%;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list dt .txt_wrap .align_cont {display:table-cell; vertical-align:middle;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list dt .txt_wrap .h3_tit {color:#fff; font-size:32px; line-height:42px;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list dd {position:relative; margin:0 -20px;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list dd:after {content:''; position:absolute; top:0; left:50%; width:2px; height:32px; background-color:#35719E;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list ul {position:relative; padding-top:32px; font-size:0; line-height:0; text-align:center;}
+/*.philosophy .corpphilosophy_wrap .corpphilosophy_list ul:after {content:''; position:absolute; top:0; right:186px; left:186px; height:2px; background-color:#35719E;}*/
+.philosophy .corpphilosophy_wrap .corpphilosophy_list .item {position:relative; display:inline-block; width:373px; margin:0 20px; padding-bottom:80px; vertical-align:top;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list .item:after {content:''; position:absolute; top:-32px; left:50%; width:2px; height:32px; background-color:#35719E;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list .item:before {content:''; position:absolute; top:-32px; left:0; right:0; width:100%; height:2px; background-color:#35719E;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list .item:first-child:before {right:auto; left:50%; width:100%}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list .item:last-child:before {right:50%; left:auto; width:100%;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list .item .txt_wrap {height:373px; padding:0 20px; border:2px solid #35719E; border-radius:50%;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list .item .txt_wrap .inner {display:table; width:100%; height:100%;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list .item .txt_wrap .align_cont {display:table-cell;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list .item .txt_wrap .h4_tit {color:#000; font-size:32px; line-height:42px;}
+.philosophy .corpphilosophy_wrap .corpphilosophy_list .item .txt_wrap .txt {padding-top:8px; color:#666; font-size:18px; line-height:28px;}
+
+.philosophy .managePhilosophy_wrap {position:relative; padding-top:40.68%; background:url('/kr/images/util/management-philosophy.jpg') no-repeat center center; background-size:cover;}
+/* 200121 modify */
+.philosophy .managePhilosophy_wrap .managePhilosophy_cont {position:relative; max-width:1200px; margin:-30.68% auto 0 auto; padding-bottom:10%;}
+.philosophy .managePhilosophy_wrap .managePhilosophy_list { text-align: center; margin: 0 -20px; padding-top: 0; overflow: hidden; height: 100%;}
+.philosophy .managePhilosophy_wrap .managePhilosophy_list .list { vertical-align: middle; font-size: 0; line-height: 0; overflow:hidden;}
+.philosophy .managePhilosophy_wrap .managePhilosophy_list .item { position: relative;  display: inline-block; width: 33.3%; max-width: 420px; max-height: 570px; vertical-align: top; padding: 0 20px; overflow: hidden;} 
+/*200121 add*/
+.philosophy .managePhilosophy_wrap .managePhilosophy_list .item:nth-child(1){margin-top:120px;}
+.philosophy .managePhilosophy_wrap .managePhilosophy_list .item:nth-child(2){margin-top:60px;}
+.philosophy .managePhilosophy_wrap .managePhilosophy_list .item .img_wrap {display:block; overflow:hidden;}
+.philosophy .managePhilosophy_wrap .managePhilosophy_list .item .img_wrap img {width:100%; height:100%;}
+/*//200121 add*/
+.philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap { position: absolute; top: 0; left: 0;  border: 0; width: 100%; height: 100%; padding: 0 20px; }
+/* //200121 modify */
+
+.philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .inner {display:table; width:100%; height:100%;}
+.philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .align_cont {display:table-cell;}
+.philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .h4_tit {color:#fff; font-size:42px; line-height:1.25;} /*200121 modify */
+/* 200121 add */
+.philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .txt { color: #fff; font-size: 18px; line-height: 1.5; padding-top: 30px;} 
+.philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .txt.r_bar span { position: relative; display: inline-block; padding-right: 15px;}
+.philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .txt.r_bar span:after {  content: ''; position: absolute; top: 6px; right: 7px;  display: block; width: 1px; height: 16px; background-color: #fff;}
+.philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .txt.r_bar span:last-child{padding-right:0;}
+.philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .txt.r_bar span:last-child:after{content:none;}
+.philosophy .managePhilosophy_wrap .sbr {display:block;}
+/* //200121 add */
+.philosophy .core_value {padding:34px 0 46px 0;}
+.philosophy .core_value .core_list {margin:0 -20px; padding-top:40px; overflow:hidden;}
+.philosophy .core_value .core_list .list {font-size:0; line-height:0; text-align:center;}
+.philosophy .core_value .core_list .item {display:inline-block; width:373px; margin:0 20px; padding-bottom:80px; vertical-align:top;}
+.philosophy .core_value .core_list .img_wrap {width:180px; margin:0 auto;}
+.philosophy .core_value .core_list .img_wrap img {max-width:100%;}
+.philosophy .core_value .core_list .txt_wrap {padding-top:24px;}
+.philosophy .core_value .core_list .txt_wrap .txt {padding-top:8px;color:#666;  font-size:18px; line-height:28px;}
+.philosophy .visionInfo_cont {position:relative; padding-top:56.25%; padding-bottom:250px; background:url('/kr/images/util/vision-2020.jpg') no-repeat bottom center;  background-size:cover;} /* 200121 modify */
+.philosophy .visionInfo_cont .contModule.cont_h3tit {position:relative;  margin-top:-57%; padding-bottom:27.5%;} /* 200121 modify */
+/* 200121 add */
+.philosophy .visionInfo_cont .contModule.cont_h3tit .txt_wrap .h3_tit span { display:block; font-size:22px; }
+.philosophy .visionInfo_cont .contModule.cont_h3tit .txt_wrap:first-child .align_cont {padding-top:130px;}
+.philosophy .visionInfo_cont .contModule.cont_h3tit .txt_wrap:last-child .align_cont {padding: 20px 0 60px;}
+.philosophy .visionInfo_cont .contModule.cont_h3tit .txt_wrap .txt {word-wrap: initial;opacity:1;line-height:1.5;}
+.philosophy .visionInfo_cont .contModule.cont_h3tit .txt_wrap .sbr {display:block;}
+/* //200121 add */
+
+/* Hyundai History */
+.corporateHistory_wrap {}
+.corporateHistory_wrap .contModule.cont_h2 {}
+.corporateHistory_wrap .contModule.cont_h2 .txt_wrap .align_cont {padding:120px 0 0 205px;}
+.corporateHistory_wrap .contModule.cont_h2 .h2_tit {max-width:735px; font-size:64px; line-height:74px;}
+.corporateHistory_wrap .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+.corporateHistory_wrap .inpageNavi_wrap {height:80px;}
+.corporateHistory_wrap .inpageNavi_wrap .inpageNavi {width:100%; height:80px; background-color:#fff;}
+.corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner {position:relative; max-width:1200px; height:80px; margin:0 auto;}
+.corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .title {position:absolute; top:0; left:0; width:30%; font-size:24px; font-family:'HyundaiSansHeadKRBold'; line-height:80px; text-align:left;}
+.corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .menu_wrap {margin-left:30%;}
+.corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .menu_wrap .btn_open {display:none;}
+.corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .list_wrap {margin:0; padding-top:26px; font-size:0; line-height:0;}
+.corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .list_wrap:after {content:''; display:table; clear:both;}
+.corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .item {display:inline-block; padding:0 23px;}
+.corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .item:first-child {padding-left:0;}
+.corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .item:last-child {padding-right:0;}
+.corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .item a {color:#666; font-size:18px; line-height:28px; text-decoration:none;}
+.corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .item.on a {color:#35719E; font-family:'HyundaiSansTextKRBold';}
+
+.corporateHistory_wrap .inpageNavi_wrap.fixed .inpageNavi {position:fixed; top:0; left:0; z-index:10;}
+
+.corporateHistory_wrap .corporateHistory_cont {padding-bottom:120px;}
+.corporateHistory_wrap .corporateHistory_cont .timeline_year {padding:80px 0 0 0;}
+/* 190808 */
+.corporateHistory_wrap .corporateHistory_cont .timeline_year .h2_tit {float:left; width:412px; color:#737373; font-size:80px; line-height:84px;}
+/* //190808 */
+.corporateHistory_wrap .corporateHistory_cont .timeline_year .h2_tit span {color:#000;}
+.corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list {position:relative; margin-left:412px; margin-top:24px; color:#000;}
+.corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:before,
+.corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:after {content:''; position:absolute;}
+.corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:before {top:8px; left:0; width:12px; height:12px; border-radius:50%; background-color:#35719E; z-index:5;}
+.corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:after {top:20px; bottom:-32px; left:5px; width:2px; background-color:#E0E0E0;}
+.corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:first-child {margin-top:0;}
+.corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:last-child:after {display:none;}
+.corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list .month_info {margin-left:53px; padding-bottom:16px;}
+.corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list .month_info:last-child {padding-bottom:0;}
+.corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list .month_info .date {color:#000; font-size:18px; font-family:'HyundaiSansTextKRBold'; line-height:28px;}
+.corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list .month_info .txt {}
+
+@media only screen and (min-width:1280px) and (max-width: 1919px) {
+    /* Corporate Philosophy */
+    .philosophy .contModule.cont_h2 {}
+    .philosophy .contModule.cont_h2 .txt_wrap .align_cont {padding:64px 0 0 80px;}
+    .philosophy .contModule.cont_h2 .h2_tit {max-width:735px; font-size:42px; line-height:46px;}
+    .philosophy .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+
+    /* Hyundai History */
+    .corporateHistory_wrap .contModule.cont_h2 {}
+    .corporateHistory_wrap .contModule.cont_h2 .txt_wrap .align_cont {padding:64px 0 0 80px;}
+    .corporateHistory_wrap .contModule.cont_h2 .h2_tit {max-width:735px; font-size:42px; line-height:46px;}
+    .corporateHistory_wrap .contModule.cont_h2 .txt {max-width:735px; padding-top:16px;}
+
+    /* 200121 add */     
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .txt{font-size:16px;} 
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .txt.r_bar span:after {top:5px;}
+    .philosophy .visionInfo_cont .contModule.cont_h3tit .txt_wrap:first-child .align_cont { padding-top:80px; }
+    .philosophy .visionInfo_cont .contModule.cont_h3tit .txt_wrap:last-child .align_cont { padding: 20px 0 200px; }
+    /* //200121 add */
+}
+
+/* Tablet */
+@media only screen and (min-width:768px) and (max-width: 1279px) {
+    /* Corporate Philosophy */
+    .philosophy {}
+    .philosophy .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 0 0 48px;}
+    .philosophy .contModule.cont_h2 .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+    /*.philosophy .contModule.cont_h2 .txt {max-width:400px; padding-top:8px; font-size:16px; line-height:24px; opacity:0.8;}*/
+    .philosophy .contModule.cont_h2 .txt {max-width:400px; padding-top:4px; font-size:14px; line-height:24px; opacity:0.8;} /* 180709_가이드 수정 */
+    .philosophy .corpphilosophy_wrap {}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list {max-width:1200px; margin:0 auto;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list dt {position:relative; padding-bottom:16px;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list dt:after {content:''; position:absolute; bottom:0; left:50%; width:2px; height:16px; background-color:#35719E;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list dt .txt_wrap {width:212px; height:212px; margin:0 auto; padding:0 20px; border-radius:50%; background-color:#35719E;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list dt .txt_wrap .inner {display:table; width:100%; height:100%;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list dt .txt_wrap .align_cont {display:table-cell; vertical-align:middle;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list dt .txt_wrap .h3_tit {color:#fff; font-size:21px; line-height:26px;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list dd {position:relative; margin:0;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list dd:after {content:''; position:absolute; top:0; left:50%; width:2px; height:16px; background-color:#35719E;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list ul {position:relative; padding-top:16px; font-size:0; line-height:0; text-align:center;}
+    /*.philosophy .corpphilosophy_wrap .corpphilosophy_list ul:after {content:''; position:absolute; top:0; right:186px; left:186px; height:2px; background-color:#35719E;}*/
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item {position:relative; display:inline-block; width:212px; margin:0 20px; padding-bottom:40px; vertical-align:top;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item:after {content:''; position:absolute; top:-16px; left:50%; width:2px; height:16px; background-color:#35719E;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item:before {content:''; position:absolute; top:-16px; left:0; right:0; width:100%; height:2px; background-color:#35719E;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item:first-child:before {right:auto; left:50%; width:100%}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item:last-child:before {right:50%; left:auto; width:100%;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item .txt_wrap {height:212px; padding:0 20px; border:2px solid #35719E; border-radius:50%;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item .txt_wrap .inner {display:table; width:100%; height:100%;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item .txt_wrap .align_cont {display:table-cell;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item .txt_wrap .h4_tit {color:#000; font-size:14px; line-height:16px;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item .txt_wrap .txt {padding-top:8px; color:#000; font-size:11px; line-height:16px;}
+
+    .philosophy .managePhilosophy_wrap {position:relative; padding-top:40.68%; background:url('/kr/images/util/management-philosophy.jpg') no-repeat center center; background-size:cover;}
+    .philosophy .managePhilosophy_wrap .managePhilosophy_cont {position:relative; max-width:1200px; margin:-40.68% auto 0 auto; padding-top: 10%;} /* 200121 modify */
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list {margin:0;padding:0 30px; overflow:hidden;} /* 200121 modify */
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .list {font-size:0; line-height:0; text-align:center;}
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .item {vertical-align:top;} /* 200121 modify */
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap {padding:0 20px;} /* 200121 modify */    
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .inner {display:table; width:100%; height:100%;}
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .align_cont {display:table-cell;}
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .h4_tit {color:#fff; font-size:21px; line-height:26px;}
+    /* 200121 add */    
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .txt{font-size:14px; padding-top:20px;} 
+    .philosophy .visionInfo_cont .contModule.cont_h3tit .txt_wrap:first-child .align_cont { padding-top:80px; }
+    .philosophy .visionInfo_cont .contModule.cont_h3tit .txt_wrap:last-child .align_cont { padding: 20px 0 100px; }
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .txt.r_bar span:after {top:4px;}
+    /* //200121 add */
+
+    .philosophy .core_value {padding:0 0 32px 0;}
+    .philosophy .core_value .core_list {margin:0; padding-top:0; overflow:hidden;}
+    .philosophy .core_value .core_list .list {font-size:0; line-height:0; text-align:center;}
+    .philosophy .core_value .core_list .item {display:inline-block; width:50%; margin:0; padding-bottom:20px; vertical-align:top;}
+    .philosophy .core_value .core_list .item:nth-child(odd){
+        padding-right:10px;
+    }
+    .philosophy .core_value .core_list .item:nth-child(even){
+        padding-left:10px;
+    }
+    .philosophy .core_value .core_list .img_wrap {width:180px; margin:0 auto;}
+    .philosophy .core_value .core_list .img_wrap img {max-width:100%;}
+    .philosophy .core_value .core_list .txt_wrap {padding-top:24px;}
+    .philosophy .core_value .core_list .txt_wrap .txt {padding-top:8px;color:#000;  font-size:18px; line-height:28px;}
+    .philosophy .visionInfo_cont {position:relative; padding-top:56.25%; padding-bottom:250px;background:url('/kr/images/util/vision-2020.jpg') no-repeat center bottom;  background-size:cover;} /* 200121 modify */
+    .philosophy .visionInfo_cont .contModule.cont_h3tit {position:relative;  margin-top:-56.25%;}
+
+    /* Hyundai History */
+    .corporateHistory_wrap {}
+    .corporateHistory_wrap .contModule.cont_h2  .h2_tit {max-width:400px; font-size:32px; line-height:34px;}
+    .corporateHistory_wrap .contModule.cont_h2 .txt_wrap .align_cont{padding:40px 24px 0 24px}
+    /*.corporateHistory_wrap .contModule.cont_h2 .txt {max-width:400px; padding-top:8px; font-size:16px; line-height:24px; opacity:0.8;}*/
+    .corporateHistory_wrap .contModule.cont_h2 .txt {max-width:400px; padding-top:4px; font-size:14px; line-height:24px; opacity:0.8;} /* 180709_가이드 수정 */
+    .corporateHistory_wrap .inpageNavi_wrap {height:48px;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi {width:100%; height:48px; background-color:#fff;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner {position:relative; max-width:1200px; height:48px; margin:0 24px;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .title {position:absolute; top:0; left:0; width:20%; font-size:14px; font-family:'HyundaiSansHeadKRBold'; line-height:48px; text-align:left;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .menu_wrap {margin-left:20%;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .yearList_wrap {position:relative; padding:12px 0 0 0;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow {position:absolute; top:12px;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.prev {left:0;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.prev .ico:after {background-position:-467px 0;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.next {right:0;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.next .ico:after {background-position:-491px 0;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .year_list {position:relative; height:24px; margin:0 24px 0 24px; overflow:hidden;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .list_wrap {margin:0; padding-top:17px;  font-size:0; line-height:0;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .list_wrap:after {content:''; display:table; clear:both;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .item {display:inline-block; padding:0 15px;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .item a {color:#000; font-size:11px; font-family:'HyundaiSansTextKRBold'; line-height:16px; text-decoration:none;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .item.on a {color:#35719E;}
+
+    .corporateHistory_wrap .inpageNavi_wrap.fixed .inpageNavi {position:fixed; top:0; left:0;}
+
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year {padding:32px 0 0 0;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .h2_tit {float:left; width:30%; color:#EAEAEA; font-size:40px; line-height:42px;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .h2_tit span {color:#000;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list {position:relative; margin-left:30%; margin-top:16px;color:#000;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:before,
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:after {content:''; position:absolute;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:before {top:4px; left:0; width:8px; height:8px; border-radius:50%; background-color:#35719E; z-index:5;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:after {top:12px; bottom:-20px; left:3px; width:2px; background-color:#E0E0E0;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:first-child {margin-top:0;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:last-child:after {display:none;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list .month_info {margin-left:32px; padding-bottom:16px;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list .month_info:last-child {padding-bottom:0;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list .month_info .date {color:#000; font-size:18px; font-family:'HyundaiSansTextKRBold'; line-height:28px;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list .month_info .txt {}
+}
+
+/*Mobile */
+@media only screen and (max-width: 767px) {
+    /* Corporate Philosophy */
+    .philosophy {}
+    .philosophy .contModule.cont_h2 {}
+    .philosophy .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+    .philosophy .contModule.cont_h2 .h2_tit {max-width:none; font-size:28px; line-height:33px;}
+    .philosophy .contModule.cont_h2 .txt {max-width:none; padding-top:8px;}
+    .philosophy .corpphilosophy_wrap {padding-bottom:60px;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list {max-width:1200px; margin:0 10px;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list dt {position:relative; padding-bottom:20px;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list dt:after {content:''; position:absolute; bottom:0; left:50%; width:2px; height:20px; background-color:#35719E;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list dt .txt_wrap {width:212px; height:212px; margin:0 auto; padding:0 20px; border-radius:50%; background-color:#35719E;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list dt .txt_wrap .inner {display:table; width:100%; height:100%;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list dt .txt_wrap .align_cont {display:table-cell; vertical-align:middle;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list dt .txt_wrap .h3_tit {color:#fff; font-size:20px; line-height:25px;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list dd {position:relative; margin:0;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list dd:after {display:none; content:''; position:absolute; top:0; left:50%; width:2px; height:32px; background-color:#35719E;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list ul {position:relative; padding-top:20px; font-size:0; line-height:0; text-align:center;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item {position:relative; display:block; width:212px; margin:0 auto; padding-bottom:12px; vertical-align:top;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item:after {content:''; position:absolute; top:-12px; left:50%; width:2px; height:12px; background-color:#35719E;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item:first-child:after {top:-20px; height:20px;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item:before {display:none; content:''; position:absolute; top:-32px; left:0; right:0; width:100%; height:2px; background-color:#35719E;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item:first-child:before {right:auto; left:50%; width:100%}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item:last-child:before {right:50%; left:auto; width:100%;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item:last-child {padding-bottom:0;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item .txt_wrap {height:212px; padding:0 20px; border:2px solid #35719E; border-radius:50%;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item .txt_wrap .inner {display:table; width:100%; height:100%;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item .txt_wrap .align_cont {display:table-cell;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item .txt_wrap .h4_tit {color:#000; font-size:20px; line-height:25px;}
+    .philosophy .corpphilosophy_wrap .corpphilosophy_list .item .txt_wrap .txt {padding-top:8px; color:#666; font-size:12px; line-height:17px;}
+
+    .philosophy .managePhilosophy_wrap {position:relative; padding-top:0; background:url('/kr/images/util/management-philosophy-m.jpg') no-repeat center center; background-size:cover;}
+    .philosophy .managePhilosophy_wrap .managePhilosophy_cont {position:relative; max-width:1200px; margin:0 auto;}
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list {margin:0; padding:0 0; overflow:hidden;} /* 200121 modify */
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .list {font-size:0; line-height:0; text-align:center;}
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .item { display: inline-block; width: 100%; margin: 0; padding:0; vertical-align: top; max-width: none; max-height: none; } /* 200121 modify */
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .item:last-child {padding-bottom:0;}
+    /* 200121 delete */
+    /*.philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap {} */ 
+    /* .philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .inner {display:table; width:100%; height:100%;} */ 
+    /* .philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .align_cont {display:table-cell;} */
+    /* //200121 delete */
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .h4_tit {color:#fff; font-size:28px; line-height:1.2;} /* 200121 modify */
+     /* 200121 add */
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .item:nth-child(1){margin-top:60px;}
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .item:nth-child(2){margin-top:30px;}
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .item:last-child{ margin-bottom: 30px; margin-top: 30px;}    
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .txt{font-size:16px;} 
+    .philosophy .managePhilosophy_wrap .sbr { display: inline-block; width: 4px;}
+    /* //200121 add */
+    
+   
+
+    .philosophy .core_value {padding:0 0 0 0;}
+    .philosophy .core_value .core_list {margin:0; padding-top:40px; overflow:hidden;}
+    .philosophy .core_value .core_list .list {font-size:0; line-height:0; text-align:center;}
+    .philosophy .core_value .core_list .item {display:inline-block; width:50%; margin:0; padding-bottom:40px; vertical-align:top;}
+    .philosophy .core_value .core_list .item:nth-child(odd){
+        padding-right:10px;
+    }
+    .philosophy .core_value .core_list .item:nth-child(even){
+        padding-left:10px;
+    }
+    .philosophy .core_value .core_list .item:last-child {padding-right:0; padding-left:0;}
+    .philosophy .core_value .core_list .img_wrap {width:83px; margin:0 auto;}
+    .philosophy .core_value .core_list .img_wrap img {max-width:100%;}
+    .philosophy .core_value .core_list .txt_wrap {padding-top:24px;}
+    .philosophy .core_value .core_list .txt_wrap .h4_tit {font-size:14px; line-height:19px;}
+    .philosophy .core_value .core_list .txt_wrap .txt {padding-top:4px;color:#666;  font-size:12px; line-height:17px;}
+
+    .philosophy .visionInfo_cont {position:relative; padding-top:178.571428571428571%; padding-bottom: 200px; background:url('/kr/images/util/vision-2020-m.jpg') no-repeat center bottom; background-size:contain;background-color:#000;} /* 200121 modify */
+    .philosophy .visionInfo_cont .contModule.cont_h3tit {position:relative;  margin-top:-170%; padding: 0 20px 200px;} /* 200121 modify */
+    /* 200121 add */
+    .philosophy .visionInfo_cont .contModule.cont_h3tit .txt_wrap:first-child .align_cont { padding-top: 30px;}
+    .philosophy .visionInfo_cont .contModule.cont_h3tit .txt_wrap:last-child .align_cont {padding:20px 0 50px;}
+    .philosophy .managePhilosophy_wrap .managePhilosophy_list .txt_wrap .txt.r_bar span:after {top: 5px; height: 15px;}    
+    .philosophy .visionInfo_cont .contModule.cont_h3tit .txt_wrap .h3_tit {font-size:27px;}    
+    .philosophy .visionInfo_cont .contModule.cont_h3tit .txt_wrap .h3_tit span {font-size:16px;}
+    .philosophy .visionInfo_cont .contModule.cont_h3tit .txt_wrap .txt {font-size:16px;}    
+    /* //200121 add */
+
+    /* Hyundai History */
+    .corporateHistory_wrap {}
+    .corporateHistory_wrap .contModule.cont_h2 {}
+    .corporateHistory_wrap .contModule.cont_h2 .txt_wrap .align_cont {padding:40px 40px 0 40px;}
+    .corporateHistory_wrap .contModule.cont_h2 .h2_tit {max-width:none; font-size:28px; line-height:33px;}
+    .corporateHistory_wrap .contModule.cont_h2 .txt {max-width:none; padding-top:8px;}
+    .corporateHistory_wrap .inpageNavi_wrap {height:60px;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi {width:100%; height:60px; background-color:#fff;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner {position:relative; max-width:none; height:60px; margin:0 auto; padding:0 20px;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .title {position:absolute; top:0; left:24px; width:40%; font-size:18px; font-family:'HyundaiSansHeadKRBold'; line-height:60px; text-align:left;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .menu_wrap {margin-left:45%;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .menu_wrap .btn_open {display:block;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .menu_wrap .btn_open button {position:relative; width:100%; height:60px; padding:0 50px 0 10px; color:#35719E; font-size:14px; font-family:'HyundaiSansTextBold'; line-height:60px; text-align:right;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .menu_wrap .btn_open button:after {content:''; position:absolute; top:50%;  right:0; width:40px; height:40px; margin-top:-20px; background:url('https://www-trucknbus.hyundai.com/kr/images/common/icon_all_s.svg') no-repeat -120px 0; background-size:400px 400px;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .yearList_wrap {position:static; padding:0;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow {display:none; position:absolute; top:20px;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.prev {left:0;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.prev .ico:after {background-position:-560px -250px;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.next {right:0;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .yearList_wrap .btn_arrow.next .ico:after {background-position:-600px -250px;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .year_list {position:static; height:40px; margin:0; overflow:visible;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .list_wrap {position:static; margin:0; padding:0; font-size:0; line-height:0;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .list_wrap:after {content:''; display:table; clear:both;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .list {display:none; position:absolute; top:60px; right:0; left:0; max-height:200px; z-index:5; background-color:#35719E; overflow-y:scroll; -webkit-overflow-scrolling:touch;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .item {display:block; padding:20px 0 0 0; text-align:center;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .item:first-child {padding:20px 0 0 0;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .item:last-child {padding:20px 0 20px 0;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .item a {display:block; padding:0 5px; color:#5185AA; font-size:20px; font-family:'HyundaiSansTextKRBold'; line-height:25px; text-decoration:none;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .item.on a {color:#fff;}
+
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .list_wrap.open .list {display:block;}
+    .corporateHistory_wrap .inpageNavi_wrap .inpageNavi_inner .list_wrap.open .btn_open button:after {background-position:-160px 0;}
+
+    .corporateHistory_wrap .inpageNavi_wrap.fixed .inpageNavi {position:fixed; top:0; left:0;}
+
+    .corporateHistory_wrap .corporateHistory_cont .cont_row.md {margin:0 20px;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year {padding:60px 0 0 0;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .h2_tit {float:none; width:auto; color:#737373; font-size:28px; line-height:33px;} /* 200707 modify */
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .h2_tit span {color:#000;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .time_line {padding-top:28px;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list {position:relative; margin-left:0; margin-top:28px;color:#000;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:before,
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:after {content:''; position:absolute;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:before {top:4px; left:0; width:10px; height:10px; border-radius:50%; background-color:#35719E; z-index:5;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:after {top:14px; bottom:-32px; left:4px; width:2px; background-color:#E0E0E0;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:first-child {margin-top:0;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list:last-child:after {display:none;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list .month_info {margin-left:30px; padding-bottom:28px;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list .month_info:last-child {padding-bottom:0;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list .month_info .date {color:#000; font-size:14px; font-family:'HyundaiSansTextKRBold'; line-height:19px;}
+    .corporateHistory_wrap .corporateHistory_cont .timeline_year .month_list .month_info .txt {}
+}
